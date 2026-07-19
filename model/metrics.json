@@ -1,0 +1,26 @@
+{
+  "regression": {
+    "LinearRegression": {
+      "r2": 0.5998,
+      "mae": 5.614,
+      "rmse": 7.11
+    },
+    "DecisionTreeRegressor": {
+      "r2": 0.3689,
+      "mae": 6.932,
+      "rmse": 8.928
+    },
+    "RandomForestRegressor": {
+      "r2": 0.5733,
+      "mae": 5.89,
+      "rmse": 7.341
+    }
+  },
+  "classification": {
+    "LogisticRegression": {
+      "accuracy": 0.8667
+    }
+  },
+  "best_regressor": "LinearRegression",
+  "best_regressor_r2": 0.5998
+}

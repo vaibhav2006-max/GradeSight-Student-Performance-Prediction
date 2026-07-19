@@ -1,0 +1,1201 @@
+student_id,name,age,gender,attendance,internal_marks,assignment_marks,quiz_marks,study_hours_per_day,previous_semester_marks,participation,internet_access,parent_education,final_exam_marks
+STU1000,Student_1,22,Male,84.5,32.5,27.0,8.5,3.0,58.5,Medium,Yes,Doctorate,46.7
+STU1001,Student_2,19,Female,83.1,34.5,34.0,31.3,2.9,84.1,High,Yes,Post Graduate,65.9
+STU1002,Student_3,19,Male,74.6,37.8,7.8,29.7,4.3,47.5,Low,Yes,Graduate,37.5
+STU1003,Student_4,20,Male,62.7,46.2,25.1,42.8,3.7,54.2,Medium,Yes,High School,57.1
+STU1004,Student_5,18,Male,84.2,62.5,60.3,64.2,6.6,100.0,Medium,Yes,High School,82.4
+STU1005,Student_6,18,Female,68.0,40.8,27.4,24.5,1.9,49.4,High,Yes,Post Graduate,48.4
+STU1006,Student_7,19,Male,100.0,17.7,31.8,21.4,4.0,44.7,High,Yes,Graduate,43.4
+STU1007,Student_8,18,Male,84.8,28.4,28.8,23.8,2.4,76.0,Low,Yes,High School,33.0
+STU1008,Student_9,19,Male,71.0,26.1,10.0,20.0,1.9,33.8,Medium,Yes,High School,27.8
+STU1009,Student_10,21,Female,70.7,36.3,42.2,37.5,3.2,61.5,Low,Yes,High School,56.7
+STU1010,Student_11,20,Male,76.9,59.6,37.5,46.3,3.4,97.2,Medium,Yes,Graduate,67.9
+STU1011,Student_12,17,Male,75.1,39.4,36.6,33.6,7.6,41.8,Low,Yes,Post Graduate,56.6
+STU1012,Student_13,20,Male,91.4,15.9,21.2,28.0,2.9,35.3,Medium,Yes,High School,43.3
+STU1013,Student_14,19,Male,80.2,19.8,33.2,22.6,1.5,42.5,Medium,Yes,High School,49.8
+STU1014,Student_15,19,Female,69.2,29.9,46.2,28.3,3.6,78.5,Medium,No,High School,61.9
+STU1015,Student_16,20,Male,100.0,24.0,16.0,17.9,0.1,81.9,Medium,No,Doctorate,42.7
+STU1016,Student_17,22,Female,78.6,40.0,15.9,35.8,3.1,57.3,Medium,Yes,High School,37.5
+STU1017,Student_18,19,Female,87.2,46.7,40.1,33.2,3.2,75.2,Medium,Yes,Post Graduate,77.4
+STU1018,Student_19,18,Female,70.7,50.5,40.4,57.7,4.4,85.9,Low,No,Graduate,77.8
+STU1019,Student_20,18,Male,82.4,37.1,39.3,50.9,4.7,91.8,High,Yes,Graduate,72.7
+STU1020,Student_21,19,Female,81.7,28.9,37.6,23.6,2.4,61.3,Low,Yes,High School,37.6
+STU1021,Student_22,19,Male,55.3,11.4,20.0,21.1,3.0,30.5,Medium,Yes,High School,38.4
+STU1022,Student_23,22,Female,100.0,36.8,24.2,24.8,2.1,52.7,Medium,Yes,Graduate,48.4
+STU1023,Student_24,18,Female,93.5,23.3,32.1,17.0,1.5,58.6,Medium,Yes,Post Graduate,47.3
+STU1024,Student_25,19,Female,73.2,26.9,26.9,24.9,3.7,61.1,Low,Yes,Graduate,52.5
+STU1025,Student_26,19,Female,64.8,29.0,40.7,30.2,1.3,62.2,Medium,Yes,Graduate,50.1
+STU1026,Student_27,22,Female,82.2,35.4,27.2,42.5,2.6,81.8,High,Yes,High School,52.3
+STU1027,Student_28,22,Female,79.0,50.6,40.3,37.5,1.7,84.1,Medium,Yes,Doctorate,62.2
+STU1028,Student_29,20,Female,82.3,31.1,46.2,48.4,4.0,62.4,Medium,Yes,Post Graduate,65.2
+STU1029,Student_30,22,Female,80.3,39.1,29.5,43.2,5.9,81.5,Medium,Yes,High School,67.0
+STU1030,Student_31,17,Male,84.1,14.5,24.2,41.0,1.2,70.4,Low,Yes,Doctorate,49.7
+STU1031,Student_32,18,Male,95.4,27.4,35.5,13.3,0.4,66.0,Medium,No,Graduate,50.2
+STU1032,Student_33,20,Female,84.8,35.9,46.6,26.5,3.0,78.6,High,Yes,Graduate,60.1
+STU1033,Student_34,17,Female,65.4,24.6,29.4,16.8,3.2,66.1,Low,Yes,Post Graduate,48.4
+STU1034,Student_35,19,Female,94.4,58.4,35.0,38.8,3.5,95.9,Low,Yes,Post Graduate,48.9
+STU1035,Student_36,19,Male,97.7,30.2,31.0,18.5,2.5,43.4,Low,Yes,Graduate,40.4
+STU1036,Student_37,20,Female,100.0,31.4,39.1,33.5,2.9,57.3,Medium,Yes,High School,56.9
+STU1037,Student_38,22,Male,64.5,47.6,19.9,36.3,3.8,63.1,High,Yes,High School,53.4
+STU1038,Student_39,19,Male,80.9,48.3,25.0,29.9,4.8,71.6,Low,Yes,Doctorate,57.7
+STU1039,Student_40,21,Male,53.0,27.9,32.4,22.9,0.3,84.0,Medium,Yes,High School,39.5
+STU1040,Student_41,20,Male,84.6,25.3,35.4,26.4,2.6,64.6,Low,Yes,Graduate,54.2
+STU1041,Student_42,17,Male,71.4,34.5,21.1,11.1,3.5,43.7,High,Yes,Graduate,50.1
+STU1042,Student_43,20,Female,100.0,39.6,38.5,21.7,1.8,77.6,Low,Yes,Graduate,58.9
+STU1043,Student_44,18,Female,68.7,49.3,34.1,39.2,5.8,76.3,Medium,Yes,Graduate,55.0
+STU1044,Student_45,22,Female,57.7,14.2,0.0,32.5,2.2,35.9,Medium,Yes,Doctorate,35.9
+STU1045,Student_46,22,Female,72.3,40.1,26.2,33.6,3.1,64.9,Medium,No,High School,48.0
+STU1046,Student_47,20,Female,54.3,22.4,25.0,34.3,4.0,41.1,Medium,Yes,High School,40.4
+STU1047,Student_48,19,Male,87.0,28.1,22.2,12.2,2.3,55.0,Medium,Yes,High School,39.1
+STU1048,Student_49,19,Female,53.2,33.4,7.4,27.8,0.4,51.5,Medium,Yes,Post Graduate,37.9
+STU1049,Student_50,21,Female,78.3,33.4,15.3,45.2,2.6,77.1,Low,Yes,Graduate,57.2
+STU1050,Student_51,21,Male,53.1,28.2,30.0,20.9,4.7,66.8,Low,Yes,High School,35.2
+STU1051,Student_52,22,Female,74.2,18.0,31.7,18.2,2.7,45.7,Medium,Yes,Post Graduate,55.0
+STU1052,Student_53,21,Male,97.7,44.9,44.7,35.5,1.9,78.2,Low,Yes,Post Graduate,63.0
+STU1053,Student_54,17,Female,82.3,33.2,38.6,37.2,4.6,43.5,Low,Yes,Post Graduate,52.1
+STU1054,Student_55,21,Male,67.6,35.1,23.1,25.7,2.7,70.0,Medium,Yes,Post Graduate,58.4
+STU1055,Student_56,17,Female,77.6,24.2,12.9,22.7,2.4,52.8,High,Yes,High School,35.2
+STU1056,Student_57,21,Female,78.2,37.9,34.3,26.1,3.4,59.5,Medium,Yes,Post Graduate,51.1
+STU1057,Student_58,22,Male,83.7,35.4,42.8,40.4,4.4,72.6,Low,Yes,Graduate,58.2
+STU1058,Student_59,22,Male,61.6,52.0,46.5,59.8,6.8,72.8,Low,Yes,Post Graduate,78.5
+STU1059,Student_60,17,Male,85.1,41.4,20.6,36.2,4.4,85.1,High,Yes,Post Graduate,67.1
+STU1060,Student_61,20,Male,45.5,33.0,25.9,47.7,4.9,63.8,Low,Yes,Post Graduate,56.6
+STU1061,Student_62,22,Male,70.4,29.9,30.1,23.4,2.4,69.6,Low,No,Graduate,41.7
+STU1062,Student_63,20,Male,72.1,25.5,29.6,16.7,1.7,58.4,Medium,Yes,High School,45.2
+STU1063,Student_64,19,Male,85.6,36.6,39.6,40.9,3.3,67.7,Medium,Yes,Graduate,68.5
+STU1064,Student_65,17,Male,78.3,40.7,35.0,43.4,3.4,71.6,Medium,Yes,Doctorate,68.4
+STU1065,Student_66,22,Female,61.1,0.7,29.5,33.1,1.6,63.5,Low,Yes,Doctorate,41.2
+STU1066,Student_67,18,Female,66.2,17.4,21.4,11.1,2.9,37.9,Low,Yes,High School,36.3
+STU1067,Student_68,19,Male,80.4,36.3,40.9,32.0,3.8,70.0,High,Yes,High School,62.8
+STU1068,Student_69,20,Female,77.1,51.3,37.1,43.4,3.7,70.5,Low,Yes,High School,60.1
+STU1069,Student_70,22,Female,71.1,25.3,29.8,32.8,4.0,54.8,Medium,Yes,Post Graduate,58.9
+STU1070,Student_71,17,Female,72.2,30.4,22.3,18.4,3.6,45.7,Medium,Yes,Post Graduate,53.7
+STU1071,Student_72,21,Female,86.4,54.0,37.3,39.9,2.4,87.1,Medium,No,High School,59.8
+STU1072,Student_73,18,Male,71.8,25.7,36.2,24.9,2.4,72.4,Medium,Yes,Graduate,55.2
+STU1073,Student_74,20,Female,76.9,32.0,27.7,40.2,1.4,61.6,Low,Yes,Post Graduate,46.2
+STU1074,Student_75,19,Male,100.0,30.4,35.3,51.9,5.9,47.9,Medium,Yes,Post Graduate,56.4
+STU1075,Student_76,17,Female,60.9,26.6,39.9,34.0,3.2,52.7,High,No,Graduate,48.5
+STU1076,Student_77,18,Female,55.8,36.1,39.5,49.2,2.9,84.5,High,Yes,Graduate,62.6
+STU1077,Student_78,17,Female,87.4,26.4,21.5,27.9,1.8,67.1,Low,Yes,Graduate,35.8
+STU1078,Student_79,22,Male,69.9,67.3,47.7,54.3,7.6,56.7,Low,No,High School,70.3
+STU1079,Student_80,21,Female,74.2,40.6,15.7,41.5,1.6,72.6,High,No,Graduate,36.9
+STU1080,Student_81,19,Male,68.6,37.7,14.2,28.4,2.6,52.8,Medium,No,Graduate,60.5
+STU1081,Student_82,17,Female,74.9,50.3,43.5,39.2,3.8,87.5,High,Yes,Post Graduate,80.4
+STU1082,Student_83,20,Male,97.2,33.6,45.3,26.6,4.1,85.3,Low,Yes,Graduate,59.2
+STU1083,Student_84,22,Female,87.6,40.2,19.3,35.1,4.6,58.0,Medium,Yes,Post Graduate,57.7
+STU1084,Student_85,22,Male,88.3,48.5,30.4,47.7,5.9,55.6,Medium,No,High School,60.8
+STU1085,Student_86,19,Male,61.0,15.5,12.9,32.2,4.0,25.7,Medium,Yes,Graduate,33.9
+STU1086,Student_87,22,Female,64.2,29.6,14.1,23.8,1.6,42.8,Medium,Yes,High School,38.1
+STU1087,Student_88,20,Male,43.9,32.0,32.2,19.8,2.8,44.9,Low,Yes,High School,36.6
+STU1088,Student_89,17,Female,68.3,52.7,39.8,17.1,3.7,67.0,Medium,Yes,Post Graduate,58.5
+STU1089,Student_90,19,Female,89.5,39.6,36.6,38.8,6.3,60.1,Low,Yes,Doctorate,63.9
+STU1090,Student_91,22,Female,84.2,12.4,13.0,15.1,1.1,44.8,Medium,Yes,High School,25.6
+STU1091,Student_92,22,Female,75.3,36.4,20.3,35.4,5.0,60.8,High,Yes,Graduate,58.6
+STU1092,Student_93,20,Female,77.7,51.0,48.4,41.3,3.5,72.6,Medium,Yes,Post Graduate,66.6
+STU1093,Student_94,21,Female,69.7,28.0,42.7,57.7,4.5,72.9,High,Yes,High School,63.6
+STU1094,Student_95,21,Female,80.5,7.1,13.2,24.1,3.0,36.5,Low,Yes,Graduate,32.9
+STU1095,Student_96,22,Female,87.2,31.7,34.0,24.6,1.9,63.1,Medium,Yes,Post Graduate,59.3
+STU1096,Student_97,17,Female,58.6,27.0,25.5,28.1,4.3,44.2,High,Yes,Graduate,46.8
+STU1097,Student_98,19,Female,81.6,44.1,35.1,41.5,4.2,78.5,Low,Yes,High School,59.9
+STU1098,Student_99,22,Female,89.2,52.4,43.0,34.4,4.7,76.8,Low,Yes,Graduate,71.4
+STU1099,Student_100,18,Male,73.0,25.8,18.6,29.3,3.2,51.5,Medium,Yes,Post Graduate,47.4
+STU1100,Student_101,19,Male,86.4,13.3,21.0,29.3,2.3,53.5,Low,Yes,Graduate,42.1
+STU1101,Student_102,21,Female,100.0,42.3,23.8,22.9,0.9,58.1,Medium,Yes,High School,46.2
+STU1102,Student_103,22,Female,76.7,17.7,16.9,31.1,4.4,31.2,High,Yes,Post Graduate,54.4
+STU1103,Student_104,20,Female,82.7,30.9,40.7,40.1,3.8,70.0,Medium,Yes,High School,55.1
+STU1104,Student_105,18,Female,69.1,38.6,44.5,9.5,1.8,60.9,Low,Yes,Post Graduate,55.3
+STU1105,Student_106,22,Female,80.2,36.0,26.3,39.2,2.4,79.6,Medium,No,High School,52.1
+STU1106,Student_107,17,Female,83.5,26.4,6.6,18.5,2.5,48.5,Medium,Yes,Doctorate,39.4
+STU1107,Student_108,18,Female,80.3,29.1,2.0,10.8,1.0,55.7,Low,No,Graduate,37.8
+STU1108,Student_109,22,Female,65.8,31.6,18.3,10.8,2.0,42.4,Medium,Yes,High School,35.0
+STU1109,Student_110,17,Male,80.5,21.8,14.6,24.9,1.5,49.9,Medium,Yes,High School,42.5
+STU1110,Student_111,18,Female,95.5,38.9,25.1,22.6,2.6,47.3,Medium,Yes,High School,30.1
+STU1111,Student_112,17,Male,83.4,21.2,34.5,17.2,2.1,79.9,Low,Yes,Post Graduate,50.5
+STU1112,Student_113,17,Female,89.5,30.3,5.0,23.9,0.8,54.5,Medium,Yes,Doctorate,41.8
+STU1113,Student_114,18,Female,75.2,38.6,20.8,31.9,6.2,66.9,Low,Yes,Graduate,49.9
+STU1114,Student_115,18,Male,87.0,50.0,36.5,39.4,5.1,59.3,Low,Yes,Graduate,55.8
+STU1115,Student_116,17,Female,81.4,25.5,22.5,23.9,2.0,46.0,High,No,Post Graduate,42.3
+STU1116,Student_117,21,Male,66.6,30.4,26.6,41.1,3.6,62.5,Medium,No,Post Graduate,52.4
+STU1117,Student_118,18,Female,81.8,46.3,18.8,53.4,3.8,74.0,Low,No,Graduate,48.2
+STU1118,Student_119,22,Female,66.1,40.9,33.6,21.8,5.0,46.9,Low,Yes,Graduate,50.7
+STU1119,Student_120,19,Male,70.4,42.0,44.7,30.7,2.0,77.1,Low,Yes,Graduate,62.2
+STU1120,Student_121,20,Female,80.3,27.1,33.1,32.4,4.8,52.3,Low,No,Graduate,49.6
+STU1121,Student_122,17,Male,81.6,26.4,17.8,30.8,2.4,57.8,Low,Yes,High School,46.8
+STU1122,Student_123,17,Female,63.7,32.8,29.0,28.6,1.2,73.0,Low,Yes,Graduate,52.8
+STU1123,Student_124,20,Male,90.6,34.6,16.3,30.5,4.3,55.0,Medium,Yes,Graduate,59.8
+STU1124,Student_125,21,Male,84.9,47.5,46.3,36.1,5.1,65.6,Medium,Yes,Post Graduate,77.2
+STU1125,Student_126,20,Female,69.5,29.3,39.7,36.4,7.1,60.3,Medium,No,High School,53.5
+STU1126,Student_127,18,Female,59.5,33.6,9.2,34.6,1.4,66.9,Medium,Yes,Graduate,41.5
+STU1127,Student_128,20,Male,76.3,22.0,17.7,29.7,4.2,29.3,Low,Yes,Graduate,43.6
+STU1128,Student_129,17,Female,72.6,16.1,24.3,29.9,2.6,37.6,High,Yes,Graduate,47.5
+STU1129,Student_130,20,Female,79.4,36.9,33.6,37.1,4.4,74.2,High,Yes,High School,65.9
+STU1130,Student_131,19,Female,73.6,33.5,28.0,22.3,1.0,80.6,High,Yes,Graduate,65.1
+STU1131,Student_132,22,Male,53.9,0.0,9.0,10.9,1.3,51.3,High,No,Graduate,31.9
+STU1132,Student_133,18,Male,73.3,24.9,32.1,29.6,2.0,61.3,High,Yes,Graduate,53.4
+STU1133,Student_134,20,Male,74.3,30.7,26.1,24.7,3.3,69.4,Medium,Yes,Graduate,46.3
+STU1134,Student_135,17,Male,85.6,41.0,10.3,48.1,2.2,75.4,Low,Yes,Graduate,65.6
+STU1135,Student_136,22,Male,,,,15.4,,34.6,Medium,No,Post Graduate,38.1
+STU1136,Student_137,18,Male,98.1,33.1,39.7,36.8,4.7,51.7,Medium,Yes,High School,53.4
+STU1137,Student_138,17,Male,55.1,48.6,27.4,48.5,4.1,60.0,Medium,No,Post Graduate,54.7
+STU1138,Student_139,21,Male,93.7,55.0,57.8,50.4,5.6,75.5,Medium,Yes,Graduate,69.8
+STU1139,Student_140,19,Male,75.3,58.6,48.8,46.8,3.8,100.0,Low,Yes,High School,63.8
+STU1140,Student_141,21,Female,88.3,24.8,28.4,15.4,1.4,61.6,Medium,Yes,High School,40.4
+STU1141,Student_142,19,Male,79.0,37.5,27.1,21.5,5.2,43.9,High,Yes,High School,43.9
+STU1142,Student_143,20,Female,91.7,33.4,29.9,37.4,2.3,71.0,Medium,Yes,Post Graduate,52.6
+STU1143,Student_144,18,Female,73.4,46.2,38.5,57.4,4.6,84.8,Medium,Yes,Post Graduate,82.1
+STU1144,Student_145,20,Female,64.8,46.7,34.3,38.4,5.6,66.6,Low,Yes,Post Graduate,65.0
+STU1145,Student_146,19,Male,95.0,27.5,33.0,20.8,3.9,51.4,Medium,No,Graduate,54.3
+STU1146,Student_147,19,Male,76.6,46.7,20.9,5.7,1.0,79.4,High,Yes,Graduate,59.9
+STU1147,Student_148,19,Male,80.7,34.1,20.0,20.9,1.8,75.0,Medium,Yes,High School,59.4
+STU1148,Student_149,22,Male,92.8,40.4,19.1,34.7,5.2,49.6,High,No,High School,43.6
+STU1149,Student_150,17,Female,65.6,48.6,52.5,47.2,2.9,70.7,Medium,Yes,Graduate,54.3
+STU1150,Student_151,18,Male,85.1,50.2,41.6,43.3,3.3,80.0,Medium,Yes,High School,58.1
+STU1151,Student_152,20,Male,70.9,34.7,42.7,44.8,4.3,82.7,Low,No,High School,53.6
+STU1152,Student_153,20,Male,76.4,41.8,22.3,32.4,4.2,64.0,Medium,Yes,Graduate,53.8
+STU1153,Student_154,21,Male,78.9,41.4,36.1,27.0,3.6,59.6,Medium,Yes,Post Graduate,54.1
+STU1154,Student_155,19,Male,60.0,49.2,35.3,49.3,2.9,83.4,Medium,Yes,Doctorate,66.5
+STU1155,Student_156,19,Female,68.7,17.9,25.3,26.6,2.7,46.8,Medium,Yes,Doctorate,45.5
+STU1156,Student_157,19,Male,94.2,36.9,26.5,20.6,4.5,71.6,High,Yes,Graduate,56.4
+STU1157,Student_158,20,Female,88.6,37.7,27.1,23.3,4.0,44.4,Low,Yes,Graduate,34.0
+STU1158,Student_159,21,Male,77.2,34.7,31.1,27.8,2.8,81.0,High,No,Graduate,51.4
+STU1159,Student_160,17,Female,80.9,36.4,25.7,32.6,4.8,61.1,Low,Yes,Post Graduate,51.7
+STU1160,Student_161,22,Male,74.5,55.2,44.2,42.3,3.0,84.0,Medium,Yes,High School,62.0
+STU1161,Student_162,18,Male,94.3,34.3,14.7,28.4,1.9,72.4,Low,Yes,Graduate,41.9
+STU1162,Student_163,17,Female,75.6,19.2,27.2,21.7,2.1,46.7,Medium,Yes,Post Graduate,40.7
+STU1163,Student_164,20,Female,80.8,32.6,41.3,44.5,1.7,86.4,Medium,Yes,Graduate,52.7
+STU1164,Student_165,22,Female,91.8,46.4,29.1,31.4,2.8,88.3,Low,Yes,Graduate,58.5
+STU1165,Student_166,22,Male,68.7,35.9,31.9,60.6,5.1,78.2,Medium,Yes,Graduate,58.2
+STU1166,Student_167,22,Female,96.7,25.5,21.5,18.0,2.0,53.6,High,Yes,High School,41.0
+STU1167,Student_168,19,Male,59.6,37.3,32.7,32.9,3.5,60.4,Low,No,Graduate,39.5
+STU1168,Student_169,18,Male,97.6,43.9,27.5,26.4,2.2,67.2,High,Yes,High School,54.9
+STU1169,Student_170,20,Female,73.5,35.5,30.4,28.6,2.8,54.4,Medium,No,High School,40.3
+STU1170,Student_171,20,Female,75.1,33.1,51.5,34.7,0.9,90.4,Medium,Yes,High School,61.9
+STU1171,Student_172,22,Male,55.3,45.0,25.7,35.7,2.9,67.2,Low,No,Post Graduate,52.8
+STU1172,Student_173,20,Male,72.5,16.1,0.0,12.1,2.9,24.4,Low,Yes,High School,25.8
+STU1173,Student_174,18,Female,65.5,30.2,42.8,26.9,4.0,70.1,Low,Yes,Graduate,47.8
+STU1174,Student_175,18,Female,70.7,33.0,46.5,54.5,3.5,59.8,Low,Yes,High School,55.1
+STU1175,Student_176,21,Female,76.4,41.3,29.8,20.4,1.4,63.9,Low,Yes,Doctorate,53.3
+STU1176,Student_177,21,Male,89.5,39.5,21.9,43.3,4.8,59.5,Medium,Yes,High School,57.0
+STU1177,Student_178,17,Male,80.5,41.4,34.5,22.7,3.5,77.1,High,Yes,Graduate,70.8
+STU1178,Student_179,18,Male,81.7,56.3,26.2,36.0,3.5,81.8,High,Yes,Post Graduate,71.0
+STU1179,Student_180,18,Male,64.9,25.8,38.6,32.4,3.2,69.2,Medium,Yes,Post Graduate,60.5
+STU1180,Student_181,18,Male,67.4,20.9,13.5,31.8,2.4,59.9,Low,Yes,High School,40.3
+STU1181,Student_182,21,Male,99.6,23.3,28.3,8.8,3.5,64.4,Low,Yes,Post Graduate,53.3
+STU1182,Student_183,22,Female,69.2,40.8,22.6,36.7,3.9,65.3,Medium,Yes,Graduate,50.3
+STU1183,Student_184,22,Male,97.9,24.3,21.3,8.0,0.6,53.0,Low,Yes,Graduate,34.7
+STU1184,Student_185,20,Male,75.1,49.0,28.1,34.6,2.4,73.7,Medium,Yes,High School,57.0
+STU1185,Student_186,22,Male,78.0,39.1,33.9,23.4,2.8,71.9,Medium,No,High School,52.8
+STU1186,Student_187,19,Female,90.8,42.8,40.1,33.1,3.6,88.1,Medium,Yes,Post Graduate,69.9
+STU1187,Student_188,21,Male,93.3,48.5,32.0,42.7,5.0,83.8,Medium,Yes,Graduate,74.8
+STU1188,Student_189,18,Male,76.7,28.8,30.4,14.9,2.0,54.7,High,Yes,Graduate,39.4
+STU1189,Student_190,22,Female,73.3,25.0,32.8,28.9,2.5,77.3,High,No,Post Graduate,50.1
+STU1190,Student_191,21,Male,,,,14.1,,50.7,Medium,Yes,Post Graduate,49.6
+STU1191,Student_192,22,Male,82.1,40.3,53.8,14.1,2.0,75.4,High,Yes,High School,53.0
+STU1192,Student_193,17,Male,88.7,32.7,31.6,37.2,2.7,57.3,High,Yes,Graduate,75.7
+STU1193,Student_194,18,Male,78.1,38.0,26.9,20.8,4.4,49.7,Medium,Yes,High School,51.9
+STU1194,Student_195,17,Male,85.4,38.2,42.4,25.6,1.6,69.2,Medium,Yes,Post Graduate,55.4
+STU1195,Student_196,18,Female,97.7,20.2,36.6,29.4,3.8,24.9,Medium,No,Graduate,39.4
+STU1196,Student_197,21,Female,82.6,12.2,13.6,8.5,0.6,38.7,High,No,Doctorate,33.0
+STU1197,Student_198,20,Female,81.7,36.9,31.3,20.9,2.4,62.3,High,Yes,High School,51.9
+STU1198,Student_199,22,Male,59.8,37.7,20.0,32.7,2.7,66.2,Low,Yes,High School,46.0
+STU1199,Student_200,22,Male,46.4,34.4,33.6,50.7,5.7,59.5,Medium,No,High School,50.7
+STU1200,Student_201,19,Male,82.7,36.3,19.5,13.1,2.8,41.3,Medium,Yes,High School,39.7
+STU1201,Student_202,17,Female,76.9,23.4,20.3,14.5,0.0,52.7,Medium,Yes,High School,43.8
+STU1202,Student_203,22,Male,71.8,34.8,28.6,6.5,0.2,70.9,Low,Yes,Post Graduate,51.8
+STU1203,Student_204,21,Male,80.9,50.5,39.6,31.8,3.3,73.7,High,Yes,High School,63.4
+STU1204,Student_205,20,Female,77.3,38.4,35.3,36.1,4.1,64.8,Medium,Yes,High School,47.5
+STU1205,Student_206,21,Male,91.5,46.9,26.2,32.2,3.8,82.4,High,Yes,Post Graduate,70.7
+STU1206,Student_207,17,Female,79.0,45.4,24.2,31.2,3.5,71.0,High,No,Graduate,67.4
+STU1207,Student_208,19,Female,69.0,30.4,25.6,23.1,4.9,53.8,Medium,No,Post Graduate,58.8
+STU1208,Student_209,22,Female,89.9,32.0,24.5,28.5,2.4,60.8,Medium,Yes,High School,52.7
+STU1209,Student_210,21,Male,75.4,32.1,37.2,40.7,4.5,44.0,Medium,Yes,Graduate,61.2
+STU1210,Student_211,18,Male,84.3,20.1,12.6,12.3,0.8,63.4,Low,No,High School,34.0
+STU1211,Student_212,20,Male,72.3,56.6,29.5,26.1,1.8,81.7,Medium,No,High School,57.7
+STU1212,Student_213,21,Male,70.2,20.4,37.1,29.1,0.5,75.3,Low,Yes,Post Graduate,42.8
+STU1213,Student_214,20,Male,79.0,32.4,34.1,47.9,2.8,86.0,Medium,No,High School,58.5
+STU1214,Student_215,22,Male,78.2,44.0,33.5,17.1,3.1,60.5,Low,No,Graduate,55.5
+STU1215,Student_216,18,Male,83.8,50.0,36.9,37.6,3.4,85.2,Low,Yes,Graduate,58.1
+STU1216,Student_217,19,Female,74.8,26.5,32.6,34.4,3.3,62.1,Low,Yes,High School,41.8
+STU1217,Student_218,19,Male,56.0,45.1,32.7,32.4,1.8,87.1,Low,Yes,Post Graduate,56.3
+STU1218,Student_219,18,Female,72.8,46.3,36.6,8.7,2.9,64.7,Medium,Yes,High School,49.0
+STU1219,Student_220,20,Male,87.5,33.0,13.5,31.2,1.0,75.6,Medium,Yes,Graduate,53.8
+STU1220,Student_221,22,Male,74.4,71.2,39.9,60.6,5.2,87.1,Medium,No,Doctorate,74.2
+STU1221,Student_222,21,Male,75.0,19.1,31.5,30.5,2.7,62.1,Low,Yes,Graduate,55.9
+STU1222,Student_223,18,Female,89.8,40.4,35.5,21.2,2.5,68.3,Low,Yes,Doctorate,46.9
+STU1223,Student_224,17,Female,69.5,59.9,58.4,43.1,5.6,84.3,Low,Yes,High School,76.0
+STU1224,Student_225,20,Female,59.5,36.2,21.4,40.0,1.3,63.0,Low,Yes,Graduate,40.2
+STU1225,Student_226,19,Female,76.1,20.9,34.4,27.7,1.5,45.2,High,No,High School,30.6
+STU1226,Student_227,18,Male,72.2,41.3,31.4,41.3,1.6,97.1,Low,Yes,Post Graduate,61.3
+STU1227,Student_228,19,Female,66.4,36.1,41.3,33.0,3.1,58.0,Medium,Yes,Doctorate,54.2
+STU1228,Student_229,20,Male,75.9,44.9,41.3,29.5,3.8,67.4,Low,Yes,High School,47.0
+STU1229,Student_230,19,Male,83.9,50.6,30.4,40.1,4.3,82.3,Low,Yes,Graduate,52.2
+STU1230,Student_231,18,Female,77.9,52.0,40.4,44.5,7.1,55.9,Medium,Yes,High School,64.0
+STU1231,Student_232,20,Female,81.7,11.8,17.0,19.9,0.0,49.9,Medium,Yes,Graduate,41.4
+STU1232,Student_233,17,Female,99.8,38.0,40.6,50.6,4.1,68.8,Low,Yes,Graduate,64.2
+STU1233,Student_234,18,Female,73.9,14.9,17.1,31.1,2.4,38.1,Low,Yes,Doctorate,39.3
+STU1234,Student_235,21,Female,81.3,28.1,23.9,14.6,2.3,60.7,Medium,Yes,Graduate,49.2
+STU1235,Student_236,22,Female,71.9,42.5,43.5,31.8,2.3,68.7,Low,Yes,High School,50.6
+STU1236,Student_237,18,Female,67.8,30.7,24.9,32.1,1.8,61.0,Low,No,High School,31.7
+STU1237,Student_238,20,Female,71.0,54.7,37.1,40.9,5.7,41.8,High,Yes,High School,51.1
+STU1238,Student_239,22,Male,72.3,50.6,40.1,39.0,4.5,88.9,Medium,Yes,High School,64.2
+STU1239,Student_240,18,Female,,,,59.0,,66.6,Medium,Yes,High School,58.7
+STU1240,Student_241,17,Female,100.0,51.0,36.5,35.3,5.2,86.5,Medium,Yes,Post Graduate,77.1
+STU1241,Student_242,17,Male,69.4,22.0,17.5,12.2,0.9,61.1,Medium,Yes,Graduate,44.4
+STU1242,Student_243,21,Female,73.0,23.9,36.4,22.4,1.2,51.8,Medium,Yes,Graduate,46.9
+STU1243,Student_244,19,Male,77.2,36.6,19.7,39.8,0.0,69.0,Medium,No,High School,42.5
+STU1244,Student_245,22,Male,82.7,32.2,43.1,19.8,2.2,61.8,Medium,Yes,Post Graduate,44.7
+STU1245,Student_246,20,Female,81.2,22.8,34.0,25.4,3.4,47.3,Low,Yes,Post Graduate,48.7
+STU1246,Student_247,20,Male,93.4,37.6,37.4,49.4,3.4,87.0,Medium,Yes,High School,66.6
+STU1247,Student_248,19,Male,48.9,28.9,9.9,30.1,3.4,55.7,Medium,No,Post Graduate,30.1
+STU1248,Student_249,17,Male,49.4,18.9,15.6,12.6,1.1,37.4,High,Yes,Graduate,29.5
+STU1249,Student_250,17,Male,72.0,56.7,41.7,48.2,4.4,84.9,Medium,Yes,High School,62.9
+STU1250,Student_251,18,Female,91.2,23.0,40.8,34.1,3.6,57.4,Medium,Yes,Graduate,54.2
+STU1251,Student_252,21,Male,59.2,32.7,46.2,43.2,4.3,55.9,Low,Yes,Graduate,47.6
+STU1252,Student_253,22,Female,41.9,17.8,7.6,24.8,0.4,38.5,Medium,Yes,High School,27.8
+STU1253,Student_254,21,Male,84.9,32.9,49.1,44.9,3.7,91.1,Low,No,Doctorate,63.1
+STU1254,Student_255,21,Male,80.9,15.8,27.1,21.9,1.4,45.7,Medium,Yes,Post Graduate,40.9
+STU1255,Student_256,18,Male,64.9,28.7,40.3,32.1,2.6,65.9,Low,Yes,Graduate,44.5
+STU1256,Student_257,21,Male,66.2,37.1,42.5,44.0,4.0,78.7,Medium,Yes,Graduate,57.9
+STU1257,Student_258,19,Female,66.4,40.0,13.8,35.1,3.3,71.3,Low,Yes,Graduate,43.9
+STU1258,Student_259,18,Female,79.3,30.1,25.6,26.8,1.9,64.1,Medium,Yes,Graduate,50.9
+STU1259,Student_260,19,Male,70.5,21.0,10.3,35.4,3.2,39.5,High,Yes,Graduate,47.8
+STU1260,Student_261,18,Male,83.9,27.3,18.7,33.1,0.9,52.9,Low,Yes,High School,34.0
+STU1261,Student_262,21,Female,43.7,55.6,45.8,26.4,4.9,67.8,Medium,Yes,Graduate,69.2
+STU1262,Student_263,19,Male,67.7,43.1,28.9,27.7,2.9,53.2,Medium,Yes,Post Graduate,50.1
+STU1263,Student_264,19,Male,64.5,26.6,47.6,33.8,4.9,68.1,Low,Yes,Graduate,64.0
+STU1264,Student_265,19,Male,74.9,41.9,35.7,29.4,2.4,75.2,High,Yes,High School,53.4
+STU1265,Student_266,18,Female,71.5,37.5,20.8,37.0,2.4,79.4,Low,Yes,Post Graduate,41.8
+STU1266,Student_267,20,Female,87.6,26.2,0.0,28.4,2.1,46.6,Medium,Yes,High School,41.5
+STU1267,Student_268,21,Female,55.7,49.5,47.0,46.4,4.5,97.9,Medium,Yes,High School,69.4
+STU1268,Student_269,19,Male,78.5,37.8,29.9,14.1,2.1,76.5,Medium,No,High School,48.5
+STU1269,Student_270,22,Male,84.7,39.8,23.5,27.6,4.2,65.0,Medium,No,High School,47.9
+STU1270,Student_271,20,Female,100.0,35.7,17.9,42.9,2.6,81.3,Low,Yes,Post Graduate,57.6
+STU1271,Student_272,22,Female,72.2,33.4,28.2,6.1,0.2,100.0,Low,Yes,Graduate,45.4
+STU1272,Student_273,21,Female,81.9,20.7,19.0,32.9,2.3,43.4,Medium,Yes,High School,38.8
+STU1273,Student_274,21,Female,56.4,30.7,31.7,28.8,1.4,61.6,Medium,Yes,Post Graduate,53.1
+STU1274,Student_275,19,Male,49.3,26.4,20.4,33.8,3.3,29.3,High,Yes,Post Graduate,45.4
+STU1275,Student_276,19,Female,88.1,38.2,43.3,24.2,1.4,67.9,High,Yes,Post Graduate,62.0
+STU1276,Student_277,18,Male,77.9,38.0,25.8,21.0,4.6,70.5,High,Yes,High School,55.8
+STU1277,Student_278,20,Female,92.1,37.3,39.1,35.6,3.1,64.4,Medium,Yes,Graduate,55.1
+STU1278,Student_279,20,Male,61.5,38.5,27.0,39.6,2.9,55.2,Medium,Yes,Doctorate,46.5
+STU1279,Student_280,19,Female,84.2,35.6,29.5,35.4,4.2,34.3,High,Yes,Post Graduate,52.0
+STU1280,Student_281,21,Female,100.0,41.6,31.8,33.6,4.6,70.6,Medium,Yes,High School,40.1
+STU1281,Student_282,19,Female,83.0,42.6,49.1,39.6,3.2,86.8,Low,Yes,High School,56.7
+STU1282,Student_283,21,Female,81.3,30.0,27.6,20.0,2.0,56.1,High,Yes,Graduate,48.8
+STU1283,Student_284,21,Male,,,,16.1,,71.6,High,Yes,Post Graduate,51.6
+STU1284,Student_285,19,Female,59.1,21.7,19.9,29.8,2.2,41.5,Medium,Yes,Graduate,37.9
+STU1285,Student_286,17,Male,94.3,41.6,28.5,20.0,2.3,71.9,Low,Yes,Graduate,53.7
+STU1286,Student_287,20,Male,70.7,39.0,34.1,23.3,3.4,59.1,Medium,Yes,High School,37.0
+STU1287,Student_288,22,Male,84.1,27.4,13.7,16.9,2.7,53.6,High,Yes,Graduate,46.9
+STU1288,Student_289,21,Male,59.2,35.8,29.0,19.5,4.2,53.6,High,Yes,Post Graduate,44.1
+STU1289,Student_290,21,Female,63.8,23.9,30.4,28.2,2.3,59.1,Low,Yes,Graduate,36.1
+STU1290,Student_291,17,Male,95.2,43.2,32.8,44.1,3.1,70.7,Low,Yes,Post Graduate,58.4
+STU1291,Student_292,22,Male,73.8,32.5,41.8,31.9,5.0,45.3,High,No,Doctorate,64.9
+STU1292,Student_293,18,Male,95.4,32.5,37.6,18.9,3.7,59.0,Medium,No,High School,51.9
+STU1293,Student_294,17,Female,77.1,32.2,30.2,39.3,3.1,64.4,Medium,Yes,Graduate,54.0
+STU1294,Student_295,22,Female,55.9,25.8,24.9,38.9,2.3,48.5,High,Yes,High School,44.9
+STU1295,Student_296,17,Female,88.7,40.1,40.9,31.0,2.3,91.9,Low,Yes,Post Graduate,57.0
+STU1296,Student_297,21,Female,70.9,31.8,27.1,19.0,1.9,52.2,Medium,Yes,Graduate,41.0
+STU1297,Student_298,20,Male,86.4,26.0,7.0,30.7,2.4,55.0,Low,No,Graduate,42.6
+STU1298,Student_299,17,Male,78.3,45.8,25.3,46.9,4.3,50.3,Medium,Yes,Post Graduate,49.7
+STU1299,Student_300,18,Female,59.5,57.2,24.6,34.5,2.9,92.0,High,Yes,Graduate,68.6
+STU1300,Student_301,19,Male,80.0,25.8,41.4,14.8,1.2,73.3,Medium,Yes,Post Graduate,49.0
+STU1301,Student_302,22,Male,100.0,38.7,32.0,44.6,5.9,51.0,High,Yes,Graduate,68.7
+STU1302,Student_303,17,Male,83.9,38.5,35.9,46.5,3.7,81.6,Medium,Yes,High School,67.0
+STU1303,Student_304,17,Female,77.3,27.9,35.5,24.9,1.1,68.0,Medium,Yes,Graduate,38.5
+STU1304,Student_305,18,Female,90.9,51.1,34.6,25.6,2.5,68.9,Low,Yes,Post Graduate,53.1
+STU1305,Student_306,20,Male,80.5,31.7,18.1,40.5,3.4,59.8,Medium,No,High School,42.8
+STU1306,Student_307,17,Female,80.5,41.8,32.6,44.1,5.8,53.8,Medium,No,Post Graduate,49.1
+STU1307,Student_308,17,Female,64.9,36.9,24.9,20.1,1.5,70.1,Low,Yes,Post Graduate,40.9
+STU1308,Student_309,20,Female,80.8,28.8,14.2,36.3,4.7,56.8,Medium,Yes,High School,64.7
+STU1309,Student_310,18,Female,90.4,46.0,38.7,36.7,5.3,92.3,Medium,Yes,Doctorate,76.9
+STU1310,Student_311,22,Female,68.0,15.7,20.0,29.2,2.3,46.0,Medium,Yes,High School,49.9
+STU1311,Student_312,22,Male,95.1,36.5,36.7,35.2,2.8,88.0,Medium,Yes,High School,65.2
+STU1312,Student_313,17,Female,76.9,7.3,11.3,21.5,1.6,63.3,Medium,Yes,High School,33.6
+STU1313,Student_314,20,Male,67.3,40.9,43.1,32.2,2.9,69.5,Low,Yes,Post Graduate,53.1
+STU1314,Student_315,17,Male,,,,36.0,,77.5,Low,Yes,Graduate,63.9
+STU1315,Student_316,19,Female,74.6,36.0,30.3,41.5,4.2,55.5,Medium,Yes,High School,55.3
+STU1316,Student_317,22,Male,87.1,34.3,43.3,47.9,4.8,78.0,Medium,Yes,Graduate,61.9
+STU1317,Student_318,21,Male,74.5,10.9,5.9,14.3,2.1,24.4,Low,No,Graduate,15.9
+STU1318,Student_319,19,Male,77.3,18.6,24.0,23.9,0.2,54.2,High,Yes,High School,60.3
+STU1319,Student_320,17,Female,83.9,21.9,22.2,31.7,3.2,51.1,High,Yes,Post Graduate,51.2
+STU1320,Student_321,18,Female,81.5,36.2,16.2,24.4,3.6,46.2,Medium,No,Post Graduate,45.3
+STU1321,Student_322,22,Male,54.1,42.0,36.4,31.8,3.6,61.8,Low,Yes,Graduate,51.4
+STU1322,Student_323,21,Female,64.5,27.2,46.4,30.7,2.7,70.8,High,No,Doctorate,56.1
+STU1323,Student_324,19,Female,89.2,46.2,42.2,40.8,3.4,75.5,Medium,Yes,Graduate,64.0
+STU1324,Student_325,22,Female,76.4,56.2,47.0,39.3,5.5,68.6,High,Yes,Doctorate,80.7
+STU1325,Student_326,20,Female,71.7,48.6,23.5,28.2,3.8,55.0,High,Yes,Graduate,55.2
+STU1326,Student_327,18,Male,61.7,58.9,15.2,49.3,2.6,70.5,High,Yes,Graduate,53.5
+STU1327,Student_328,19,Male,65.0,26.7,44.3,38.1,2.4,66.9,Medium,Yes,High School,49.8
+STU1328,Student_329,20,Female,53.7,62.9,55.4,28.5,2.9,79.0,Low,Yes,Post Graduate,59.3
+STU1329,Student_330,17,Female,76.8,44.9,56.5,50.9,5.7,76.7,Medium,Yes,Graduate,78.9
+STU1330,Student_331,20,Male,70.8,30.2,26.8,32.3,2.9,65.5,Medium,Yes,High School,56.2
+STU1331,Student_332,19,Male,66.4,32.8,14.5,31.8,3.2,51.5,Medium,No,High School,43.1
+STU1332,Student_333,19,Female,77.2,24.9,14.9,27.8,2.5,55.2,Low,No,Graduate,32.2
+STU1333,Student_334,17,Male,82.4,40.3,15.0,46.9,4.8,56.8,Low,Yes,Graduate,46.0
+STU1334,Student_335,20,Female,100.0,31.9,35.3,45.6,6.1,60.3,High,Yes,Post Graduate,67.9
+STU1335,Student_336,20,Female,59.9,37.4,50.0,35.7,3.9,69.0,Medium,Yes,Post Graduate,62.4
+STU1336,Student_337,17,Male,91.9,50.5,33.3,45.3,3.3,75.7,High,Yes,High School,62.4
+STU1337,Student_338,20,Male,89.7,35.1,33.7,34.6,3.3,64.2,High,No,Post Graduate,56.0
+STU1338,Student_339,22,Female,68.7,27.2,36.6,20.7,0.0,65.2,Medium,Yes,High School,38.6
+STU1339,Student_340,17,Female,80.4,43.5,30.2,40.2,4.3,67.1,Medium,Yes,Post Graduate,61.5
+STU1340,Student_341,18,Male,72.5,42.5,48.9,29.9,3.4,57.3,High,Yes,Post Graduate,46.4
+STU1341,Student_342,19,Female,80.2,18.6,47.3,30.6,3.8,51.1,Medium,Yes,Graduate,44.2
+STU1342,Student_343,18,Male,96.1,26.5,17.5,14.7,2.1,38.7,Medium,Yes,Post Graduate,38.9
+STU1343,Student_344,22,Female,85.3,27.5,19.8,20.0,2.6,54.6,Low,No,High School,46.1
+STU1344,Student_345,22,Male,84.1,38.0,38.7,23.0,2.6,72.1,Medium,Yes,Graduate,50.6
+STU1345,Student_346,21,Male,72.8,44.4,27.3,22.6,4.7,54.5,Medium,Yes,Post Graduate,56.8
+STU1346,Student_347,21,Male,60.2,22.8,16.4,20.9,2.6,61.4,Low,Yes,Graduate,42.1
+STU1347,Student_348,21,Female,75.5,39.6,53.8,45.2,6.3,72.0,Low,No,Graduate,70.7
+STU1348,Student_349,17,Female,92.5,25.0,47.1,38.0,3.8,72.8,Medium,No,Graduate,65.4
+STU1349,Student_350,20,Male,59.7,19.0,21.9,17.4,1.3,48.8,Low,Yes,Post Graduate,36.1
+STU1350,Student_351,22,Female,65.3,51.6,22.9,14.8,3.0,80.0,Low,Yes,High School,47.7
+STU1351,Student_352,18,Male,79.5,38.4,21.9,47.5,2.2,81.9,Medium,Yes,High School,51.9
+STU1352,Student_353,18,Male,66.2,8.5,17.9,24.2,0.0,48.1,High,Yes,Post Graduate,37.2
+STU1353,Student_354,18,Female,68.5,34.0,27.4,42.2,5.6,52.6,Medium,No,Post Graduate,52.8
+STU1354,Student_355,18,Female,72.9,34.2,36.4,59.2,4.3,82.9,Low,Yes,High School,63.1
+STU1355,Student_356,21,Male,61.6,28.1,42.2,26.0,4.0,62.8,Low,Yes,High School,50.2
+STU1356,Student_357,18,Female,66.3,26.0,26.9,40.1,3.4,31.7,Medium,Yes,High School,45.2
+STU1357,Student_358,20,Female,86.4,11.5,31.9,8.9,1.1,44.0,Medium,Yes,High School,42.8
+STU1358,Student_359,21,Male,62.3,40.9,17.8,30.5,2.5,61.3,High,Yes,Graduate,63.2
+STU1359,Student_360,18,Male,58.8,32.0,24.5,20.8,4.5,47.6,Medium,Yes,Post Graduate,49.7
+STU1360,Student_361,17,Female,70.4,29.0,32.2,24.2,1.6,58.8,High,Yes,Graduate,55.8
+STU1361,Student_362,19,Male,86.8,24.0,27.4,23.1,0.0,65.5,Low,Yes,Graduate,39.3
+STU1362,Student_363,19,Male,75.6,49.6,53.0,36.3,2.9,86.9,Medium,Yes,Graduate,72.5
+STU1363,Student_364,19,Female,72.4,39.5,32.9,36.6,3.0,60.6,Low,Yes,Post Graduate,59.1
+STU1364,Student_365,21,Male,78.5,45.3,55.4,38.8,3.4,81.1,High,Yes,Graduate,74.2
+STU1365,Student_366,18,Male,57.1,52.0,46.4,38.4,4.3,86.4,Medium,Yes,Doctorate,69.6
+STU1366,Student_367,22,Female,83.9,45.5,51.4,37.6,4.2,86.5,Medium,Yes,Graduate,63.9
+STU1367,Student_368,22,Female,82.6,42.9,30.0,42.5,3.6,69.3,Low,Yes,High School,45.9
+STU1368,Student_369,22,Male,73.1,26.5,25.1,24.8,5.0,35.6,Low,Yes,Graduate,42.8
+STU1369,Student_370,21,Male,90.1,31.5,36.5,33.4,0.9,71.9,Medium,Yes,High School,59.8
+STU1370,Student_371,20,Female,64.5,42.1,54.4,51.2,4.0,80.7,Low,Yes,Graduate,61.0
+STU1371,Student_372,17,Female,91.5,34.2,39.9,20.5,4.1,63.8,Medium,No,High School,56.9
+STU1372,Student_373,17,Female,79.9,34.9,34.3,42.8,1.3,91.2,Low,Yes,High School,59.0
+STU1373,Student_374,19,Female,74.0,37.6,43.3,45.5,0.9,77.9,Medium,Yes,Post Graduate,56.8
+STU1374,Student_375,19,Male,77.8,46.2,9.1,32.7,2.1,73.5,High,Yes,High School,61.8
+STU1375,Student_376,22,Female,76.7,48.5,19.7,38.6,2.2,81.3,High,Yes,Post Graduate,45.4
+STU1376,Student_377,22,Female,92.6,30.8,42.1,47.5,4.3,70.0,High,Yes,High School,55.6
+STU1377,Student_378,19,Male,65.1,28.3,15.6,15.0,2.3,27.6,Low,Yes,Graduate,26.8
+STU1378,Student_379,18,Female,68.8,26.2,30.9,26.5,1.9,57.5,Low,Yes,Graduate,38.0
+STU1379,Student_380,20,Male,90.4,44.9,35.4,22.3,2.3,83.0,Medium,Yes,Graduate,61.0
+STU1380,Student_381,20,Female,70.9,28.6,36.5,36.7,4.9,52.9,Medium,Yes,High School,53.6
+STU1381,Student_382,20,Female,88.8,35.4,21.4,35.8,3.2,61.6,Medium,Yes,High School,53.7
+STU1382,Student_383,20,Female,98.4,30.9,30.2,31.0,2.9,49.3,Low,Yes,High School,48.9
+STU1383,Student_384,19,Male,73.2,33.8,49.6,49.1,3.0,91.8,Low,Yes,High School,54.1
+STU1384,Student_385,17,Male,86.2,56.2,56.5,40.5,5.1,90.2,Low,Yes,Graduate,63.9
+STU1385,Student_386,19,Female,64.2,37.7,43.5,19.1,2.1,51.7,High,Yes,Doctorate,55.9
+STU1386,Student_387,20,Male,87.1,41.1,39.0,58.0,5.2,67.2,Low,Yes,Post Graduate,60.9
+STU1387,Student_388,19,Male,80.4,43.3,30.7,29.1,3.5,54.8,Medium,Yes,Post Graduate,45.9
+STU1388,Student_389,20,Male,83.7,37.2,18.2,36.1,3.0,74.2,Low,Yes,Post Graduate,60.3
+STU1389,Student_390,21,Male,70.3,56.8,37.6,49.2,7.0,72.6,Medium,No,Graduate,76.9
+STU1390,Student_391,22,Male,58.1,17.9,29.1,22.2,1.6,77.2,Medium,Yes,High School,53.9
+STU1391,Student_392,17,Male,84.0,55.5,41.8,46.4,2.7,70.0,High,Yes,Post Graduate,68.8
+STU1392,Student_393,21,Female,53.2,56.2,32.4,30.9,1.4,100.0,High,Yes,Graduate,67.6
+STU1393,Student_394,18,Female,74.2,31.4,36.8,23.1,4.6,49.6,Medium,Yes,Graduate,59.5
+STU1394,Student_395,19,Male,89.3,17.0,28.0,30.5,5.7,39.3,High,Yes,High School,46.5
+STU1395,Student_396,18,Female,80.3,43.0,33.2,22.5,5.7,59.1,High,Yes,Graduate,67.8
+STU1396,Student_397,19,Female,100.0,20.0,29.5,26.6,5.0,41.5,High,No,Graduate,52.4
+STU1397,Student_398,22,Female,90.3,29.3,18.2,15.7,2.9,42.6,High,Yes,Post Graduate,53.9
+STU1398,Student_399,21,Female,70.2,31.4,20.0,31.4,2.7,50.0,Low,No,Graduate,42.0
+STU1399,Student_400,22,Male,78.3,15.0,2.6,12.1,0.7,51.2,Medium,Yes,Graduate,42.0
+STU1400,Student_401,20,Female,77.4,48.1,31.0,48.4,6.3,50.7,Low,Yes,Doctorate,62.9
+STU1401,Student_402,22,Female,59.0,47.3,30.4,50.0,3.9,72.8,Low,Yes,High School,46.5
+STU1402,Student_403,22,Male,66.7,38.3,21.2,34.3,2.5,57.4,High,No,Graduate,58.7
+STU1403,Student_404,20,Male,71.3,40.6,39.0,37.6,5.2,62.3,Medium,Yes,High School,52.0
+STU1404,Student_405,19,Female,53.6,25.1,38.3,31.6,1.7,78.4,Medium,No,Post Graduate,58.4
+STU1405,Student_406,20,Female,78.6,40.6,30.5,17.5,3.8,53.5,High,Yes,Post Graduate,55.6
+STU1406,Student_407,21,Female,75.0,30.9,38.6,28.7,2.9,61.0,High,Yes,High School,59.9
+STU1407,Student_408,22,Female,57.9,29.7,40.9,30.2,4.2,70.5,High,No,Post Graduate,65.2
+STU1408,Student_409,20,Female,82.9,34.5,17.4,29.4,3.1,35.9,Low,Yes,High School,42.0
+STU1409,Student_410,22,Female,86.6,31.5,8.1,35.9,1.0,29.2,Low,Yes,Post Graduate,39.9
+STU1410,Student_411,21,Male,80.7,37.7,35.9,38.8,3.3,70.2,Medium,Yes,Post Graduate,62.5
+STU1411,Student_412,18,Female,74.1,60.6,43.1,23.0,4.8,72.4,Low,No,Post Graduate,49.1
+STU1412,Student_413,21,Female,85.1,48.7,55.6,38.3,3.2,96.0,Low,No,High School,63.4
+STU1413,Student_414,17,Male,86.2,37.1,46.5,38.9,4.4,67.4,Medium,Yes,Doctorate,57.8
+STU1414,Student_415,17,Male,81.7,30.7,25.6,30.4,1.6,77.3,High,Yes,Post Graduate,58.3
+STU1415,Student_416,17,Male,68.1,47.5,28.7,24.9,3.2,62.1,Medium,No,High School,42.4
+STU1416,Student_417,22,Male,81.3,28.5,36.8,32.3,2.3,69.5,Medium,Yes,Post Graduate,48.1
+STU1417,Student_418,19,Female,92.3,54.8,52.9,33.0,4.3,90.0,Medium,Yes,High School,78.8
+STU1418,Student_419,19,Female,70.8,18.4,29.0,14.2,3.2,33.1,Low,No,Post Graduate,42.3
+STU1419,Student_420,19,Female,100.0,37.4,34.8,44.0,4.2,71.2,Low,Yes,High School,57.5
+STU1420,Student_421,22,Female,71.7,61.4,33.4,39.2,4.8,97.0,High,Yes,Post Graduate,77.3
+STU1421,Student_422,21,Female,78.4,37.2,24.7,42.4,4.2,69.2,Medium,Yes,Graduate,56.6
+STU1422,Student_423,19,Female,69.9,43.5,43.2,29.0,3.6,89.8,High,No,High School,65.6
+STU1423,Student_424,18,Male,80.7,36.4,27.1,39.4,1.7,55.6,Low,No,High School,38.6
+STU1424,Student_425,17,Female,57.1,48.2,19.6,25.2,3.2,64.5,High,No,High School,56.6
+STU1425,Student_426,21,Male,71.4,38.6,29.4,27.2,2.4,65.5,Medium,Yes,Graduate,50.0
+STU1426,Student_427,17,Male,64.9,15.5,24.2,23.3,2.7,31.7,Medium,No,High School,30.5
+STU1427,Student_428,19,Female,79.6,22.7,11.6,19.6,2.6,47.5,Medium,No,Graduate,39.4
+STU1428,Student_429,21,Male,89.9,25.1,32.3,22.6,1.7,48.5,High,Yes,High School,42.2
+STU1429,Student_430,20,Female,85.8,34.4,24.0,29.6,0.3,77.3,Medium,No,High School,48.4
+STU1430,Student_431,18,Male,49.5,29.9,45.4,40.9,2.2,78.1,Medium,Yes,Post Graduate,53.6
+STU1431,Student_432,19,Female,100.0,44.2,27.9,42.1,3.5,69.9,High,Yes,High School,64.6
+STU1432,Student_433,19,Male,81.5,35.2,19.8,26.5,1.2,77.4,High,Yes,Post Graduate,63.2
+STU1433,Student_434,18,Female,68.7,20.9,25.3,30.2,3.2,62.5,Medium,Yes,Post Graduate,46.1
+STU1434,Student_435,18,Female,79.9,44.1,43.3,70.4,6.1,83.0,Medium,Yes,Graduate,73.0
+STU1435,Student_436,20,Female,80.1,36.1,30.7,46.9,4.7,65.1,Medium,Yes,Graduate,62.3
+STU1436,Student_437,19,Female,70.0,42.9,35.2,34.3,5.7,65.9,Low,Yes,Post Graduate,57.3
+STU1437,Student_438,22,Female,80.4,50.9,34.2,34.4,3.8,61.0,Medium,Yes,High School,59.1
+STU1438,Student_439,19,Male,70.7,47.0,37.1,39.6,5.0,75.3,High,Yes,High School,68.1
+STU1439,Student_440,17,Male,73.1,23.1,25.1,24.8,2.1,58.7,High,Yes,High School,52.8
+STU1440,Student_441,21,Male,69.8,40.2,16.3,21.6,2.2,79.6,Medium,Yes,Post Graduate,50.4
+STU1441,Student_442,21,Female,60.8,16.4,20.7,10.7,0.0,48.0,Medium,Yes,High School,25.4
+STU1442,Student_443,17,Male,79.8,37.0,28.6,50.9,5.0,48.5,Low,Yes,Graduate,51.6
+STU1443,Student_444,21,Female,85.0,51.3,56.2,49.8,5.5,75.3,High,Yes,Doctorate,71.7
+STU1444,Student_445,18,Female,84.2,42.4,18.9,6.3,2.4,63.7,High,No,Post Graduate,54.8
+STU1445,Student_446,21,Male,87.8,31.5,9.3,39.6,2.8,58.2,Medium,Yes,Graduate,42.6
+STU1446,Student_447,21,Male,81.9,50.8,38.9,41.7,2.1,78.4,High,Yes,High School,76.2
+STU1447,Student_448,17,Female,71.6,41.0,32.5,28.7,3.8,55.9,Medium,Yes,Post Graduate,62.9
+STU1448,Student_449,20,Male,88.1,33.8,23.9,44.7,4.9,62.0,Medium,No,Graduate,56.2
+STU1449,Student_450,21,Female,61.7,53.9,16.3,20.5,0.6,86.0,Low,Yes,High School,52.4
+STU1450,Student_451,22,Female,67.2,49.3,55.7,37.4,3.8,88.1,Medium,No,High School,53.3
+STU1451,Student_452,21,Female,66.4,37.2,52.2,51.3,2.8,88.6,Medium,Yes,Post Graduate,81.5
+STU1452,Student_453,20,Female,91.0,47.7,4.9,29.4,3.4,60.8,Medium,No,Graduate,47.2
+STU1453,Student_454,17,Female,89.3,61.7,34.4,23.8,3.9,83.5,Medium,Yes,Post Graduate,67.0
+STU1454,Student_455,20,Male,83.8,28.8,41.7,26.3,2.9,50.8,High,No,Post Graduate,41.7
+STU1455,Student_456,17,Male,90.9,25.5,20.7,26.7,3.0,51.4,Low,Yes,Graduate,47.1
+STU1456,Student_457,18,Female,67.4,19.2,12.7,31.3,2.9,29.7,Medium,Yes,Graduate,30.8
+STU1457,Student_458,17,Female,82.2,55.9,40.5,46.0,4.7,90.1,Medium,Yes,Graduate,71.9
+STU1458,Student_459,18,Male,76.5,42.4,16.5,27.0,3.8,52.0,Medium,Yes,High School,45.0
+STU1459,Student_460,18,Male,88.2,40.3,13.8,42.3,3.5,63.1,Medium,Yes,Graduate,48.6
+STU1460,Student_461,17,Female,76.6,25.2,31.7,21.7,1.3,51.3,Low,No,Post Graduate,35.3
+STU1461,Student_462,22,Male,73.4,49.9,14.5,26.3,2.6,75.4,Low,No,Graduate,50.8
+STU1462,Student_463,19,Female,84.5,34.8,34.5,46.2,4.5,59.4,Medium,Yes,Post Graduate,52.7
+STU1463,Student_464,17,Male,88.5,36.3,33.0,28.6,3.3,45.4,Medium,Yes,Graduate,45.8
+STU1464,Student_465,21,Female,70.0,38.9,21.0,38.3,4.2,71.6,Low,Yes,Graduate,58.0
+STU1465,Student_466,22,Male,77.3,38.2,20.5,37.9,5.8,43.5,Medium,Yes,Graduate,69.2
+STU1466,Student_467,22,Female,65.3,34.5,42.5,25.3,4.8,52.4,Medium,Yes,Graduate,56.2
+STU1467,Student_468,21,Male,48.0,22.8,25.3,18.5,3.3,33.4,Medium,Yes,Post Graduate,34.4
+STU1468,Student_469,19,Male,80.4,21.6,15.1,22.7,2.4,43.6,High,Yes,High School,39.5
+STU1469,Student_470,22,Female,85.3,37.8,35.7,18.6,0.0,67.7,Low,Yes,Graduate,45.3
+STU1470,Student_471,18,Male,81.1,17.0,31.7,33.7,2.9,35.5,Low,Yes,High School,35.9
+STU1471,Student_472,19,Female,54.6,19.3,24.4,25.6,2.7,42.8,High,Yes,Graduate,48.3
+STU1472,Student_473,21,Male,73.8,54.4,23.2,42.4,3.8,65.0,Medium,Yes,Graduate,60.3
+STU1473,Student_474,19,Female,51.4,39.5,23.2,29.1,3.0,56.8,Medium,Yes,Graduate,53.5
+STU1474,Student_475,17,Male,94.4,27.0,42.8,48.8,2.7,94.9,High,No,Doctorate,66.8
+STU1475,Student_476,19,Female,65.0,34.0,31.7,33.3,0.5,92.5,High,Yes,Graduate,65.1
+STU1476,Student_477,18,Male,93.1,11.7,32.1,22.9,1.8,52.0,High,Yes,Post Graduate,47.5
+STU1477,Student_478,17,Female,89.4,33.5,20.1,37.5,3.9,73.4,Medium,Yes,Graduate,51.6
+STU1478,Student_479,20,Male,67.2,22.8,26.2,37.5,5.8,76.2,Medium,Yes,Graduate,71.5
+STU1479,Student_480,21,Female,64.4,30.6,29.2,33.8,3.1,56.0,Medium,No,High School,34.3
+STU1480,Student_481,21,Female,82.2,19.0,19.2,27.2,3.7,42.6,Low,Yes,High School,34.6
+STU1481,Student_482,19,Female,67.9,40.2,27.9,33.3,4.6,64.8,Medium,Yes,Graduate,52.6
+STU1482,Student_483,22,Male,79.2,18.0,9.2,36.7,2.0,62.4,Low,Yes,Graduate,57.1
+STU1483,Student_484,17,Female,72.2,35.5,30.2,21.5,3.8,58.5,High,No,High School,61.1
+STU1484,Student_485,20,Male,56.6,31.6,29.8,26.1,2.1,71.6,Medium,No,High School,54.4
+STU1485,Student_486,17,Female,51.2,47.0,36.6,43.4,4.5,53.7,Medium,Yes,High School,52.0
+STU1486,Student_487,21,Male,80.7,40.6,25.9,30.7,3.4,47.7,Medium,Yes,Doctorate,68.0
+STU1487,Student_488,17,Female,71.3,43.7,31.0,33.9,3.6,66.6,Low,Yes,High School,53.7
+STU1488,Student_489,20,Male,71.4,31.7,41.6,31.5,2.0,70.8,Low,No,Graduate,54.0
+STU1489,Student_490,22,Male,86.4,47.7,14.2,33.0,4.3,47.4,Medium,Yes,High School,51.8
+STU1490,Student_491,19,Female,92.1,38.0,48.7,35.2,6.3,78.9,Low,No,Graduate,63.4
+STU1491,Student_492,18,Male,74.7,9.2,1.0,15.2,1.7,38.4,Medium,Yes,High School,28.2
+STU1492,Student_493,17,Male,73.9,29.9,18.1,42.2,2.7,56.3,High,Yes,High School,48.6
+STU1493,Student_494,18,Female,84.0,53.0,18.0,26.4,3.5,61.1,High,Yes,Graduate,61.6
+STU1494,Student_495,21,Male,61.7,33.8,38.2,31.4,4.4,55.5,Medium,Yes,High School,53.2
+STU1495,Student_496,19,Male,80.7,28.3,25.1,21.7,2.4,56.5,Low,Yes,High School,41.5
+STU1496,Student_497,19,Male,84.6,25.7,32.4,27.1,0.0,93.1,High,Yes,High School,62.9
+STU1497,Student_498,17,Female,86.2,44.0,20.2,31.2,5.2,52.2,High,Yes,High School,38.8
+STU1498,Student_499,22,Male,54.8,60.5,42.8,51.6,4.3,100.0,Low,Yes,High School,70.4
+STU1499,Student_500,19,Female,68.9,36.8,18.9,25.7,0.6,71.6,Medium,Yes,High School,49.3
+STU1500,Student_501,17,Male,67.5,28.4,32.8,36.1,2.3,66.4,Low,Yes,Post Graduate,56.8
+STU1501,Student_502,17,Male,79.2,40.0,29.3,34.6,5.6,72.1,High,No,Graduate,62.3
+STU1502,Student_503,18,Male,83.8,45.9,61.8,48.5,5.4,100.0,High,No,Graduate,79.2
+STU1503,Student_504,19,Female,96.0,34.5,12.3,31.4,4.6,50.1,Low,No,High School,50.7
+STU1504,Student_505,17,Male,72.1,19.3,16.1,30.2,2.9,48.2,High,No,Doctorate,55.8
+STU1505,Student_506,18,Male,72.0,22.0,43.8,22.2,3.3,53.7,Medium,Yes,Graduate,46.7
+STU1506,Student_507,20,Female,91.8,31.8,26.1,39.9,3.0,65.5,High,Yes,High School,57.4
+STU1507,Student_508,18,Male,81.6,26.4,12.8,42.0,4.9,39.1,Medium,Yes,Graduate,58.3
+STU1508,Student_509,18,Female,93.2,27.5,29.8,18.3,1.9,65.3,High,Yes,High School,37.4
+STU1509,Student_510,17,Female,81.5,45.9,31.9,30.7,2.0,90.4,Low,Yes,High School,51.2
+STU1510,Student_511,21,Male,64.1,41.7,26.9,34.2,4.7,67.3,Medium,No,Graduate,63.9
+STU1511,Student_512,21,Female,62.0,31.2,18.0,54.3,3.1,60.6,Low,Yes,Post Graduate,57.2
+STU1512,Student_513,22,Male,59.4,39.6,60.4,34.0,5.3,55.7,High,Yes,Graduate,65.7
+STU1513,Student_514,21,Female,85.9,30.1,30.5,47.4,2.2,78.5,High,Yes,Post Graduate,59.6
+STU1514,Student_515,18,Female,92.3,31.2,6.9,16.8,3.1,52.6,High,Yes,Doctorate,46.1
+STU1515,Student_516,22,Male,100.0,43.7,51.9,26.1,1.8,92.7,High,Yes,High School,61.7
+STU1516,Student_517,17,Female,88.1,35.2,47.0,34.8,3.2,94.0,Low,Yes,High School,69.3
+STU1517,Student_518,19,Female,92.0,38.5,19.0,17.1,1.0,68.9,Medium,No,Graduate,42.8
+STU1518,Student_519,18,Female,71.0,26.4,19.6,27.0,2.5,64.8,Low,Yes,Graduate,45.2
+STU1519,Student_520,18,Female,64.1,35.9,37.4,21.8,1.0,80.5,Low,Yes,Graduate,44.1
+STU1520,Student_521,22,Female,88.2,54.5,36.5,33.8,4.2,81.4,Low,No,Post Graduate,68.1
+STU1521,Student_522,17,Male,83.0,41.5,10.0,43.5,4.3,52.9,Medium,No,Post Graduate,50.2
+STU1522,Student_523,20,Female,79.3,24.9,39.4,30.5,0.6,57.1,Low,No,Graduate,40.3
+STU1523,Student_524,18,Male,82.6,30.8,24.5,42.9,5.2,45.2,Low,No,High School,36.1
+STU1524,Student_525,20,Female,81.9,56.7,57.1,53.6,6.9,71.1,Low,Yes,Post Graduate,64.0
+STU1525,Student_526,20,Male,93.4,45.3,47.3,36.5,3.3,75.0,Low,Yes,Doctorate,63.4
+STU1526,Student_527,21,Male,93.5,19.6,11.2,17.8,2.2,44.8,High,Yes,Post Graduate,37.3
+STU1527,Student_528,17,Female,84.5,39.1,49.2,38.5,7.4,58.2,High,Yes,High School,79.4
+STU1528,Student_529,20,Female,88.1,4.9,12.2,21.5,1.2,44.8,High,Yes,Graduate,26.1
+STU1529,Student_530,17,Female,84.2,31.4,7.4,17.7,3.2,51.5,Medium,Yes,High School,37.9
+STU1530,Student_531,21,Male,72.5,39.2,30.2,27.0,3.5,73.3,Low,Yes,High School,51.1
+STU1531,Student_532,17,Female,87.1,46.3,35.9,47.4,5.2,54.0,High,Yes,High School,60.2
+STU1532,Student_533,18,Male,61.3,38.2,25.8,50.1,3.7,60.5,Medium,Yes,Graduate,48.1
+STU1533,Student_534,20,Male,90.6,34.4,17.4,25.7,2.5,40.6,Low,Yes,Graduate,35.8
+STU1534,Student_535,17,Male,63.7,26.9,39.7,37.5,1.8,67.8,Low,Yes,High School,39.9
+STU1535,Student_536,19,Female,81.4,42.9,30.3,27.9,2.7,64.3,Low,Yes,Graduate,49.2
+STU1536,Student_537,17,Female,67.9,22.5,14.8,11.0,1.7,54.1,Low,No,Graduate,45.8
+STU1537,Student_538,20,Male,,,,37.4,,62.2,Medium,Yes,Graduate,57.4
+STU1538,Student_539,21,Male,77.6,22.6,31.7,35.0,2.4,67.7,Medium,Yes,High School,56.1
+STU1539,Student_540,21,Female,58.9,26.0,0.0,20.5,1.0,52.8,Low,Yes,Graduate,36.4
+STU1540,Student_541,20,Male,83.0,16.6,32.0,31.1,5.1,42.9,Low,No,Post Graduate,52.7
+STU1541,Student_542,18,Female,71.1,42.2,42.4,46.3,2.5,92.1,High,Yes,High School,48.1
+STU1542,Student_543,18,Male,88.6,29.6,22.9,13.0,1.3,55.5,Low,Yes,High School,36.8
+STU1543,Student_544,21,Female,78.0,29.9,38.4,23.7,2.9,63.5,Medium,Yes,Graduate,59.6
+STU1544,Student_545,21,Male,82.7,33.6,29.6,28.2,3.3,80.2,High,Yes,Doctorate,59.9
+STU1545,Student_546,20,Female,66.5,48.6,39.9,33.2,0.6,100.0,Low,No,Graduate,66.1
+STU1546,Student_547,18,Male,70.9,28.8,9.8,18.9,3.7,46.3,Low,Yes,Graduate,49.0
+STU1547,Student_548,21,Female,72.5,29.6,33.2,21.8,1.6,71.7,Medium,Yes,Graduate,46.7
+STU1548,Student_549,18,Female,88.3,39.5,53.1,33.2,5.8,54.4,Medium,No,Graduate,56.9
+STU1549,Student_550,21,Male,98.1,55.9,20.0,30.7,4.0,56.9,Medium,No,High School,47.7
+STU1550,Student_551,17,Male,68.3,38.7,17.9,13.3,2.6,54.2,High,Yes,Graduate,44.2
+STU1551,Student_552,19,Female,90.9,34.8,15.0,23.6,2.1,48.1,Low,No,Post Graduate,34.7
+STU1552,Student_553,22,Male,52.0,38.2,31.3,42.5,3.0,64.4,Medium,Yes,Graduate,55.6
+STU1553,Student_554,17,Female,63.7,30.8,14.6,30.5,4.1,42.9,Medium,Yes,Post Graduate,38.5
+STU1554,Student_555,22,Male,66.5,22.1,39.9,50.4,3.2,79.2,Low,Yes,Post Graduate,60.4
+STU1555,Student_556,21,Female,61.8,29.6,38.7,43.3,2.9,65.8,Medium,Yes,High School,55.4
+STU1556,Student_557,19,Female,59.0,34.6,38.5,41.6,3.3,71.3,Low,Yes,Post Graduate,45.3
+STU1557,Student_558,19,Female,83.0,15.1,8.4,27.3,2.3,58.0,Medium,No,High School,48.1
+STU1558,Student_559,21,Female,75.4,22.6,37.5,28.9,2.7,59.5,Low,No,Graduate,47.4
+STU1559,Student_560,21,Female,82.6,12.2,33.9,28.1,0.1,69.3,Medium,Yes,High School,47.0
+STU1560,Student_561,18,Female,86.3,32.8,36.7,29.5,4.7,47.5,Medium,No,High School,44.8
+STU1561,Student_562,21,Male,81.2,41.2,33.6,15.3,3.6,59.6,High,Yes,Graduate,59.5
+STU1562,Student_563,20,Male,85.9,35.7,25.4,28.1,2.0,52.1,Low,Yes,High School,49.5
+STU1563,Student_564,21,Male,77.2,42.0,43.4,29.3,6.0,51.6,Medium,Yes,Graduate,58.3
+STU1564,Student_565,20,Female,63.8,15.6,39.2,14.6,3.3,33.4,Medium,Yes,Graduate,51.5
+STU1565,Student_566,21,Female,90.7,23.4,24.3,31.9,1.6,85.1,Medium,No,High School,49.9
+STU1566,Student_567,18,Female,70.9,21.3,41.2,33.6,4.5,54.7,Medium,No,High School,55.1
+STU1567,Student_568,20,Female,66.8,34.2,37.5,27.2,3.8,82.5,Medium,Yes,Graduate,60.2
+STU1568,Student_569,17,Male,75.9,36.7,36.6,41.0,3.8,81.0,High,Yes,High School,65.9
+STU1569,Student_570,20,Male,67.0,24.8,7.1,32.8,2.6,45.7,High,Yes,Post Graduate,36.2
+STU1570,Student_571,18,Female,73.0,23.1,23.9,20.1,3.9,48.7,Medium,Yes,Graduate,47.7
+STU1571,Student_572,22,Male,82.1,51.1,32.0,52.7,2.8,100.0,Medium,No,Post Graduate,64.3
+STU1572,Student_573,20,Male,82.2,46.7,37.3,29.3,4.0,91.3,High,Yes,Graduate,63.3
+STU1573,Student_574,21,Female,67.2,26.8,12.3,39.6,0.3,64.5,High,Yes,Graduate,57.1
+STU1574,Student_575,21,Male,72.1,44.2,25.9,27.0,2.5,68.9,High,Yes,Graduate,54.9
+STU1575,Student_576,22,Female,90.9,30.2,29.9,41.2,5.8,55.5,Medium,Yes,High School,50.3
+STU1576,Student_577,18,Male,84.0,37.9,31.0,12.4,2.0,71.5,Low,Yes,High School,44.2
+STU1577,Student_578,19,Female,100.0,28.5,8.6,24.9,2.3,54.2,Medium,Yes,Post Graduate,40.1
+STU1578,Student_579,21,Female,92.2,18.6,3.9,22.4,2.5,34.5,Medium,Yes,Graduate,46.1
+STU1579,Student_580,17,Female,91.7,29.4,22.9,18.4,1.4,45.2,Medium,Yes,Post Graduate,40.2
+STU1580,Student_581,18,Female,61.3,33.2,14.9,14.5,0.0,65.3,Medium,No,Post Graduate,43.7
+STU1581,Student_582,20,Male,87.2,20.3,34.8,17.5,2.9,48.0,High,Yes,Post Graduate,58.6
+STU1582,Student_583,20,Female,77.4,34.3,33.2,43.0,3.4,64.0,Medium,Yes,Post Graduate,54.8
+STU1583,Student_584,17,Female,71.4,31.1,30.9,27.3,3.1,48.9,High,No,Graduate,51.7
+STU1584,Student_585,21,Female,80.0,28.1,40.3,41.9,3.0,53.3,Medium,Yes,High School,44.1
+STU1585,Student_586,18,Male,89.3,45.7,32.4,31.8,3.3,77.8,Medium,No,Graduate,73.4
+STU1586,Student_587,17,Female,84.0,43.8,30.1,35.5,4.7,68.7,Medium,Yes,Graduate,66.2
+STU1587,Student_588,21,Male,67.5,49.3,38.7,38.4,2.9,64.9,High,Yes,Graduate,59.0
+STU1588,Student_589,18,Female,86.9,25.9,38.2,18.1,2.3,78.2,Low,Yes,Post Graduate,47.8
+STU1589,Student_590,20,Male,70.3,36.3,30.4,21.9,2.8,72.2,Low,Yes,Graduate,49.1
+STU1590,Student_591,18,Male,80.6,39.7,54.5,52.3,4.1,86.7,High,Yes,Graduate,69.9
+STU1591,Student_592,22,Female,74.4,44.0,31.5,28.1,5.3,58.1,Low,Yes,High School,64.0
+STU1592,Student_593,19,Male,75.4,17.4,26.6,10.4,2.3,58.6,Medium,Yes,Graduate,35.5
+STU1593,Student_594,18,Female,87.2,30.9,24.4,43.7,3.3,45.5,Medium,Yes,High School,48.9
+STU1594,Student_595,19,Female,65.5,29.5,20.4,19.8,3.7,58.6,Medium,Yes,Post Graduate,49.4
+STU1595,Student_596,18,Female,100.0,31.0,32.9,32.3,1.7,79.5,Medium,No,High School,51.6
+STU1596,Student_597,19,Male,56.1,31.8,51.5,38.8,3.2,84.5,Low,No,High School,52.4
+STU1597,Student_598,22,Male,70.8,31.0,34.7,2.5,1.0,79.4,Medium,No,High School,43.0
+STU1598,Student_599,20,Female,82.4,25.4,14.9,11.0,0.5,38.1,Medium,Yes,Graduate,40.0
+STU1599,Student_600,21,Female,85.0,43.7,36.3,43.6,3.8,81.2,Medium,Yes,Graduate,67.8
+STU1600,Student_601,19,Male,76.8,27.8,22.9,24.8,2.6,37.4,Low,Yes,High School,39.5
+STU1601,Student_602,22,Female,77.3,55.2,43.7,45.7,3.5,78.5,Medium,Yes,High School,45.6
+STU1602,Student_603,19,Female,82.9,35.5,34.9,27.2,3.2,59.5,Low,Yes,Graduate,51.8
+STU1603,Student_604,20,Female,75.2,30.8,27.4,35.9,1.7,75.5,Low,Yes,High School,37.5
+STU1604,Student_605,19,Male,94.7,31.0,26.7,19.7,3.1,45.0,Low,Yes,Graduate,48.0
+STU1605,Student_606,22,Male,88.1,32.9,37.2,17.7,1.4,82.6,Low,Yes,Graduate,59.9
+STU1606,Student_607,22,Male,88.5,29.1,18.2,22.4,5.3,43.0,High,Yes,Graduate,46.6
+STU1607,Student_608,17,Female,66.4,13.4,23.9,8.1,1.2,55.0,Low,Yes,High School,30.7
+STU1608,Student_609,20,Female,77.0,36.1,3.1,35.7,2.9,50.0,High,Yes,Doctorate,48.4
+STU1609,Student_610,17,Female,74.4,17.2,22.4,4.4,1.6,38.7,High,No,Graduate,43.2
+STU1610,Student_611,20,Male,65.9,40.3,40.1,38.8,4.1,66.4,Medium,Yes,Graduate,58.9
+STU1611,Student_612,19,Female,82.3,36.7,46.5,36.0,2.7,92.1,Low,Yes,High School,68.7
+STU1612,Student_613,22,Female,71.5,50.7,37.0,38.7,2.4,100.0,Medium,Yes,Graduate,67.9
+STU1613,Student_614,17,Female,85.9,34.0,37.6,50.2,4.5,66.5,High,Yes,High School,63.6
+STU1614,Student_615,19,Female,65.2,41.2,50.9,33.4,3.2,81.8,Medium,Yes,Graduate,61.7
+STU1615,Student_616,22,Male,98.6,46.4,48.1,42.1,4.0,68.5,Low,Yes,Doctorate,69.7
+STU1616,Student_617,20,Male,67.2,40.4,29.3,28.9,1.7,72.5,Medium,Yes,Graduate,41.6
+STU1617,Student_618,22,Female,80.6,27.1,25.1,21.0,1.1,59.9,High,Yes,High School,46.1
+STU1618,Student_619,19,Male,87.5,23.2,43.4,54.7,3.4,67.9,High,Yes,High School,59.5
+STU1619,Student_620,17,Male,71.2,61.3,17.3,19.8,2.7,73.1,Low,Yes,Graduate,57.0
+STU1620,Student_621,17,Female,88.2,48.8,26.7,44.9,4.1,56.3,Medium,No,High School,53.5
+STU1621,Student_622,22,Female,63.2,40.6,43.4,37.4,3.1,63.8,Low,Yes,High School,44.5
+STU1622,Student_623,19,Male,95.4,30.1,40.9,28.9,3.5,64.1,Low,Yes,Post Graduate,55.1
+STU1623,Student_624,18,Female,78.2,32.5,32.8,41.1,0.8,77.4,High,No,Graduate,47.9
+STU1624,Student_625,20,Male,70.8,33.3,17.1,22.1,6.0,49.0,Low,Yes,High School,34.3
+STU1625,Student_626,20,Female,74.4,44.8,29.5,26.6,3.0,64.2,Low,Yes,Post Graduate,57.2
+STU1626,Student_627,19,Male,87.7,52.2,37.4,34.0,4.2,93.7,Low,Yes,High School,67.2
+STU1627,Student_628,18,Female,71.0,32.4,36.9,36.1,1.9,82.5,High,Yes,Doctorate,64.8
+STU1628,Student_629,17,Male,69.0,41.4,31.0,30.3,3.7,85.2,High,No,High School,66.9
+STU1629,Student_630,21,Male,75.3,38.7,15.6,28.3,1.2,65.4,Medium,Yes,Post Graduate,45.6
+STU1630,Student_631,21,Male,63.9,52.4,13.5,34.9,3.9,69.8,High,No,Graduate,48.8
+STU1631,Student_632,19,Female,99.8,52.3,47.0,30.5,2.7,80.0,Low,Yes,Post Graduate,63.0
+STU1632,Student_633,18,Male,71.2,51.0,34.9,42.8,3.2,88.4,Medium,Yes,Doctorate,65.4
+STU1633,Student_634,18,Male,88.0,24.9,24.6,25.1,4.2,35.7,Medium,Yes,High School,38.5
+STU1634,Student_635,20,Female,80.5,0.0,19.3,9.4,1.4,45.3,Low,Yes,Doctorate,33.0
+STU1635,Student_636,17,Female,66.2,42.8,24.4,59.4,2.2,84.6,Medium,Yes,Graduate,56.6
+STU1636,Student_637,22,Male,,,,29.5,,60.8,High,No,Graduate,42.2
+STU1637,Student_638,18,Male,87.4,42.0,24.9,21.7,6.3,54.9,Low,Yes,High School,49.8
+STU1638,Student_639,22,Female,75.7,27.9,16.4,18.3,3.0,46.2,Low,No,Graduate,31.1
+STU1639,Student_640,21,Female,92.3,24.4,33.8,22.0,4.1,56.7,Low,Yes,High School,48.2
+STU1640,Student_641,22,Female,90.3,31.1,14.9,32.6,3.0,44.0,Low,No,Graduate,37.4
+STU1641,Student_642,17,Female,89.0,61.9,66.5,56.2,6.1,96.4,High,Yes,Graduate,92.7
+STU1642,Student_643,17,Female,72.5,33.1,34.4,25.4,0.6,64.7,Medium,Yes,Post Graduate,58.8
+STU1643,Student_644,22,Male,65.0,43.1,38.8,29.1,3.3,64.1,Medium,No,Post Graduate,59.0
+STU1644,Student_645,19,Female,70.6,36.8,26.6,22.8,0.8,73.8,High,Yes,Graduate,42.6
+STU1645,Student_646,18,Male,80.4,28.5,42.9,20.5,0.0,79.4,Low,Yes,High School,54.1
+STU1646,Student_647,19,Male,84.5,41.9,34.5,37.4,3.6,79.2,Medium,Yes,High School,69.1
+STU1647,Student_648,22,Male,51.9,43.4,36.6,45.4,3.4,81.1,Medium,Yes,High School,58.4
+STU1648,Student_649,18,Female,77.9,31.5,28.1,30.9,2.8,55.5,Medium,No,High School,53.4
+STU1649,Student_650,20,Male,79.9,41.2,35.7,34.7,3.0,60.5,High,Yes,High School,52.6
+STU1650,Student_651,19,Male,74.7,59.1,52.6,58.6,7.8,76.5,High,Yes,High School,67.5
+STU1651,Student_652,19,Female,93.5,47.9,22.2,36.3,2.8,57.1,Medium,Yes,Doctorate,53.0
+STU1652,Student_653,22,Male,83.1,55.6,27.4,38.1,4.0,64.9,High,Yes,Graduate,73.9
+STU1653,Student_654,21,Male,93.7,35.6,36.7,33.3,2.2,71.0,Low,Yes,High School,42.2
+STU1654,Student_655,22,Female,75.4,10.8,43.0,48.1,3.6,76.8,Low,Yes,Graduate,53.8
+STU1655,Student_656,19,Male,89.2,33.6,16.5,16.7,2.8,38.3,Low,Yes,High School,38.0
+STU1656,Student_657,18,Male,97.6,33.8,17.1,25.4,2.6,75.7,Medium,Yes,Graduate,50.9
+STU1657,Student_658,21,Male,93.7,35.9,34.2,31.4,5.9,61.5,Medium,Yes,Graduate,57.9
+STU1658,Student_659,22,Female,64.9,42.1,45.2,44.3,5.0,75.6,Medium,Yes,Graduate,64.7
+STU1659,Student_660,22,Female,75.0,37.3,53.4,19.9,3.4,76.7,High,Yes,Graduate,58.6
+STU1660,Student_661,19,Female,73.9,40.5,19.2,30.9,0.0,89.1,Medium,Yes,Doctorate,46.7
+STU1661,Student_662,19,Male,83.9,29.7,32.3,35.4,2.7,85.3,Medium,Yes,Post Graduate,61.5
+STU1662,Student_663,20,Male,86.2,47.4,44.2,65.0,7.3,85.2,Low,Yes,Graduate,80.8
+STU1663,Student_664,22,Female,67.9,46.1,51.2,31.6,2.9,86.7,Low,Yes,Graduate,65.1
+STU1664,Student_665,19,Male,,,,38.6,,69.4,Medium,Yes,Graduate,57.9
+STU1665,Student_666,17,Male,53.8,47.5,27.4,51.3,5.4,65.5,Medium,Yes,High School,51.4
+STU1666,Student_667,21,Female,95.3,35.4,41.7,49.9,3.5,78.1,High,Yes,Graduate,65.2
+STU1667,Student_668,17,Female,71.9,28.3,27.3,24.3,1.9,76.0,Low,Yes,High School,54.8
+STU1668,Student_669,21,Male,78.7,20.1,8.9,19.8,0.0,60.4,Low,Yes,Graduate,39.2
+STU1669,Student_670,22,Male,74.3,43.0,26.5,40.8,4.2,71.1,Medium,Yes,Graduate,63.5
+STU1670,Student_671,20,Male,91.8,43.7,44.9,30.7,2.0,64.5,Low,Yes,High School,56.7
+STU1671,Student_672,19,Female,43.9,15.0,30.9,27.3,3.5,52.2,Low,No,Doctorate,43.7
+STU1672,Student_673,19,Female,77.8,35.9,33.9,42.1,1.3,84.4,Medium,Yes,Post Graduate,59.8
+STU1673,Student_674,19,Female,76.7,24.1,27.5,13.9,2.8,65.8,Low,Yes,Post Graduate,50.7
+STU1674,Student_675,22,Female,72.6,35.0,44.7,38.1,3.3,95.7,Medium,Yes,Graduate,60.9
+STU1675,Student_676,21,Male,98.7,34.8,26.0,30.6,3.6,40.6,Low,Yes,Post Graduate,40.2
+STU1676,Student_677,19,Female,67.4,31.5,26.5,27.1,1.5,56.6,Low,Yes,High School,44.6
+STU1677,Student_678,17,Female,87.3,44.8,36.6,51.8,5.0,65.5,Medium,No,Post Graduate,71.8
+STU1678,Student_679,19,Female,82.3,47.1,43.2,44.6,2.3,82.1,High,Yes,High School,57.2
+STU1679,Student_680,22,Female,93.1,26.7,26.8,21.5,0.7,71.0,Medium,Yes,Post Graduate,55.0
+STU1680,Student_681,20,Female,70.0,33.4,22.1,44.6,3.0,69.7,High,Yes,High School,65.2
+STU1681,Student_682,17,Male,69.2,46.6,19.0,21.2,3.3,48.1,Low,Yes,Post Graduate,46.9
+STU1682,Student_683,19,Male,91.2,27.3,5.4,36.3,3.4,47.6,High,Yes,Doctorate,47.6
+STU1683,Student_684,19,Female,,,,58.0,,69.8,Low,Yes,High School,66.1
+STU1684,Student_685,18,Male,59.5,26.3,31.2,35.5,2.8,44.5,Medium,Yes,Graduate,41.6
+STU1685,Student_686,21,Female,71.5,17.0,19.1,30.1,3.0,57.0,Medium,Yes,Doctorate,44.5
+STU1686,Student_687,17,Female,82.6,17.1,26.3,24.8,1.5,72.5,High,Yes,Graduate,53.1
+STU1687,Student_688,18,Male,88.1,28.7,22.2,18.9,4.4,50.3,Medium,Yes,Post Graduate,41.5
+STU1688,Student_689,20,Male,69.8,54.6,55.4,43.5,3.5,89.1,Low,Yes,Graduate,57.3
+STU1689,Student_690,21,Female,43.0,47.5,21.5,25.4,2.6,83.4,Low,Yes,Graduate,51.0
+STU1690,Student_691,17,Female,84.3,24.8,16.4,6.5,0.3,41.4,High,Yes,High School,35.6
+STU1691,Student_692,19,Female,63.4,28.7,30.3,26.2,5.4,51.0,Medium,Yes,High School,51.2
+STU1692,Student_693,17,Male,53.8,29.4,22.5,10.7,1.4,30.7,High,Yes,Post Graduate,50.0
+STU1693,Student_694,19,Female,44.0,20.5,23.4,24.9,2.3,53.3,Low,Yes,Graduate,38.3
+STU1694,Student_695,21,Female,87.8,43.4,18.4,40.2,3.7,76.5,Medium,No,Graduate,61.4
+STU1695,Student_696,19,Female,79.5,27.6,21.6,17.8,1.4,58.8,Low,Yes,Graduate,35.0
+STU1696,Student_697,20,Male,75.3,30.4,17.9,35.2,1.0,71.9,High,Yes,Graduate,56.2
+STU1697,Student_698,22,Female,94.7,27.6,15.6,10.8,0.0,42.2,Medium,Yes,Post Graduate,35.3
+STU1698,Student_699,19,Female,85.6,38.1,52.0,33.2,4.3,77.0,High,Yes,Doctorate,70.2
+STU1699,Student_700,20,Male,97.4,19.1,8.5,28.6,2.4,56.7,Low,Yes,Graduate,41.4
+STU1700,Student_701,22,Female,61.3,49.0,33.8,67.6,7.6,65.2,Medium,Yes,Post Graduate,77.8
+STU1701,Student_702,21,Female,77.6,27.3,21.0,28.9,1.7,63.6,Medium,No,Post Graduate,39.1
+STU1702,Student_703,21,Male,58.6,50.8,16.7,17.7,1.8,45.9,Medium,Yes,Graduate,29.6
+STU1703,Student_704,17,Female,75.2,31.7,30.1,10.2,2.4,47.7,High,Yes,Doctorate,48.3
+STU1704,Student_705,20,Male,75.0,39.3,35.1,36.3,3.6,79.5,High,Yes,High School,64.0
+STU1705,Student_706,20,Male,85.5,27.5,35.3,33.4,2.5,71.0,High,No,High School,54.0
+STU1706,Student_707,18,Female,78.5,29.6,32.3,37.2,4.1,80.8,Medium,Yes,Post Graduate,69.0
+STU1707,Student_708,18,Female,85.5,24.9,31.0,12.8,1.7,69.9,Low,No,Graduate,45.6
+STU1708,Student_709,22,Female,86.4,31.1,34.0,16.9,1.1,67.1,Low,Yes,Post Graduate,44.1
+STU1709,Student_710,22,Female,100.0,28.6,7.6,26.8,0.5,39.1,High,No,Post Graduate,27.7
+STU1710,Student_711,18,Male,74.2,33.3,29.1,31.2,0.0,60.9,Low,Yes,High School,38.9
+STU1711,Student_712,22,Female,66.7,34.9,29.1,21.0,2.4,64.6,Medium,No,Post Graduate,55.3
+STU1712,Student_713,19,Male,81.0,43.2,50.2,45.1,2.7,94.3,Medium,Yes,Graduate,64.7
+STU1713,Student_714,18,Female,68.4,39.2,30.1,21.2,2.3,75.3,Medium,No,Graduate,51.0
+STU1714,Student_715,20,Female,95.8,46.4,47.4,59.4,5.1,88.0,High,Yes,Graduate,79.6
+STU1715,Student_716,19,Female,74.6,58.3,38.0,44.4,5.0,74.0,Medium,Yes,Doctorate,63.9
+STU1716,Student_717,22,Male,71.2,28.3,24.8,35.6,2.7,54.3,Medium,Yes,High School,49.6
+STU1717,Student_718,21,Female,72.3,27.5,27.2,6.6,0.5,66.8,Low,Yes,Graduate,49.3
+STU1718,Student_719,17,Female,86.6,16.6,35.1,35.8,2.3,68.5,Medium,Yes,Graduate,50.3
+STU1719,Student_720,18,Female,76.1,25.7,11.1,24.4,2.3,50.9,Low,Yes,Post Graduate,34.6
+STU1720,Student_721,21,Female,70.3,37.0,40.6,34.2,2.2,59.2,Medium,Yes,Graduate,51.5
+STU1721,Student_722,22,Male,98.0,22.8,8.6,35.6,2.2,61.9,High,Yes,High School,35.5
+STU1722,Student_723,20,Female,67.7,36.2,29.8,36.1,2.2,89.1,High,No,High School,58.6
+STU1723,Student_724,17,Male,78.4,27.7,17.4,15.1,2.6,33.8,Low,Yes,Graduate,38.6
+STU1724,Student_725,21,Male,85.8,28.0,38.7,40.7,2.2,83.1,Medium,No,Post Graduate,68.3
+STU1725,Student_726,17,Male,58.4,39.3,42.3,28.7,3.5,50.9,High,Yes,High School,50.9
+STU1726,Student_727,18,Male,83.8,24.6,6.2,20.3,3.7,44.4,Low,Yes,High School,40.2
+STU1727,Student_728,22,Male,65.3,35.4,28.4,23.7,1.8,82.7,Low,Yes,Doctorate,47.5
+STU1728,Student_729,20,Male,87.9,36.7,18.1,29.9,5.1,76.0,Low,Yes,High School,52.4
+STU1729,Student_730,22,Female,66.4,41.6,33.9,27.3,1.7,83.8,Medium,Yes,Doctorate,49.3
+STU1730,Student_731,17,Male,86.3,52.9,31.7,36.2,0.8,77.0,Low,Yes,Graduate,53.1
+STU1731,Student_732,21,Male,91.3,56.0,59.0,45.6,3.8,95.9,High,Yes,Post Graduate,77.8
+STU1732,Student_733,18,Male,88.3,28.4,31.9,25.3,2.0,73.4,Medium,Yes,High School,52.2
+STU1733,Student_734,18,Female,81.0,45.3,41.6,40.9,3.7,62.7,Medium,No,High School,51.9
+STU1734,Student_735,22,Female,75.2,25.5,30.4,13.5,0.0,70.1,Low,No,Post Graduate,41.2
+STU1735,Student_736,21,Male,71.1,60.4,38.2,47.2,5.3,83.7,Medium,Yes,Post Graduate,70.5
+STU1736,Student_737,21,Female,95.7,40.4,15.1,31.2,4.2,53.3,Medium,Yes,Post Graduate,53.3
+STU1737,Student_738,17,Male,69.6,1.2,24.3,27.2,0.9,55.2,High,Yes,High School,39.0
+STU1738,Student_739,22,Male,65.6,19.1,8.7,7.9,1.0,60.4,High,Yes,Post Graduate,42.2
+STU1739,Student_740,22,Female,86.0,38.0,38.9,25.2,5.7,33.4,Medium,Yes,Post Graduate,59.1
+STU1740,Student_741,19,Male,68.4,34.4,27.1,13.8,2.1,67.1,High,Yes,Graduate,50.1
+STU1741,Student_742,22,Female,66.6,12.2,29.5,16.3,1.9,36.7,High,Yes,Post Graduate,38.8
+STU1742,Student_743,18,Female,60.7,21.3,18.2,30.6,0.0,65.8,High,No,Post Graduate,43.0
+STU1743,Student_744,17,Male,72.2,24.1,36.7,29.7,2.7,78.0,Low,Yes,Graduate,46.6
+STU1744,Student_745,21,Male,77.0,31.1,29.6,24.3,2.9,57.8,Low,Yes,High School,42.1
+STU1745,Student_746,22,Female,80.9,66.7,41.9,52.1,4.3,90.2,Low,Yes,Graduate,82.9
+STU1746,Student_747,17,Male,89.4,27.0,13.5,26.9,1.1,43.1,Medium,Yes,High School,32.9
+STU1747,Student_748,22,Male,84.3,53.4,35.2,27.7,0.9,82.9,Medium,Yes,Graduate,56.4
+STU1748,Student_749,21,Male,75.7,48.8,26.8,44.3,3.9,75.1,Medium,No,Graduate,57.2
+STU1749,Student_750,20,Female,75.6,38.0,13.4,20.9,4.7,39.3,High,Yes,High School,46.0
+STU1750,Student_751,21,Female,84.1,58.2,49.4,45.6,0.8,100.0,High,No,High School,64.9
+STU1751,Student_752,21,Male,93.3,43.0,41.7,57.7,4.8,64.0,High,Yes,High School,68.1
+STU1752,Student_753,21,Female,79.5,29.1,27.0,33.4,3.3,51.8,Medium,Yes,Post Graduate,41.1
+STU1753,Student_754,22,Female,72.4,40.2,44.0,13.6,4.8,43.9,Medium,Yes,Doctorate,60.7
+STU1754,Student_755,19,Female,66.1,45.6,26.7,25.9,3.1,61.7,Low,Yes,High School,51.0
+STU1755,Student_756,21,Female,60.7,21.4,35.3,24.4,0.0,63.1,Low,No,Doctorate,32.6
+STU1756,Student_757,18,Female,86.0,29.8,32.5,28.2,3.0,66.5,Low,No,Graduate,34.7
+STU1757,Student_758,18,Male,84.9,39.7,22.9,48.8,4.8,60.5,Medium,Yes,High School,51.0
+STU1758,Student_759,17,Male,84.9,42.2,49.3,35.2,1.9,74.5,Medium,Yes,High School,55.6
+STU1759,Student_760,19,Male,76.5,37.9,37.1,21.8,2.6,59.2,High,Yes,Graduate,69.5
+STU1760,Student_761,17,Female,94.9,11.7,18.6,22.7,2.9,36.0,Low,No,Post Graduate,40.1
+STU1761,Student_762,18,Female,72.2,40.4,29.3,10.8,0.0,62.8,Medium,Yes,Post Graduate,35.2
+STU1762,Student_763,18,Male,89.5,23.8,20.5,30.0,5.7,29.5,Medium,Yes,High School,40.9
+STU1763,Student_764,20,Female,77.5,31.4,37.4,23.3,1.8,70.3,Low,Yes,High School,46.0
+STU1764,Student_765,21,Male,70.7,24.9,3.7,41.7,4.0,50.3,Medium,Yes,Graduate,48.0
+STU1765,Student_766,18,Male,85.1,57.9,21.2,51.7,3.1,67.5,Low,Yes,High School,48.2
+STU1766,Student_767,22,Male,82.9,51.1,52.2,32.9,5.1,84.7,Medium,Yes,High School,66.8
+STU1767,Student_768,22,Female,82.3,24.9,24.8,13.1,3.8,50.8,Medium,No,High School,37.9
+STU1768,Student_769,17,Female,79.0,47.7,37.4,33.3,2.8,80.9,Low,Yes,Post Graduate,53.2
+STU1769,Student_770,17,Male,77.5,35.3,11.8,11.5,1.9,58.5,Low,Yes,Doctorate,45.3
+STU1770,Student_771,21,Male,100.0,48.2,61.4,45.4,4.4,91.3,Medium,No,Graduate,76.9
+STU1771,Student_772,21,Male,92.2,31.7,33.7,26.2,0.4,59.5,High,Yes,Post Graduate,57.3
+STU1772,Student_773,20,Male,86.7,27.0,26.8,46.0,4.2,52.4,Medium,No,High School,52.9
+STU1773,Student_774,19,Female,79.3,31.0,26.3,30.8,1.6,75.3,Medium,Yes,Graduate,48.7
+STU1774,Student_775,17,Female,90.1,22.6,43.5,36.2,5.1,58.5,Medium,Yes,High School,59.6
+STU1775,Student_776,21,Male,84.2,20.6,46.7,11.5,3.4,52.4,High,No,Graduate,51.0
+STU1776,Student_777,17,Male,78.3,50.2,40.3,34.4,4.2,57.8,High,Yes,Doctorate,65.7
+STU1777,Student_778,21,Female,74.4,48.8,52.5,33.1,3.3,64.3,Medium,Yes,Graduate,56.0
+STU1778,Student_779,18,Female,77.0,36.4,22.1,33.7,0.6,85.1,Medium,Yes,Graduate,49.8
+STU1779,Student_780,17,Male,40.0,33.4,9.2,12.0,1.9,36.0,High,Yes,Graduate,37.1
+STU1780,Student_781,18,Male,80.5,37.4,21.5,32.5,4.2,65.3,Medium,Yes,High School,68.0
+STU1781,Student_782,17,Male,72.1,38.0,39.0,22.6,3.4,74.4,Medium,Yes,Post Graduate,60.3
+STU1782,Student_783,19,Female,97.1,42.6,38.0,19.7,5.0,67.9,Low,No,Graduate,52.2
+STU1783,Student_784,20,Female,78.2,44.2,37.6,30.6,3.8,84.6,High,Yes,Graduate,60.6
+STU1784,Student_785,22,Female,63.7,28.9,34.7,11.8,1.7,63.9,High,Yes,Graduate,45.5
+STU1785,Student_786,22,Male,77.4,40.0,39.1,29.7,2.0,62.2,Low,Yes,Graduate,62.7
+STU1786,Student_787,22,Male,65.4,41.0,19.1,31.1,3.4,73.9,Medium,Yes,High School,50.1
+STU1787,Student_788,18,Female,83.7,32.3,17.3,15.1,0.0,66.5,Medium,Yes,Graduate,48.8
+STU1788,Student_789,21,Female,81.5,49.0,43.1,31.7,5.7,59.1,Low,No,High School,53.1
+STU1789,Student_790,22,Male,89.5,43.9,30.5,8.3,3.9,72.7,High,Yes,Post Graduate,63.1
+STU1790,Student_791,19,Female,68.5,29.3,23.8,50.1,5.0,55.2,Low,Yes,Post Graduate,58.3
+STU1791,Student_792,22,Female,78.4,13.9,31.7,10.9,0.8,55.8,Low,Yes,Post Graduate,35.1
+STU1792,Student_793,17,Male,61.6,39.3,19.8,33.8,5.1,57.1,Medium,Yes,Graduate,49.7
+STU1793,Student_794,18,Female,86.4,52.2,43.1,38.5,6.5,85.3,Medium,Yes,Graduate,82.6
+STU1794,Student_795,17,Male,84.2,12.3,13.3,19.5,1.2,20.0,Low,Yes,High School,31.1
+STU1795,Student_796,17,Male,83.9,41.4,30.1,40.2,4.4,70.9,Medium,No,Post Graduate,65.5
+STU1796,Student_797,17,Male,78.0,56.5,38.8,25.0,3.2,65.5,Medium,Yes,High School,61.2
+STU1797,Student_798,20,Male,83.0,8.0,10.5,12.0,0.9,39.8,Low,Yes,Graduate,31.8
+STU1798,Student_799,20,Male,97.3,23.6,48.2,51.6,3.9,69.6,Low,Yes,High School,68.7
+STU1799,Student_800,21,Male,74.6,45.0,35.2,39.0,4.5,72.1,Medium,Yes,High School,59.9
+STU1800,Student_801,18,Male,79.7,33.4,38.3,29.7,2.3,73.8,Low,Yes,Graduate,55.4
+STU1801,Student_802,19,Female,65.0,27.3,28.5,18.7,4.9,25.2,High,Yes,High School,34.4
+STU1802,Student_803,19,Male,67.6,41.0,25.4,11.4,0.7,85.5,High,Yes,Post Graduate,50.3
+STU1803,Student_804,19,Male,79.2,34.8,0.8,18.7,1.0,53.9,High,Yes,High School,34.1
+STU1804,Student_805,17,Female,91.2,28.3,38.5,39.1,3.4,75.3,Low,Yes,High School,61.7
+STU1805,Student_806,20,Female,74.9,35.6,35.4,45.5,3.2,76.1,High,Yes,Graduate,46.9
+STU1806,Student_807,18,Female,75.2,30.5,28.9,3.7,2.1,51.8,Medium,No,High School,36.2
+STU1807,Student_808,17,Male,73.1,49.3,34.9,29.9,4.4,74.9,Medium,No,High School,39.5
+STU1808,Student_809,20,Female,71.6,53.2,26.4,28.5,4.0,59.2,Low,Yes,Post Graduate,49.8
+STU1809,Student_810,20,Male,81.5,34.7,43.2,28.1,4.5,33.9,Low,No,High School,40.3
+STU1810,Student_811,22,Male,60.0,41.5,21.7,35.4,3.0,82.5,Medium,Yes,Post Graduate,66.8
+STU1811,Student_812,22,Male,93.4,26.5,36.3,31.3,4.1,53.4,Medium,Yes,High School,53.7
+STU1812,Student_813,18,Male,70.0,23.9,18.8,29.3,2.5,52.2,Low,Yes,High School,34.0
+STU1813,Student_814,18,Female,86.7,37.8,33.0,34.8,6.3,59.0,Medium,Yes,Post Graduate,69.1
+STU1814,Student_815,18,Female,62.8,38.9,26.0,37.1,2.0,69.1,Low,Yes,High School,46.9
+STU1815,Student_816,17,Male,86.0,46.9,30.4,48.7,6.4,64.1,Medium,No,High School,61.9
+STU1816,Student_817,21,Male,86.1,28.6,39.6,32.3,3.3,73.2,Medium,Yes,Graduate,49.8
+STU1817,Student_818,18,Male,,,,32.3,,44.9,High,Yes,High School,37.0
+STU1818,Student_819,22,Female,66.1,44.5,36.8,51.4,5.3,53.9,High,Yes,Post Graduate,59.9
+STU1819,Student_820,21,Male,81.0,38.3,31.7,41.0,3.4,63.3,Medium,No,High School,52.6
+STU1820,Student_821,17,Male,63.8,55.4,34.1,18.9,4.5,93.5,Medium,Yes,Post Graduate,67.3
+STU1821,Student_822,21,Female,75.0,43.4,39.8,53.2,5.0,63.3,Medium,Yes,Post Graduate,74.2
+STU1822,Student_823,19,Female,90.4,56.6,59.3,46.3,3.7,81.3,High,Yes,Graduate,76.2
+STU1823,Student_824,21,Male,87.6,35.0,24.9,46.9,2.3,65.6,Medium,Yes,Post Graduate,40.3
+STU1824,Student_825,18,Female,78.2,34.1,28.2,47.2,4.7,57.7,Low,No,Graduate,53.4
+STU1825,Student_826,17,Female,66.3,26.8,23.8,45.4,3.2,61.3,Low,No,Doctorate,40.4
+STU1826,Student_827,18,Male,85.7,39.6,27.5,43.5,4.2,62.5,Medium,Yes,High School,50.4
+STU1827,Student_828,22,Female,78.2,10.1,0.0,34.4,0.0,74.1,Medium,No,Graduate,33.7
+STU1828,Student_829,19,Male,50.2,44.5,43.8,59.2,3.9,85.6,High,Yes,Graduate,64.6
+STU1829,Student_830,22,Female,87.4,33.1,21.7,31.9,2.2,70.4,Low,No,Graduate,39.1
+STU1830,Student_831,18,Male,77.7,39.3,27.1,33.5,5.7,82.8,Medium,Yes,Graduate,65.0
+STU1831,Student_832,18,Male,92.4,25.1,35.5,28.8,4.1,50.5,High,Yes,Post Graduate,48.3
+STU1832,Student_833,18,Male,64.9,40.8,18.8,35.5,3.6,58.8,High,Yes,High School,54.8
+STU1833,Student_834,20,Female,40.0,35.2,25.3,32.5,3.9,54.1,Medium,Yes,High School,59.5
+STU1834,Student_835,19,Male,81.3,33.8,43.3,16.5,1.7,69.7,Medium,Yes,Post Graduate,45.7
+STU1835,Student_836,18,Female,81.5,43.1,20.8,25.6,5.6,59.6,Medium,Yes,Graduate,55.1
+STU1836,Student_837,18,Male,57.7,49.7,26.7,40.9,6.2,75.9,High,Yes,Doctorate,55.1
+STU1837,Student_838,22,Male,66.3,41.7,30.0,37.8,3.8,51.0,Low,Yes,Post Graduate,49.7
+STU1838,Student_839,22,Female,100.0,44.0,48.5,56.3,5.6,65.6,High,Yes,Doctorate,79.0
+STU1839,Student_840,18,Male,74.3,25.4,16.4,40.0,2.3,75.3,Medium,Yes,Post Graduate,57.7
+STU1840,Student_841,17,Male,86.8,32.6,21.0,27.7,2.0,34.0,Medium,No,High School,38.5
+STU1841,Student_842,20,Female,70.2,51.6,47.9,41.5,3.3,96.8,Low,Yes,High School,68.9
+STU1842,Student_843,22,Male,52.9,31.3,10.4,18.2,3.9,60.8,Medium,Yes,Post Graduate,63.1
+STU1843,Student_844,17,Male,76.0,11.6,26.6,16.7,2.6,34.6,Medium,Yes,Graduate,47.5
+STU1844,Student_845,20,Male,74.8,42.1,42.4,33.9,4.0,67.4,Low,No,High School,49.1
+STU1845,Student_846,18,Male,73.2,36.4,29.1,30.0,3.7,65.5,Medium,Yes,Graduate,45.5
+STU1846,Student_847,19,Female,76.6,43.2,39.1,26.4,1.7,63.8,High,Yes,Doctorate,56.0
+STU1847,Student_848,21,Female,81.2,41.2,49.3,43.9,4.0,79.9,Medium,No,Graduate,57.6
+STU1848,Student_849,21,Male,76.2,37.3,39.0,48.5,4.5,76.2,Medium,No,Graduate,64.0
+STU1849,Student_850,18,Female,62.8,45.5,28.6,32.3,3.5,69.5,Low,Yes,Graduate,45.8
+STU1850,Student_851,22,Male,83.8,50.8,27.7,24.0,4.9,71.8,Medium,Yes,High School,58.6
+STU1851,Student_852,17,Female,54.6,30.9,25.3,20.3,1.4,63.4,Low,Yes,Graduate,46.2
+STU1852,Student_853,19,Male,53.4,53.8,47.5,43.5,3.9,91.6,Medium,No,Graduate,64.8
+STU1853,Student_854,20,Male,86.9,21.0,15.2,29.4,1.4,42.8,High,Yes,High School,35.4
+STU1854,Student_855,18,Male,84.1,33.2,5.3,21.0,1.5,67.1,Medium,Yes,Post Graduate,54.8
+STU1855,Student_856,19,Male,77.3,42.6,41.5,33.6,2.3,66.0,Low,No,Graduate,39.3
+STU1856,Student_857,19,Male,61.3,41.3,33.4,33.0,1.8,77.2,Medium,Yes,Post Graduate,54.3
+STU1857,Student_858,22,Male,69.5,26.8,20.5,25.7,2.4,52.3,Medium,Yes,Post Graduate,45.9
+STU1858,Student_859,20,Female,74.8,35.0,29.4,31.6,2.9,38.8,Medium,Yes,High School,44.2
+STU1859,Student_860,19,Male,58.8,21.5,50.1,32.3,4.5,67.4,High,Yes,Graduate,59.5
+STU1860,Student_861,22,Female,69.1,52.2,3.0,26.4,2.7,69.2,High,Yes,Graduate,58.1
+STU1861,Student_862,17,Male,85.8,23.7,36.9,29.3,0.8,87.3,Medium,Yes,Post Graduate,55.5
+STU1862,Student_863,22,Female,95.1,28.0,14.0,27.6,4.9,45.9,Medium,Yes,High School,45.4
+STU1863,Student_864,17,Female,73.0,38.3,38.5,36.9,1.9,82.3,Low,Yes,Graduate,52.2
+STU1864,Student_865,17,Female,87.1,48.1,44.0,36.0,3.1,100.0,Low,No,Graduate,59.9
+STU1865,Student_866,19,Male,55.0,43.5,36.9,35.4,3.9,59.3,Medium,Yes,High School,57.4
+STU1866,Student_867,22,Male,85.9,20.3,19.7,26.8,3.5,45.6,Medium,No,High School,37.1
+STU1867,Student_868,17,Female,68.4,40.0,13.9,38.8,4.8,58.9,Medium,Yes,Graduate,59.2
+STU1868,Student_869,20,Male,81.7,33.2,28.1,31.0,3.9,65.2,Medium,No,Post Graduate,54.9
+STU1869,Student_870,19,Female,75.0,37.5,34.5,26.6,1.9,73.5,Low,Yes,High School,45.2
+STU1870,Student_871,22,Male,93.8,41.4,46.0,43.7,6.5,56.1,Medium,Yes,Graduate,68.9
+STU1871,Student_872,22,Female,67.5,46.6,27.9,42.3,3.5,88.3,Low,Yes,Graduate,55.3
+STU1872,Student_873,21,Female,85.5,23.9,34.7,26.5,3.0,48.3,Low,No,Post Graduate,48.4
+STU1873,Student_874,22,Male,74.6,25.3,18.6,45.4,4.6,38.9,High,Yes,High School,50.3
+STU1874,Student_875,19,Female,76.1,45.7,41.2,30.0,3.6,81.6,Low,Yes,Post Graduate,57.5
+STU1875,Student_876,20,Male,75.8,31.3,15.2,23.9,3.8,30.9,Medium,Yes,High School,43.2
+STU1876,Student_877,22,Female,67.9,40.7,40.7,32.0,6.9,61.9,Low,No,Graduate,60.4
+STU1877,Student_878,21,Female,77.8,41.4,50.9,44.5,2.8,100.0,High,Yes,High School,75.9
+STU1878,Student_879,19,Male,77.2,38.9,17.2,20.2,2.7,64.8,Medium,Yes,High School,53.5
+STU1879,Student_880,17,Male,80.9,29.2,18.6,25.6,3.4,48.2,Low,Yes,Graduate,46.4
+STU1880,Student_881,18,Male,79.0,46.7,36.3,35.1,4.8,64.1,Medium,No,High School,49.8
+STU1881,Student_882,18,Female,87.6,21.1,48.7,25.4,0.9,64.2,Medium,Yes,Post Graduate,65.6
+STU1882,Student_883,17,Male,89.1,13.6,15.7,16.4,0.3,67.4,High,Yes,High School,33.5
+STU1883,Student_884,22,Female,65.4,32.6,52.4,26.3,2.3,74.9,Low,Yes,Graduate,57.9
+STU1884,Student_885,18,Female,88.4,15.7,39.1,30.5,0.7,49.4,High,Yes,High School,46.8
+STU1885,Student_886,18,Male,63.8,43.3,37.1,40.1,2.6,90.3,High,Yes,High School,55.4
+STU1886,Student_887,17,Male,85.1,34.4,31.1,31.6,4.0,68.7,High,Yes,High School,57.2
+STU1887,Student_888,22,Female,85.4,42.0,24.4,28.1,1.9,75.9,Medium,Yes,Graduate,54.1
+STU1888,Student_889,22,Female,55.1,23.2,21.5,35.9,1.1,55.6,Medium,Yes,Graduate,49.7
+STU1889,Student_890,17,Male,79.1,44.8,23.7,36.4,3.3,84.3,Medium,Yes,Graduate,56.3
+STU1890,Student_891,22,Male,72.4,39.2,31.9,30.1,4.5,61.1,High,Yes,Graduate,57.1
+STU1891,Student_892,22,Male,68.9,31.3,40.9,17.4,0.7,69.2,Medium,Yes,Graduate,33.6
+STU1892,Student_893,19,Male,94.2,33.4,22.7,28.0,4.4,51.0,Medium,Yes,High School,60.7
+STU1893,Student_894,19,Male,70.2,37.3,26.1,27.2,4.4,50.0,Medium,Yes,Graduate,44.4
+STU1894,Student_895,17,Female,68.3,37.6,20.8,29.5,4.6,75.3,Medium,Yes,Doctorate,61.9
+STU1895,Student_896,20,Female,78.9,49.5,36.6,27.4,5.0,58.3,High,Yes,Graduate,61.4
+STU1896,Student_897,18,Female,86.2,38.5,37.2,34.2,6.5,52.2,Low,Yes,Graduate,56.5
+STU1897,Student_898,19,Female,76.3,19.8,26.8,32.7,2.7,55.4,High,Yes,High School,52.6
+STU1898,Student_899,18,Male,92.0,41.9,32.8,32.8,3.4,75.5,Medium,Yes,Post Graduate,72.1
+STU1899,Student_900,21,Male,84.4,23.2,23.0,25.2,2.6,55.6,High,No,Post Graduate,50.9
+STU1900,Student_901,17,Male,51.9,40.2,35.1,43.2,3.2,63.2,Medium,Yes,Graduate,58.1
+STU1901,Student_902,20,Female,71.6,60.3,36.3,53.2,5.5,65.2,Medium,Yes,Doctorate,71.9
+STU1902,Student_903,21,Female,71.3,11.8,18.8,13.1,1.2,36.2,High,Yes,High School,39.8
+STU1903,Student_904,21,Male,83.8,25.5,21.9,14.8,1.9,42.9,Low,Yes,High School,32.7
+STU1904,Student_905,22,Male,46.5,29.9,49.0,34.4,5.3,70.0,High,Yes,Post Graduate,69.7
+STU1905,Student_906,21,Female,100.0,39.3,37.4,41.2,4.7,53.9,Medium,Yes,Post Graduate,68.2
+STU1906,Student_907,17,Female,84.4,33.4,37.0,33.2,2.7,80.9,Medium,Yes,High School,62.8
+STU1907,Student_908,19,Male,79.8,40.3,54.3,38.4,4.5,79.5,Medium,Yes,High School,59.9
+STU1908,Student_909,17,Male,92.2,32.6,40.0,30.2,3.7,75.8,Medium,Yes,High School,56.6
+STU1909,Student_910,19,Female,100.0,59.3,59.1,42.8,5.5,92.3,Medium,Yes,High School,77.7
+STU1910,Student_911,21,Male,88.4,43.5,36.6,35.2,3.3,63.8,Low,No,Post Graduate,46.6
+STU1911,Student_912,21,Male,89.4,44.2,19.5,29.4,4.7,74.7,Low,Yes,Graduate,66.8
+STU1912,Student_913,20,Male,79.6,37.2,50.7,54.6,7.2,56.2,Low,No,High School,59.6
+STU1913,Student_914,19,Female,76.3,65.0,46.6,41.6,4.1,100.0,High,Yes,Graduate,78.8
+STU1914,Student_915,21,Female,72.3,41.8,40.9,40.3,3.3,94.8,High,Yes,High School,62.6
+STU1915,Student_916,22,Female,68.1,21.7,36.4,24.7,4.3,65.2,Medium,Yes,High School,42.3
+STU1916,Student_917,18,Female,69.8,40.1,28.1,31.9,2.7,70.8,Medium,Yes,Graduate,50.5
+STU1917,Student_918,20,Female,61.8,45.7,49.2,49.9,6.8,85.4,Medium,No,Doctorate,74.5
+STU1918,Student_919,17,Female,77.1,43.5,24.8,32.4,3.5,62.8,Medium,Yes,Post Graduate,60.7
+STU1919,Student_920,20,Female,57.8,27.4,39.1,41.0,2.8,55.2,High,No,High School,49.6
+STU1920,Student_921,18,Male,80.3,41.8,30.9,32.6,1.9,78.1,High,Yes,Post Graduate,63.3
+STU1921,Student_922,19,Male,77.6,52.1,31.3,31.9,4.8,66.2,Medium,No,Post Graduate,58.8
+STU1922,Student_923,17,Male,79.8,30.9,25.7,31.9,4.5,67.7,High,Yes,Post Graduate,63.7
+STU1923,Student_924,17,Male,71.7,24.0,27.3,31.1,2.5,52.5,Low,Yes,Graduate,51.8
+STU1924,Student_925,19,Male,100.0,27.4,25.8,39.8,4.1,39.2,High,Yes,Graduate,57.5
+STU1925,Student_926,20,Male,94.3,42.4,30.1,26.7,0.9,68.5,Low,Yes,High School,52.2
+STU1926,Student_927,21,Male,63.1,36.7,26.0,43.8,3.5,78.6,Medium,Yes,High School,57.5
+STU1927,Student_928,20,Female,80.8,31.6,15.3,39.6,3.9,61.6,Medium,Yes,High School,41.8
+STU1928,Student_929,18,Female,70.7,55.8,51.0,61.9,5.8,86.5,Medium,No,High School,65.1
+STU1929,Student_930,22,Male,65.8,23.1,38.9,6.8,2.0,54.4,Low,Yes,Graduate,42.4
+STU1930,Student_931,21,Male,61.9,24.8,10.2,26.0,1.3,49.2,High,Yes,Post Graduate,43.4
+STU1931,Student_932,20,Female,83.2,18.9,43.0,35.7,1.9,64.0,Low,Yes,Graduate,50.3
+STU1932,Student_933,22,Male,69.8,46.8,28.2,11.9,1.2,63.8,Medium,Yes,High School,55.8
+STU1933,Student_934,22,Male,89.6,35.4,39.7,35.8,5.2,76.5,Low,Yes,Doctorate,68.2
+STU1934,Student_935,19,Female,89.9,35.3,28.5,30.4,5.5,53.4,Medium,Yes,Doctorate,66.8
+STU1935,Student_936,18,Male,94.5,45.0,25.3,33.9,3.7,85.5,Medium,Yes,Post Graduate,65.7
+STU1936,Student_937,18,Female,67.8,68.1,55.5,44.0,5.0,94.5,Medium,Yes,Doctorate,74.1
+STU1937,Student_938,18,Male,83.7,25.4,23.3,35.1,3.4,64.4,Low,Yes,Graduate,48.8
+STU1938,Student_939,21,Female,85.6,58.6,29.2,45.3,3.1,83.7,Low,Yes,Doctorate,60.8
+STU1939,Student_940,17,Female,72.3,33.8,33.9,35.3,2.7,49.2,Medium,Yes,High School,56.4
+STU1940,Student_941,21,Female,68.7,43.9,16.3,27.6,2.7,81.1,High,Yes,Graduate,62.7
+STU1941,Student_942,20,Male,97.3,27.1,15.3,20.2,0.9,80.7,High,Yes,High School,53.6
+STU1942,Student_943,22,Female,80.7,46.6,36.1,49.6,3.6,78.0,Low,Yes,High School,66.4
+STU1943,Student_944,22,Male,85.6,29.4,33.4,37.7,3.1,64.8,Medium,Yes,High School,40.4
+STU1944,Student_945,17,Male,68.1,31.3,22.8,24.2,4.3,20.7,Low,No,Graduate,39.4
+STU1945,Student_946,20,Male,63.4,24.3,24.6,34.1,3.3,55.4,Low,Yes,Post Graduate,38.6
+STU1946,Student_947,17,Male,71.2,30.3,52.3,28.4,3.0,55.6,Medium,No,Graduate,50.1
+STU1947,Student_948,22,Female,76.5,21.4,20.1,27.4,1.9,50.3,Medium,Yes,High School,38.6
+STU1948,Student_949,21,Female,65.2,28.7,29.3,30.2,3.3,66.8,Low,Yes,Post Graduate,54.5
+STU1949,Student_950,18,Male,77.9,42.3,23.3,37.2,4.3,58.7,Low,Yes,Graduate,54.0
+STU1950,Student_951,22,Male,57.7,29.8,23.4,8.2,1.5,52.6,Low,No,Graduate,42.7
+STU1951,Student_952,19,Female,64.6,39.2,31.6,21.7,3.3,49.1,High,Yes,Graduate,47.6
+STU1952,Student_953,18,Male,86.1,18.0,39.8,24.2,3.5,54.3,High,No,High School,52.6
+STU1953,Student_954,22,Female,85.2,47.5,19.0,29.6,2.1,81.8,Low,No,High School,50.9
+STU1954,Student_955,21,Male,73.3,49.0,22.6,17.4,2.3,55.1,Low,Yes,Post Graduate,37.7
+STU1955,Student_956,17,Male,65.8,29.8,33.3,26.4,3.5,57.3,High,Yes,High School,45.3
+STU1956,Student_957,18,Female,65.7,42.9,30.0,9.8,1.5,58.1,High,Yes,Graduate,47.7
+STU1957,Student_958,21,Male,73.5,37.0,33.9,40.8,3.7,70.1,Medium,Yes,Post Graduate,66.6
+STU1958,Student_959,20,Female,85.7,23.4,35.3,28.4,1.9,71.8,Low,No,Post Graduate,51.3
+STU1959,Student_960,19,Male,89.1,20.0,10.9,9.9,4.8,20.0,Low,No,High School,23.6
+STU1960,Student_961,18,Male,72.0,60.6,60.4,43.4,6.7,80.3,Medium,Yes,High School,72.5
+STU1961,Student_962,17,Male,64.2,33.6,45.0,36.6,1.9,86.5,Medium,Yes,High School,67.9
+STU1962,Student_963,20,Female,81.2,26.9,13.8,25.9,4.0,49.2,Low,Yes,Graduate,44.4
+STU1963,Student_964,21,Male,68.1,31.2,12.1,17.2,2.1,50.4,Medium,Yes,Graduate,39.3
+STU1964,Student_965,19,Male,71.8,37.7,21.9,36.0,4.8,58.2,Low,No,High School,50.5
+STU1965,Student_966,17,Male,93.9,30.1,28.8,24.4,1.3,53.7,High,Yes,Doctorate,57.0
+STU1966,Student_967,21,Male,87.9,41.0,20.8,23.2,3.9,68.4,Medium,Yes,Graduate,52.8
+STU1967,Student_968,21,Female,79.9,23.9,14.0,23.3,1.9,35.8,Low,Yes,High School,36.1
+STU1968,Student_969,18,Female,62.7,24.5,28.7,18.9,2.9,48.2,Medium,Yes,Graduate,41.2
+STU1969,Student_970,18,Male,80.5,42.2,34.4,33.1,1.7,88.1,Medium,Yes,Graduate,63.4
+STU1970,Student_971,17,Female,90.8,26.2,31.5,32.6,4.4,51.1,High,Yes,High School,54.5
+STU1971,Student_972,22,Male,73.5,49.5,23.4,28.0,1.9,83.7,Medium,Yes,High School,57.6
+STU1972,Student_973,22,Male,94.2,35.0,40.6,27.9,4.0,70.3,Low,Yes,Post Graduate,53.7
+STU1973,Student_974,21,Male,93.5,32.3,13.9,19.6,2.7,37.9,Medium,No,Graduate,35.8
+STU1974,Student_975,18,Female,98.0,36.9,30.3,49.0,3.0,74.5,Low,Yes,Graduate,63.4
+STU1975,Student_976,19,Female,81.7,37.1,33.0,20.3,3.4,63.2,High,Yes,Graduate,55.7
+STU1976,Student_977,19,Female,85.0,25.6,26.7,41.1,2.1,58.2,Medium,Yes,High School,49.3
+STU1977,Student_978,21,Female,95.0,29.9,33.0,32.3,3.5,68.7,Medium,Yes,High School,52.6
+STU1978,Student_979,18,Female,83.4,31.4,31.5,43.9,5.5,72.1,Low,Yes,Graduate,64.3
+STU1979,Student_980,17,Female,72.0,27.8,28.5,20.9,2.0,75.6,Medium,Yes,High School,44.4
+STU1980,Student_981,17,Female,72.6,45.5,41.5,37.9,5.0,82.7,High,Yes,High School,66.1
+STU1981,Student_982,17,Female,80.9,46.3,24.6,38.4,5.4,71.1,High,Yes,Post Graduate,72.1
+STU1982,Student_983,19,Female,62.5,31.8,15.9,11.9,2.0,44.4,Low,Yes,Doctorate,45.9
+STU1983,Student_984,18,Male,76.3,22.6,26.6,19.5,1.0,57.9,Low,Yes,Post Graduate,38.4
+STU1984,Student_985,18,Female,91.2,44.0,31.5,41.1,3.7,100.0,High,No,Post Graduate,83.0
+STU1985,Student_986,19,Female,51.7,26.0,44.1,49.0,2.4,75.9,High,Yes,High School,58.0
+STU1986,Student_987,17,Female,96.4,61.8,62.7,43.5,6.0,100.0,Low,Yes,Doctorate,75.7
+STU1987,Student_988,17,Female,91.5,55.3,25.9,39.9,3.3,85.9,Medium,Yes,High School,65.4
+STU1988,Student_989,21,Female,72.5,43.6,42.6,30.8,2.0,68.6,Medium,Yes,Doctorate,55.8
+STU1989,Student_990,22,Female,84.5,38.0,26.6,17.2,1.5,69.5,High,Yes,Doctorate,58.6
+STU1990,Student_991,20,Female,78.0,45.3,38.8,44.7,4.8,64.5,Low,Yes,Post Graduate,60.9
+STU1991,Student_992,22,Female,92.8,36.0,14.4,17.3,2.3,38.9,Low,No,Doctorate,41.0
+STU1992,Student_993,18,Female,89.8,38.7,40.3,10.4,3.3,65.3,High,Yes,Graduate,51.8
+STU1993,Student_994,18,Female,61.2,52.2,44.7,49.3,4.6,83.2,Low,Yes,High School,68.6
+STU1994,Student_995,18,Female,85.0,27.3,17.7,16.7,2.5,56.0,Medium,Yes,Graduate,38.2
+STU1995,Student_996,22,Male,75.5,26.9,21.0,24.3,3.1,71.2,Medium,Yes,Graduate,44.1
+STU1996,Student_997,20,Male,79.0,35.2,20.6,42.3,3.2,77.8,Medium,Yes,High School,57.4
+STU1997,Student_998,21,Female,69.3,33.1,30.4,29.1,4.2,51.4,Medium,Yes,Graduate,60.3
+STU1998,Student_999,22,Female,99.0,36.1,36.3,42.1,4.1,58.2,Medium,Yes,Doctorate,59.5
+STU1999,Student_1000,20,Male,90.5,44.0,31.2,37.4,2.9,49.7,Low,No,High School,50.6
+STU2000,Student_1001,17,Female,69.1,31.6,25.5,23.2,3.3,52.7,Medium,Yes,Post Graduate,55.8
+STU2001,Student_1002,17,Male,62.0,35.5,10.9,31.2,2.6,45.7,High,Yes,Post Graduate,53.1
+STU2002,Student_1003,18,Male,73.4,20.1,13.7,12.7,1.0,51.5,High,Yes,Doctorate,41.3
+STU2003,Student_1004,19,Male,83.2,42.8,50.7,60.4,3.6,86.3,Low,Yes,Doctorate,62.8
+STU2004,Student_1005,18,Male,80.9,27.9,28.1,33.2,6.0,51.3,Low,Yes,Graduate,38.4
+STU2005,Student_1006,19,Male,93.0,26.5,29.6,36.9,1.9,66.9,Low,Yes,Doctorate,50.5
+STU2006,Student_1007,20,Female,87.5,33.2,14.4,32.8,2.0,57.5,Medium,Yes,Post Graduate,56.9
+STU2007,Student_1008,17,Male,89.6,38.8,37.1,35.3,1.9,82.7,Medium,No,High School,48.3
+STU2008,Student_1009,22,Female,81.9,54.3,35.8,36.6,4.3,84.7,Medium,Yes,Graduate,70.9
+STU2009,Student_1010,19,Female,61.3,44.4,47.5,37.6,3.9,78.0,Low,Yes,Post Graduate,55.4
+STU2010,Student_1011,20,Male,75.7,34.0,39.6,13.5,3.0,69.6,Low,No,High School,46.4
+STU2011,Student_1012,17,Male,90.7,47.2,21.1,27.7,1.8,61.5,Medium,Yes,Graduate,56.1
+STU2012,Student_1013,22,Female,77.4,28.0,23.5,30.5,3.3,47.1,Medium,Yes,Graduate,42.9
+STU2013,Student_1014,19,Male,84.0,49.7,29.7,33.1,0.9,94.2,Low,Yes,High School,56.1
+STU2014,Student_1015,18,Male,74.2,28.4,13.1,2.9,3.4,53.6,Medium,Yes,Graduate,40.2
+STU2015,Student_1016,18,Female,65.6,49.2,28.9,29.1,4.5,75.0,Low,Yes,Post Graduate,63.1
+STU2016,Student_1017,18,Female,76.5,43.7,33.5,22.7,1.3,80.9,High,No,Graduate,57.1
+STU2017,Student_1018,20,Male,81.7,27.0,25.3,23.2,0.9,56.7,High,Yes,High School,45.2
+STU2018,Student_1019,18,Female,70.1,30.2,43.7,49.2,5.6,80.6,Low,Yes,High School,69.7
+STU2019,Student_1020,21,Male,75.2,37.6,29.5,30.6,2.3,76.5,Low,Yes,Graduate,55.8
+STU2020,Student_1021,17,Male,66.7,60.9,53.4,52.6,4.9,90.9,Medium,Yes,Doctorate,73.1
+STU2021,Student_1022,20,Male,91.4,36.4,28.4,20.2,3.0,58.0,Low,Yes,High School,45.7
+STU2022,Student_1023,22,Female,74.5,30.8,30.5,31.2,3.0,45.7,Medium,Yes,Graduate,46.8
+STU2023,Student_1024,18,Female,95.4,20.9,12.1,37.1,3.9,57.4,High,No,High School,49.7
+STU2024,Student_1025,17,Female,96.3,27.2,0.0,31.4,1.9,68.1,Medium,Yes,High School,60.8
+STU2025,Student_1026,19,Female,77.0,39.9,34.4,31.7,3.4,65.9,High,Yes,Post Graduate,63.1
+STU2026,Student_1027,18,Female,65.9,34.7,12.9,44.6,2.6,59.1,Medium,Yes,Post Graduate,38.9
+STU2027,Student_1028,17,Male,53.0,27.9,13.6,20.2,1.2,36.4,Low,Yes,High School,26.2
+STU2028,Student_1029,21,Male,60.3,38.8,31.5,27.7,3.7,72.1,Medium,Yes,Graduate,43.5
+STU2029,Student_1030,19,Male,61.5,49.5,56.0,41.8,2.8,94.6,Medium,Yes,High School,63.0
+STU2030,Student_1031,21,Male,94.5,37.9,36.7,40.4,3.0,72.0,Medium,Yes,Graduate,47.7
+STU2031,Student_1032,22,Female,79.4,25.9,31.1,22.5,1.4,74.1,Low,Yes,Graduate,41.3
+STU2032,Student_1033,17,Male,82.7,28.2,48.1,54.3,5.6,73.6,Low,Yes,High School,51.7
+STU2033,Student_1034,21,Female,,,,42.7,,71.0,High,Yes,High School,63.6
+STU2034,Student_1035,22,Male,63.6,46.8,34.6,21.0,4.6,79.0,Low,No,Graduate,55.0
+STU2035,Student_1036,17,Female,88.6,31.5,42.3,34.8,2.7,70.9,High,Yes,Post Graduate,63.7
+STU2036,Student_1037,17,Female,81.4,13.0,11.5,16.8,0.6,60.3,High,Yes,Doctorate,43.6
+STU2037,Student_1038,21,Male,76.2,44.6,37.1,45.2,6.1,53.1,High,Yes,High School,54.0
+STU2038,Student_1039,17,Male,84.8,31.7,13.7,39.3,3.1,61.3,Medium,No,Post Graduate,54.4
+STU2039,Student_1040,18,Male,97.6,38.6,31.7,31.1,2.1,69.7,Medium,No,Graduate,65.1
+STU2040,Student_1041,17,Male,75.3,50.4,32.5,48.3,3.8,60.3,High,Yes,Graduate,64.9
+STU2041,Student_1042,20,Female,78.8,25.7,53.7,39.3,5.0,69.7,Low,No,Post Graduate,55.8
+STU2042,Student_1043,22,Male,80.3,32.6,17.4,39.9,3.2,71.6,Medium,Yes,Post Graduate,47.9
+STU2043,Student_1044,17,Male,100.0,44.6,33.9,50.9,5.1,77.5,Medium,Yes,Doctorate,65.8
+STU2044,Student_1045,20,Female,52.8,59.7,49.7,43.6,4.8,84.2,Medium,Yes,Graduate,71.6
+STU2045,Student_1046,17,Male,86.2,18.2,30.5,33.3,1.6,66.2,Medium,Yes,Graduate,55.0
+STU2046,Student_1047,17,Male,76.6,40.2,23.2,17.1,2.2,45.4,Medium,Yes,Post Graduate,48.1
+STU2047,Student_1048,21,Male,84.8,38.8,22.9,32.5,4.6,59.8,Medium,No,High School,56.5
+STU2048,Student_1049,18,Male,70.1,25.5,17.1,7.9,0.0,65.7,High,Yes,Graduate,46.5
+STU2049,Student_1050,22,Male,77.4,22.4,33.1,25.4,3.0,37.5,Low,Yes,Graduate,43.4
+STU2050,Student_1051,18,Female,86.5,34.1,32.3,33.1,1.1,85.8,High,Yes,Graduate,55.0
+STU2051,Student_1052,19,Male,100.0,42.7,33.5,40.7,2.5,67.1,Medium,Yes,High School,57.5
+STU2052,Student_1053,21,Male,87.7,28.1,30.6,39.5,2.8,70.7,High,Yes,High School,51.1
+STU2053,Student_1054,21,Male,67.8,45.1,24.8,33.9,2.7,85.5,Medium,Yes,Post Graduate,60.5
+STU2054,Student_1055,18,Male,72.9,26.3,34.8,15.6,2.4,55.5,High,Yes,High School,48.8
+STU2055,Student_1056,21,Male,72.6,28.1,34.8,32.4,1.6,73.6,Low,No,Graduate,56.6
+STU2056,Student_1057,18,Female,56.5,65.8,61.7,55.4,6.6,63.4,High,Yes,High School,65.6
+STU2057,Student_1058,21,Male,74.0,46.2,26.6,49.5,6.0,62.2,Low,Yes,High School,60.5
+STU2058,Student_1059,17,Female,86.8,30.8,30.7,31.8,1.5,53.4,High,Yes,High School,57.5
+STU2059,Student_1060,18,Female,62.7,61.9,32.4,47.5,5.6,90.0,High,Yes,High School,76.9
+STU2060,Student_1061,18,Male,90.6,20.2,28.9,24.0,2.6,59.4,Low,Yes,Post Graduate,52.1
+STU2061,Student_1062,20,Male,83.9,54.4,44.7,29.6,3.4,75.5,Low,Yes,High School,61.6
+STU2062,Student_1063,21,Male,69.2,4.0,0.0,23.0,3.1,36.9,High,No,Doctorate,45.4
+STU2063,Student_1064,21,Male,76.3,33.5,32.4,32.9,2.2,82.7,Low,Yes,Graduate,46.7
+STU2064,Student_1065,18,Female,97.2,42.7,34.4,44.9,4.7,80.8,High,No,Graduate,59.4
+STU2065,Student_1066,17,Male,86.8,41.5,24.8,32.4,3.4,66.5,Low,No,Graduate,50.9
+STU2066,Student_1067,17,Male,78.1,33.9,31.7,27.3,2.5,61.6,Low,Yes,Graduate,34.9
+STU2067,Student_1068,22,Male,75.1,30.7,39.1,19.1,1.2,71.0,High,No,Post Graduate,59.9
+STU2068,Student_1069,17,Male,78.9,45.3,38.2,45.9,1.9,99.3,Medium,Yes,High School,70.5
+STU2069,Student_1070,21,Male,71.9,9.7,17.3,15.1,0.7,38.6,High,No,Graduate,30.4
+STU2070,Student_1071,20,Male,52.7,28.3,36.0,34.2,3.2,76.7,Medium,Yes,Post Graduate,53.8
+STU2071,Student_1072,18,Female,100.0,30.5,21.5,14.3,1.4,51.3,Medium,No,Doctorate,44.7
+STU2072,Student_1073,19,Female,79.9,39.8,18.8,18.6,2.8,64.7,Medium,No,Post Graduate,50.6
+STU2073,Student_1074,20,Male,82.8,53.1,45.8,51.4,5.3,61.3,Medium,No,Graduate,65.2
+STU2074,Student_1075,19,Male,77.3,32.1,36.0,42.6,5.0,58.6,Medium,Yes,Post Graduate,62.9
+STU2075,Student_1076,20,Male,69.2,41.1,34.6,17.6,3.2,64.8,Medium,Yes,Graduate,51.5
+STU2076,Student_1077,17,Female,75.8,26.2,16.5,33.7,3.1,48.0,Medium,Yes,Graduate,51.2
+STU2077,Student_1078,21,Male,58.8,59.7,38.5,56.4,6.0,80.4,Low,Yes,High School,68.8
+STU2078,Student_1079,19,Female,100.0,35.4,21.6,28.5,4.0,38.1,High,Yes,Graduate,48.5
+STU2079,Student_1080,20,Male,63.2,39.0,17.0,47.1,2.7,73.1,Low,Yes,High School,57.4
+STU2080,Student_1081,21,Male,65.6,24.6,6.9,24.4,1.1,60.1,Medium,Yes,High School,30.3
+STU2081,Student_1082,19,Male,72.7,38.0,20.1,16.7,3.8,47.4,Low,No,Post Graduate,43.3
+STU2082,Student_1083,18,Male,93.5,45.6,40.0,41.3,4.4,68.0,Medium,Yes,High School,67.3
+STU2083,Student_1084,20,Female,,,,23.9,,41.6,Medium,No,High School,30.8
+STU2084,Student_1085,18,Female,63.2,26.4,21.8,28.7,3.6,65.6,Low,Yes,High School,46.6
+STU2085,Student_1086,17,Male,93.1,23.3,13.9,29.1,2.7,43.7,Low,No,Doctorate,45.0
+STU2086,Student_1087,18,Male,86.8,49.6,27.9,18.2,2.9,71.9,Low,No,Graduate,46.1
+STU2087,Student_1088,18,Female,84.5,29.6,14.3,24.2,0.0,51.1,Medium,Yes,Graduate,39.5
+STU2088,Student_1089,22,Female,86.6,23.1,49.3,21.2,2.9,58.2,High,Yes,Post Graduate,55.3
+STU2089,Student_1090,20,Female,100.0,32.5,46.6,30.8,4.7,69.4,Low,Yes,Post Graduate,57.5
+STU2090,Student_1091,17,Female,100.0,38.5,34.7,24.2,2.3,53.4,Medium,Yes,High School,63.3
+STU2091,Student_1092,18,Male,69.8,26.5,42.4,36.3,3.3,64.1,Medium,Yes,Graduate,49.1
+STU2092,Student_1093,21,Female,97.5,27.3,10.1,22.6,2.1,42.3,Medium,Yes,Post Graduate,49.9
+STU2093,Student_1094,19,Male,82.6,36.0,23.1,30.5,3.7,74.5,High,Yes,Graduate,57.2
+STU2094,Student_1095,18,Female,84.0,58.2,28.2,34.5,2.9,91.5,Medium,Yes,High School,56.6
+STU2095,Student_1096,17,Female,57.7,39.2,52.8,27.0,1.8,100.0,Medium,Yes,Post Graduate,63.8
+STU2096,Student_1097,18,Female,76.0,51.3,30.8,38.7,5.2,66.4,Low,Yes,Graduate,63.2
+STU2097,Student_1098,19,Female,68.2,46.0,25.9,51.1,4.6,76.8,Low,Yes,High School,63.5
+STU2098,Student_1099,17,Female,87.9,24.2,14.8,20.7,2.3,38.3,Low,No,Graduate,44.5
+STU2099,Student_1100,20,Male,90.9,30.9,38.0,49.6,3.9,87.5,Low,Yes,High School,77.8
+STU2100,Student_1101,17,Male,53.1,25.0,39.5,52.1,4.0,76.6,Medium,No,High School,55.7
+STU2101,Student_1102,20,Female,77.7,33.9,33.2,28.8,4.2,57.7,Medium,Yes,Post Graduate,51.7
+STU2102,Student_1103,17,Female,91.5,37.5,22.7,26.2,0.7,83.6,Medium,Yes,High School,54.0
+STU2103,Student_1104,19,Male,75.8,29.6,40.0,56.7,4.7,61.2,Low,Yes,Graduate,55.1
+STU2104,Student_1105,19,Female,86.7,21.4,19.7,39.6,2.3,58.1,Low,Yes,Graduate,50.5
+STU2105,Student_1106,17,Female,82.2,41.4,30.4,17.4,2.7,72.1,Medium,Yes,High School,44.3
+STU2106,Student_1107,18,Male,82.1,45.7,42.0,47.0,7.2,49.0,High,Yes,Doctorate,84.6
+STU2107,Student_1108,19,Female,74.7,42.1,30.9,38.9,3.7,80.3,Low,Yes,High School,61.0
+STU2108,Student_1109,20,Female,63.4,33.7,18.0,32.6,2.6,49.2,High,Yes,High School,36.1
+STU2109,Student_1110,20,Male,64.5,10.3,23.1,8.1,0.0,49.2,Medium,Yes,High School,26.2
+STU2110,Student_1111,21,Male,86.5,33.6,22.7,29.1,5.3,51.4,Medium,Yes,High School,56.5
+STU2111,Student_1112,22,Male,78.2,47.3,25.9,21.6,1.2,76.4,Medium,Yes,High School,58.0
+STU2112,Student_1113,22,Female,76.3,27.9,29.3,18.4,1.7,55.7,Low,Yes,Post Graduate,36.1
+STU2113,Student_1114,22,Male,72.9,27.0,43.0,31.6,2.7,44.8,Low,Yes,Doctorate,51.8
+STU2114,Student_1115,20,Male,74.3,56.7,38.9,27.3,5.3,55.9,Medium,Yes,High School,46.6
+STU2115,Student_1116,21,Male,90.6,27.8,38.3,31.3,4.4,64.5,Medium,No,Graduate,54.4
+STU2116,Student_1117,22,Male,74.0,34.3,29.4,10.1,3.0,47.3,High,Yes,Post Graduate,56.7
+STU2117,Student_1118,22,Male,61.9,43.5,15.2,38.2,3.7,47.7,Medium,Yes,Post Graduate,47.9
+STU2118,Student_1119,17,Male,86.9,43.0,40.8,49.6,2.3,96.7,Low,No,Graduate,52.6
+STU2119,Student_1120,17,Female,75.5,37.9,26.4,26.3,3.4,52.1,Medium,Yes,High School,48.7
+STU2120,Student_1121,17,Female,78.4,26.1,32.5,28.6,3.3,60.2,Low,Yes,High School,42.2
+STU2121,Student_1122,18,Male,97.3,32.4,33.7,40.7,4.7,59.5,Medium,Yes,Post Graduate,64.4
+STU2122,Student_1123,22,Male,77.8,40.7,36.1,49.7,4.7,58.7,Medium,Yes,Post Graduate,56.6
+STU2123,Student_1124,18,Male,81.5,47.8,32.6,41.6,3.9,74.3,High,Yes,High School,58.6
+STU2124,Student_1125,21,Female,63.9,48.7,35.1,28.3,2.7,79.2,High,Yes,Graduate,48.7
+STU2125,Student_1126,20,Female,75.4,49.6,19.6,20.8,4.3,60.4,Medium,Yes,Post Graduate,57.2
+STU2126,Student_1127,22,Female,85.3,27.4,20.8,16.3,3.1,46.5,Medium,Yes,Post Graduate,45.4
+STU2127,Student_1128,20,Female,59.3,48.0,47.3,32.3,1.6,84.1,High,No,Doctorate,55.6
+STU2128,Student_1129,17,Female,80.4,30.5,31.9,23.6,2.6,63.6,Low,No,Post Graduate,48.7
+STU2129,Student_1130,22,Female,79.2,53.5,39.9,42.3,3.3,91.0,Low,Yes,Graduate,70.5
+STU2130,Student_1131,19,Female,78.5,28.0,41.4,22.8,4.6,31.3,Low,Yes,Graduate,42.8
+STU2131,Student_1132,18,Female,90.4,39.4,17.4,22.4,2.9,67.9,Low,Yes,Graduate,51.3
+STU2132,Student_1133,18,Female,82.0,45.1,25.2,23.1,1.4,93.8,Medium,Yes,High School,57.4
+STU2133,Student_1134,22,Male,95.7,20.9,46.3,45.2,3.3,59.7,Medium,Yes,Graduate,48.8
+STU2134,Student_1135,17,Male,66.1,25.8,30.5,40.1,3.4,61.6,Medium,Yes,Post Graduate,65.9
+STU2135,Student_1136,18,Male,79.6,39.1,30.6,50.4,3.5,69.4,Low,No,High School,49.5
+STU2136,Student_1137,17,Male,79.0,22.9,19.3,40.2,4.6,56.6,Medium,Yes,Post Graduate,57.7
+STU2137,Student_1138,21,Female,65.2,44.9,37.3,33.0,4.7,60.3,Medium,Yes,Graduate,62.1
+STU2138,Student_1139,20,Female,89.5,37.8,32.2,39.1,2.3,59.9,Medium,Yes,Doctorate,55.9
+STU2139,Student_1140,19,Male,100.0,31.8,14.3,25.6,2.3,55.6,Medium,Yes,High School,49.5
+STU2140,Student_1141,20,Female,77.8,29.2,31.8,33.4,1.6,83.4,Medium,No,High School,51.9
+STU2141,Student_1142,20,Male,84.1,52.4,32.3,38.0,4.2,71.9,Low,Yes,Graduate,51.3
+STU2142,Student_1143,21,Female,79.0,60.0,40.1,15.7,5.4,68.8,Low,Yes,High School,56.3
+STU2143,Student_1144,18,Male,69.4,40.1,22.5,48.4,2.7,77.1,High,Yes,Post Graduate,58.6
+STU2144,Student_1145,19,Female,56.2,36.9,40.9,33.9,2.8,61.0,High,Yes,Post Graduate,54.3
+STU2145,Student_1146,18,Female,69.5,39.2,41.3,40.6,5.4,53.4,Medium,Yes,High School,48.4
+STU2146,Student_1147,22,Male,61.3,38.6,26.0,32.2,4.0,56.0,Low,Yes,Graduate,55.3
+STU2147,Student_1148,20,Female,98.4,36.7,30.3,36.6,3.9,65.0,Medium,Yes,Graduate,67.9
+STU2148,Student_1149,22,Male,76.6,23.6,19.3,15.0,1.4,49.1,Medium,Yes,Graduate,45.5
+STU2149,Student_1150,17,Male,73.8,42.8,22.8,39.6,4.2,57.5,High,Yes,Doctorate,68.7
+STU2150,Student_1151,20,Male,88.7,47.1,20.1,12.6,1.8,57.3,Low,Yes,Post Graduate,45.1
+STU2151,Student_1152,18,Male,64.5,32.1,35.0,36.7,1.5,96.9,Low,Yes,Graduate,51.0
+STU2152,Student_1153,20,Female,68.8,16.6,31.1,22.9,2.7,23.4,Medium,Yes,Post Graduate,33.9
+STU2153,Student_1154,17,Female,78.8,22.4,37.0,26.1,2.3,62.3,Medium,Yes,Graduate,52.9
+STU2154,Student_1155,21,Female,90.3,57.8,48.4,42.2,2.9,90.9,Low,No,Doctorate,69.1
+STU2155,Student_1156,22,Male,84.0,25.0,29.6,15.1,1.0,66.8,Low,No,Graduate,40.3
+STU2156,Student_1157,22,Female,81.0,32.8,27.0,32.6,4.6,76.3,Medium,No,Post Graduate,66.6
+STU2157,Student_1158,18,Male,78.9,46.4,35.1,41.7,4.9,66.5,High,Yes,Post Graduate,69.5
+STU2158,Student_1159,20,Female,82.8,36.9,29.7,23.8,0.3,55.0,High,Yes,High School,41.0
+STU2159,Student_1160,18,Female,80.4,32.0,10.2,11.3,4.7,31.4,Medium,Yes,Post Graduate,39.8
+STU2160,Student_1161,21,Female,65.6,34.9,35.2,33.1,2.0,68.1,Medium,Yes,High School,53.9
+STU2161,Student_1162,20,Male,78.6,38.1,53.2,29.1,4.5,53.4,Low,No,High School,56.4
+STU2162,Student_1163,20,Female,65.1,41.8,36.9,26.6,3.1,53.0,Medium,Yes,High School,52.2
+STU2163,Student_1164,18,Female,79.0,25.6,42.3,18.0,3.2,57.5,Medium,Yes,Doctorate,64.2
+STU2164,Student_1165,18,Male,72.2,44.3,41.4,31.3,2.9,91.2,Medium,Yes,Post Graduate,74.4
+STU2165,Student_1166,17,Female,100.0,51.4,57.2,58.7,5.0,100.0,Medium,Yes,Post Graduate,84.3
+STU2166,Student_1167,21,Male,77.5,21.9,20.0,26.0,1.3,68.3,Low,Yes,Post Graduate,39.7
+STU2167,Student_1168,17,Female,61.1,32.9,38.5,30.4,4.1,58.0,Low,Yes,Graduate,41.9
+STU2168,Student_1169,22,Male,76.4,42.5,35.3,32.7,4.9,47.3,Medium,Yes,Doctorate,55.6
+STU2169,Student_1170,20,Male,84.2,46.2,38.8,43.2,4.3,72.0,Low,Yes,Graduate,65.1
+STU2170,Student_1171,18,Female,98.1,61.9,62.0,58.3,6.7,91.7,Low,Yes,Graduate,91.5
+STU2171,Student_1172,20,Male,70.9,32.9,22.1,27.3,2.4,61.3,High,Yes,High School,51.7
+STU2172,Student_1173,20,Male,59.0,29.7,19.9,37.0,4.6,29.3,Medium,No,Post Graduate,50.9
+STU2173,Student_1174,19,Male,87.8,32.6,34.7,43.3,3.0,75.1,Medium,No,Post Graduate,57.3
+STU2174,Student_1175,22,Male,61.4,44.7,30.4,48.1,5.1,79.8,High,Yes,Graduate,70.7
+STU2175,Student_1176,19,Male,72.8,27.6,24.7,25.7,3.2,41.2,High,Yes,High School,50.0
+STU2176,Student_1177,20,Male,74.9,37.1,13.0,36.6,2.6,67.6,Medium,Yes,Post Graduate,41.6
+STU2177,Student_1178,18,Female,77.2,46.9,48.6,45.2,5.2,71.8,High,Yes,High School,65.0
+STU2178,Student_1179,20,Male,86.3,32.0,29.1,38.7,2.5,63.9,Medium,Yes,Post Graduate,60.9
+STU2179,Student_1180,22,Male,69.8,21.5,16.1,28.4,1.1,53.1,Medium,No,Doctorate,43.1
+STU2180,Student_1181,19,Female,74.7,64.5,25.7,24.5,2.4,80.2,Medium,Yes,Graduate,52.6
+STU2181,Student_1182,18,Female,77.8,43.1,28.5,24.3,4.1,58.9,Medium,No,High School,35.7
+STU2182,Student_1183,20,Female,79.8,36.3,35.1,27.7,5.3,42.7,Medium,Yes,Post Graduate,52.7
+STU2183,Student_1184,21,Female,79.2,22.1,26.0,32.7,3.4,34.3,Medium,Yes,Post Graduate,45.1
+STU2184,Student_1185,22,Female,83.2,45.6,35.3,31.8,5.2,83.9,Low,Yes,Graduate,57.6
+STU2185,Student_1186,22,Female,88.1,32.2,20.5,30.6,1.2,74.2,Medium,No,Doctorate,52.7
+STU2186,Student_1187,21,Female,82.7,36.4,36.0,33.2,2.5,66.3,Low,Yes,High School,52.5
+STU2187,Student_1188,20,Male,83.4,16.7,20.2,39.2,2.8,58.4,Medium,Yes,Graduate,51.8
+STU2188,Student_1189,22,Male,59.0,19.3,28.1,30.8,3.0,57.1,Medium,Yes,Post Graduate,33.7
+STU2189,Student_1190,18,Female,78.6,24.4,26.6,15.8,3.3,48.9,Medium,Yes,Post Graduate,39.0
+STU2190,Student_1191,20,Male,83.8,37.7,34.1,25.7,4.2,58.5,High,Yes,High School,54.1
+STU2191,Student_1192,20,Male,86.7,18.9,26.5,9.3,2.5,33.2,High,Yes,Post Graduate,46.6
+STU2192,Student_1193,19,Male,69.7,43.6,14.8,25.0,3.4,54.0,Medium,Yes,Graduate,51.9
+STU2193,Student_1194,22,Female,70.1,21.6,9.7,28.8,3.1,60.3,Medium,Yes,Graduate,48.2
+STU2194,Student_1195,22,Female,71.1,29.0,24.8,18.9,1.8,74.1,Medium,Yes,High School,44.3
+STU2195,Student_1196,21,Male,84.4,46.9,48.1,44.6,3.0,64.4,Low,Yes,Post Graduate,57.9
+STU2196,Student_1197,19,Female,90.4,40.8,54.6,23.1,3.0,76.9,Low,Yes,High School,51.7
+STU2197,Student_1198,19,Male,73.1,50.2,55.6,49.7,3.0,85.2,Low,Yes,High School,67.1
+STU2198,Student_1199,22,Male,88.9,58.4,34.4,47.7,3.2,80.9,Medium,Yes,High School,59.0
+STU2199,Student_1200,20,Male,79.5,33.2,15.7,42.9,3.3,72.1,Medium,Yes,Post Graduate,62.1
