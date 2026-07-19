@@ -1,3 +1,4 @@
+
 # GradeSight — AI-Powered Student Performance Prediction System
 
 A full-stack application that predicts a student's final exam marks and pass/fail
@@ -53,6 +54,13 @@ Student-Performance/
 ```
 
 ---
+
+## Author
+
+**Vaibhav Mishra**
+
+GitHub:
+https://github.com/vaibhav2006-max
 
 ## 1. Generate the dataset
 
