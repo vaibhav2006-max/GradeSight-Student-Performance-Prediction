@@ -1,3 +1,10 @@
+# GradeSight — AI-Powered Student Performance Prediction System
+
+A full-stack application that predicts a student's final exam marks and pass/fail
+outcome from academic and behavioral data, and returns personalized, actionable
+suggestions. Built with **React**, **Flask**, **Scikit-learn**, and **SQLite/MySQL**.
+
+---
 ## Screenshots
 
 ### HomePage
@@ -15,11 +22,26 @@
 ### Report
 ![Report](screenshot/report.png.png)
 
-# GradeSight — AI-Powered Student Performance Prediction System
+### GradeSight - Student Performance Prediction System
 
-A full-stack application that predicts a student's final exam marks and pass/fail
-outcome from academic and behavioral data, and returns personalized, actionable
-suggestions. Built with **React**, **Flask**, **Scikit-learn**, and **SQLite/MySQL**.
+An AI-powered web application that predicts student academic performance using Machine Learning. 
+The system allows administrators to upload student data, train ML models, generate predictions, 
+and manage student records through an interactive dashboard.
+
+---
+
+### Features
+
+- 📂 Upload student data using CSV
+- 👨‍🎓 Student management dashboard
+- 🔍 Search students by Name or ID
+- 📊 Student performance prediction
+- 🤖 Train Machine Learning models
+- 📈 Analytics dashboard
+- 📄 Export student records to CSV
+- 📑 Generate PDF reports
+- 🔐 JWT Authentication (Admin Login)
+- 📱 Responsive user interface
 
 ---
 
