@@ -1,19 +1,19 @@
 ## Screenshots
 
 ### HomePage
-![HomePage](screenshots/homepage.png)
+![HomePage](screenshots/homepage.png.png)
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.png.png)
 
 ### Analytics
-![Analytics](screenshots/analytics.png)
+![Analytics](screenshots/analytics.png.png)
 
 ### Prediction
-![Prediction](screenshots/predict.png)
+![Prediction](screenshots/predict.png.png)
 
 ### Report
-![Report](screenshots/report.png)
+![Report](screenshots/report.png.png)
 
 # GradeSight — AI-Powered Student Performance Prediction System
 
