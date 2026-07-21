@@ -99,6 +99,37 @@ class PredictionEngine:
             tips.append("Great work — maintain current study habits and consistency.")
         return tips
 
+    def _encode_row(self, row):
+        """row: dict of the 11 model inputs -> scaled feature array ready for .predict()."""
+        df = pd.DataFrame([row])
+        for col in CATEGORICAL_COLS:
+            le = self.encoders[col]
+            val = str(df.at[0, col])
+            if val not in le.classes_:
+                val = le.classes_[0]
+            df[col] = le.transform([val])
+        X = df[self.feature_cols]
+        return self.scaler.transform(X)
+
+    def _predict_marks(self, row):
+        X_scaled = self._encode_row(row)
+        marks = float(np.clip(self.model.predict(X_scaled)[0], 0, 100))
+        return marks, X_scaled
+
+    def _estimate_improvement(self, payload, current_marks):
+        """Simulates a student acting on the suggestions (better attendance,
+        +1.5 study hrs/day, stronger quiz/assignment scores) and re-runs the
+        model to estimate how many marks that could realistically add."""
+        improved = dict(payload)
+        improved["attendance"] = min(100, max(payload["attendance"], 85))
+        improved["study_hours_per_day"] = round(payload["study_hours_per_day"] + 1.5, 1)
+        improved["quiz_marks"] = min(100, payload["quiz_marks"] + 10)
+        improved["assignment_marks"] = min(100, payload["assignment_marks"] + 10)
+        improved["internal_marks"] = min(100, payload["internal_marks"] + 5)
+        row = {col: improved[col] for col in NUMERIC_COLS + CATEGORICAL_COLS}
+        improved_marks, _ = self._predict_marks(row)
+        return round(max(0, improved_marks - current_marks), 1)
+
     def predict(self, payload):
         """payload: dict with the 9 prediction inputs (student_id/name not required)."""
         if not self.loaded:
@@ -107,26 +138,24 @@ class PredictionEngine:
             )
 
         row = {col: payload[col] for col in NUMERIC_COLS + CATEGORICAL_COLS}
-        df = pd.DataFrame([row])
+        predicted_marks, X_scaled = self._predict_marks(row)
 
-        for col in CATEGORICAL_COLS:
-            le = self.encoders[col]
-            val = str(df.at[0, col])
-            if val not in le.classes_:
-                val = le.classes_[0]
-            df[col] = le.transform([val])
-
-        X = df[self.feature_cols]
-        X_scaled = self.scaler.transform(X)
-
-        predicted_marks = float(np.clip(self.model.predict(X_scaled)[0], 0, 100))
         pass_fail_pred = self.classifier.predict(X_scaled)[0]
         pass_fail = "Pass" if pass_fail_pred == 1 or predicted_marks >= PASS_THRESHOLD else "Fail"
+
+        # Confidence: how sure the classifier is about the pass/fail call.
+        # predict_proba gives [P(fail), P(pass)]; confidence is the winning class's probability.
+        if hasattr(self.classifier, "predict_proba"):
+            proba = self.classifier.predict_proba(X_scaled)[0]
+            confidence_percent = round(float(max(proba)) * 100, 1)
+        else:
+            confidence_percent = None
 
         grade = self._grade(predicted_marks)
         risk = self._risk_level(predicted_marks, pass_fail)
         weak, strong = self._weak_and_strengths(payload)
         suggestions = self._suggestions(payload, weak)
+        estimated_improvement = self._estimate_improvement(payload, predicted_marks)
 
         recommended_hours = round(max(payload["study_hours_per_day"], 2) + (2 if pass_fail == "Fail" else 0.5), 1)
 
@@ -135,9 +164,11 @@ class PredictionEngine:
             "pass_fail": pass_fail,
             "grade": grade,
             "performance_percentage": round(predicted_marks, 2),
+            "confidence_percent": confidence_percent,
             "weak_areas": weak,
             "strengths": strong,
             "suggestions": suggestions,
             "risk_level": risk,
             "recommended_study_hours": recommended_hours,
+            "estimated_improvement": estimated_improvement,
         }

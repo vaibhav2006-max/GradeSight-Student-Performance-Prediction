@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: gradesight-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app --bind 0.0.0.0:$PORT"
+    envVars:
+      - key: JWT_SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        sync: false   # set to your MySQL URL, or omit to use the default SQLite file
+      - key: CORS_ORIGINS
+        sync: false   # e.g. https://gradesight.vercel.app
+      - key: PYTHON_VERSION
+        value: 3.11.9

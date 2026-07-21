@@ -75,3 +75,33 @@ class Prediction(db.Model):
             "suggestions": self.suggestions.split("|") if self.suggestions else [],
             "created_at": self.created_at.isoformat(),
         }
+
+
+class EmailSettings(db.Model):
+    """Singleton-style table (always id=1) holding the admin's SMTP config.
+    Password is stored as given; for a real production deploy this should be
+    moved to a secrets manager per the README security notes."""
+    __tablename__ = "email_settings"
+    id = db.Column(db.Integer, primary_key=True)
+    smtp_host = db.Column(db.String(255))
+    smtp_port = db.Column(db.Integer, default=587)
+    smtp_username = db.Column(db.String(255))
+    smtp_password = db.Column(db.String(255))
+    sender_email = db.Column(db.String(255))
+    use_tls = db.Column(db.Boolean, default=True)
+    notifications_enabled = db.Column(db.Boolean, default=False)
+    attendance_threshold = db.Column(db.Float, default=75.0)
+    updated_at = db.Column(db.DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    def to_dict(self, mask_password=True):
+        return {
+            "smtp_host": self.smtp_host,
+            "smtp_port": self.smtp_port,
+            "smtp_username": self.smtp_username,
+            "smtp_password": "********" if (mask_password and self.smtp_password) else self.smtp_password,
+            "sender_email": self.sender_email,
+            "use_tls": self.use_tls,
+            "notifications_enabled": self.notifications_enabled,
+            "attendance_threshold": self.attendance_threshold,
+            "configured": bool(self.smtp_host and self.smtp_username and self.smtp_password),
+        }

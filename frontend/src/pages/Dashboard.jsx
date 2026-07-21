@@ -1,37 +1,59 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import client from "../api/client";
+import Pagination from "../components/Pagination";
+import SkeletonRows from "../components/SkeletonRows";
 import { useAuth } from "../context/AuthContext";
+import { useToast } from "../context/ToastContext";
+
+const PAGE_SIZE = 10;
 
 export default function Dashboard() {
   const { role, identity } = useAuth();
+  const toast = useToast();
   const [students, setStudents] = useState([]);
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(true);
-  const [message, setMessage] = useState("");
   const [training, setTraining] = useState(false);
   const fileRef = useRef();
+
+  // CSV upload results (Feature: better CSV upload)
+  const [uploadResult, setUploadResult] = useState(null);
+  const [uploading, setUploading] = useState(false);
+
+  // Table sorting + pagination
+  const [sortKey, setSortKey] = useState("final_exam_marks");
+  const [sortDir, setSortDir] = useState("desc");
+  const [page, setPage] = useState(1);
 
   const load = async (q = "") => {
     setLoading(true);
     try {
       const res = await client.get("/students", { params: q ? { q } : {} });
       setStudents(res.data);
+    } catch {
+      toast.error("Could not load students.");
     } finally {
       setLoading(false);
     }
   };
 
-  useEffect(() => { load(); }, []);
+  useEffect(() => { load(); }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const onSearch = (e) => {
     e.preventDefault();
+    setPage(1);
     load(query);
   };
 
   const removeStudent = async (id) => {
     if (!confirm(`Delete student ${id}?`)) return;
-    await client.delete(`/students/${id}`);
-    load(query);
+    try {
+      await client.delete(`/students/${id}`);
+      toast.success(`Deleted ${id}.`);
+      load(query);
+    } catch {
+      toast.error("Delete failed.");
+    }
   };
 
   const uploadCsv = async (e) => {
@@ -39,27 +61,40 @@ export default function Dashboard() {
     if (!file) return;
     const formData = new FormData();
     formData.append("file", file);
-    setMessage("Uploading…");
+    setUploading(true);
+    setUploadResult(null);
     try {
       const res = await client.post("/upload-csv", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
-      setMessage(`Added ${res.data.added} students, skipped ${res.data.skipped} duplicates.`);
+      setUploadResult(res.data);
+      toast.success(`Added ${res.data.added} of ${res.data.total_rows} rows.`);
       load(query);
     } catch (err) {
-      setMessage(err.response?.data?.error || "Upload failed");
+      toast.error(err.response?.data?.error || "Upload failed");
+    } finally {
+      setUploading(false);
+      fileRef.current.value = "";
     }
-    fileRef.current.value = "";
+  };
+
+  const downloadErrorReport = () => {
+    if (!uploadResult?.error_report_csv) return;
+    const blob = new Blob([uploadResult.error_report_csv], { type: "text/csv" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "csv_upload_errors.csv";
+    a.click();
   };
 
   const trainModel = async () => {
     setTraining(true);
-    setMessage("Training models — this may take a moment…");
     try {
       const res = await client.post("/train-model");
-      setMessage(`Trained. Best regressor: ${res.data.metrics.best_regressor} (R2=${res.data.metrics.best_regressor_r2})`);
+      toast.success(`Trained. Best regressor: ${res.data.metrics.best_regressor} (R²=${res.data.metrics.best_regressor_r2})`);
     } catch (err) {
-      setMessage(err.response?.data?.error || "Training failed");
+      toast.error(err.response?.data?.error || "Training failed");
     } finally {
       setTraining(false);
     }
@@ -73,6 +108,38 @@ export default function Dashboard() {
     a.download = "students_export.csv";
     a.click();
   };
+
+  const sortBy = (key) => {
+    if (sortKey === key) {
+      setSortDir(sortDir === "asc" ? "desc" : "asc");
+    } else {
+      setSortKey(key);
+      setSortDir("asc");
+    }
+    setPage(1);
+  };
+
+  const sorted = useMemo(() => {
+    const copy = [...students];
+    copy.sort((a, b) => {
+      let av = a[sortKey], bv = b[sortKey];
+      if (av == null) av = sortDir === "asc" ? Infinity : -Infinity;
+      if (bv == null) bv = sortDir === "asc" ? Infinity : -Infinity;
+      if (typeof av === "string") return sortDir === "asc" ? av.localeCompare(bv) : bv.localeCompare(av);
+      return sortDir === "asc" ? av - bv : bv - av;
+    });
+    return copy;
+  }, [students, sortKey, sortDir]);
+
+  const totalPages = Math.max(1, Math.ceil(sorted.length / PAGE_SIZE));
+  const paged = sorted.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+
+  const SortHeader = ({ label, field }) => (
+    <th className="sortable" onClick={() => sortBy(field)}>
+      {label}
+      {sortKey === field && <span className="arrow">{sortDir === "asc" ? "▲" : "▼"}</span>}
+    </th>
+  );
 
   if (role === "student") {
     const me = students.find((s) => s.student_id === identity);
@@ -117,7 +184,9 @@ export default function Dashboard() {
           <button className="btn btn-outline">Search</button>
         </form>
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
-          <button className="btn btn-outline" onClick={() => fileRef.current.click()}>Upload CSV</button>
+          <button className="btn btn-outline" onClick={() => fileRef.current.click()} disabled={uploading}>
+            {uploading ? "Uploading…" : "Upload CSV"}
+          </button>
           <input type="file" accept=".csv" ref={fileRef} onChange={uploadCsv} hidden />
           <button className="btn btn-outline" onClick={exportCsv}>Export CSV</button>
           <button className="btn btn-gold" onClick={trainModel} disabled={training}>
@@ -126,43 +195,105 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {message && <div className="card" style={{ marginBottom: 16, fontSize: 13 }}>{message}</div>}
+      {uploadResult && (
+        <div className="card" style={{ marginBottom: 20 }}>
+          <div className="toolbar" style={{ marginBottom: 12 }}>
+            <p className="eyebrow" style={{ margin: 0 }}>CSV upload results</p>
+            <button className="btn btn-outline" style={{ padding: "6px 14px", fontSize: 12 }} onClick={() => setUploadResult(null)}>Dismiss</button>
+          </div>
+          <div className="grid grid-4" style={{ marginBottom: 16 }}>
+            <div>
+              <div className="stat-label">Total rows</div>
+              <div className="stat-value" style={{ fontSize: 22 }}>{uploadResult.total_rows}</div>
+            </div>
+            <div>
+              <div className="stat-label">Added</div>
+              <div className="stat-value" style={{ fontSize: 22, color: "var(--green)" }}>{uploadResult.added}</div>
+            </div>
+            <div>
+              <div className="stat-label">Duplicate IDs</div>
+              <div className="stat-value" style={{ fontSize: 22, color: "var(--gold)" }}>{uploadResult.duplicate_ids.length}</div>
+            </div>
+            <div>
+              <div className="stat-label">Invalid / missing</div>
+              <div className="stat-value" style={{ fontSize: 22, color: "var(--red)" }}>
+                {uploadResult.invalid_rows.length + uploadResult.missing_fields_rows.length}
+              </div>
+            </div>
+          </div>
+          {uploadResult.error_report_csv && (
+            <button className="btn btn-outline" style={{ marginBottom: 16 }} onClick={downloadErrorReport}>
+              Download error report (CSV)
+            </button>
+          )}
+          {uploadResult.preview?.length > 0 && (
+            <>
+              <p className="eyebrow" style={{ marginBottom: 8 }}>Preview (first {uploadResult.preview.length} rows)</p>
+              <div style={{ overflowX: "auto" }}>
+                <table>
+                  <thead>
+                    <tr>
+                      {Object.keys(uploadResult.preview[0]).map((k) => <th key={k}>{k}</th>)}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {uploadResult.preview.map((row, i) => (
+                      <tr key={i}>
+                        {Object.values(row).map((v, j) => <td key={j}>{String(v)}</td>)}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </>
+          )}
+        </div>
+      )}
 
       <div className="card" style={{ padding: 0, overflowX: "auto" }}>
-        {loading ? (
-          <p style={{ padding: 24 }}>Loading…</p>
-        ) : students.length === 0 ? (
+        {!loading && students.length === 0 ? (
           <p className="empty-state">No students yet. Upload a CSV or add one from the Predict page.</p>
         ) : (
           <table>
             <thead>
               <tr>
-                <th>ID</th><th>Name</th><th>Attendance</th><th>Final marks</th><th>Result</th><th></th>
+                <SortHeader label="ID" field="student_id" />
+                <SortHeader label="Name" field="name" />
+                <SortHeader label="Attendance" field="attendance" />
+                <SortHeader label="Final marks" field="final_exam_marks" />
+                <th>Result</th><th></th>
               </tr>
             </thead>
             <tbody>
-              {students.map((s) => (
-                <tr key={s.student_id}>
-                  <td className="mono">{s.student_id}</td>
-                  <td>{s.name}</td>
-                  <td>{s.attendance ?? "—"}</td>
-                  <td>{s.final_exam_marks ?? "—"}</td>
-                  <td>
-                    {s.final_exam_marks != null && (
-                      <span className={`badge ${s.final_exam_marks >= 40 ? "badge-pass" : "badge-fail"}`}>
-                        {s.final_exam_marks >= 40 ? "Pass" : "Fail"}
-                      </span>
-                    )}
-                  </td>
-                  <td>
-                    <button className="btn btn-outline" style={{ padding: "6px 12px", fontSize: 12 }} onClick={() => removeStudent(s.student_id)}>
-                      Delete
-                    </button>
-                  </td>
-                </tr>
-              ))}
+              {loading ? (
+                <SkeletonRows rows={6} cols={6} />
+              ) : (
+                paged.map((s) => (
+                  <tr key={s.student_id}>
+                    <td className="mono">{s.student_id}</td>
+                    <td>{s.name}</td>
+                    <td>{s.attendance ?? "—"}</td>
+                    <td>{s.final_exam_marks ?? "—"}</td>
+                    <td>
+                      {s.final_exam_marks != null && (
+                        <span className={`badge ${s.final_exam_marks >= 40 ? "badge-pass" : "badge-fail"}`}>
+                          {s.final_exam_marks >= 40 ? "Pass" : "Fail"}
+                        </span>
+                      )}
+                    </td>
+                    <td>
+                      <button className="btn btn-outline" style={{ padding: "6px 12px", fontSize: 12 }} onClick={() => removeStudent(s.student_id)}>
+                        Delete
+                      </button>
+                    </td>
+                  </tr>
+                ))
+              )}
             </tbody>
           </table>
+        )}
+        {!loading && students.length > 0 && (
+          <Pagination page={page} totalPages={totalPages} onChange={setPage} />
         )}
       </div>
     </div>

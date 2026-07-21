@@ -45,25 +45,58 @@ and manage student records through an interactive dashboard.
 
 ---
 
-## What's included
+## Features
 
-| Layer | Tech | Notes |
-|---|---|---|
-| Frontend | React 18 + Vite, React Router, Axios, Chart.js | Custom design system (see `frontend/src/index.css`) |
-| Backend | Flask, Flask-JWT-Extended, Flask-Bcrypt, Flask-SQLAlchemy | REST API, JWT auth, PDF generation via ReportLab |
-| ML | Scikit-learn, Pandas, NumPy, Joblib | Linear Regression, Decision Tree, Random Forest (best auto-selected) + Logistic Regression for pass/fail |
-| Database | SQLite (default) / MySQL (optional) | Schema in `database.sql`; SQLite needs zero setup |
-
-### Pages
-Landing · Student Login · Admin Login · Register · Dashboard (roster / student profile)
-· Prediction · Analytics (Chart.js) · Reports (PDF download)
+- **Auth & roles** — student/admin JWT login, registration, protected routes
+- **Student CRUD** — roster with search, sorting, pagination
+- **CSV import/export** — validated bulk import with a per-row error report and preview
+- **ML prediction** — Linear Regression / Decision Tree / Random Forest (best auto-selected)
+  + Logistic Regression pass/fail, with confidence %, weak/strong areas, and an
+  estimated-improvement simulation
+- **Model Performance dashboard** (admin) — accuracy, precision, recall, F1, MAE, RMSE, R²,
+  confusion matrix, ROC curve, feature importance, model comparison — retrain from the same screen
+- **Student Progress dashboard** — radar/bar/line charts, a performance gauge, and
+  prediction-history trend for an individual student
+- **AI study suggestions** — dynamic strengths/weaknesses/recommendations and estimated
+  improvement, generated per-prediction from the student's own data
+- **Email notifications** (admin-configurable SMTP) — auto-alerts a student when they're
+  high risk, predicted to fail, or under an attendance threshold; includes a test-email tool
+- **Analytics dashboard** — pass/fail, gender & attendance distributions, subject-wise
+  averages with a heatmap strip, prediction-risk distribution, top/low performers
+- **PDF reports** — downloadable per-student report via ReportLab
+- **UI polish** — dark mode, toast notifications, skeleton loaders, sortable/paginated tables
 
 ### What was intentionally scoped out
 To keep everything actually working end-to-end rather than padding the file count,
-the following extras from a "kitchen sink" spec were **not** built: Teacher/Parent
-dashboards, dark mode, in-app notifications, emailed reports, and Excel export.
-Everything else — auth, CRUD, CSV import/export, model training, prediction,
-analytics charts, and PDF reports — is fully implemented and tested.
+Teacher/Parent dashboards and in-app real-time notifications were **not** built.
+Everything listed above is implemented and wired end-to-end (no placeholder code).
+
+---
+
+## Architecture
+
+```
+ ┌────────────────┐      HTTPS/JSON       ┌──────────────────┐      SQL      ┌──────────────┐
+ │  React (Vite)  │  ───────────────────▶ │   Flask REST API │ ────────────▶ │ SQLite/MySQL │
+ │  frontend/src  │  ◀─────────────────── │    backend/app.py│ ◀──────────── │              │
+ └────────────────┘        JWT auth       └──────────────────┘               └──────────────┘
+                                                    │
+                                                    │ joblib.load
+                                                    ▼
+                                           ┌──────────────────┐
+                                           │  model/*.pkl      │  (trained by model/train_model.py)
+                                           │  metrics.json      │
+                                           └──────────────────┘
+                                                    │
+                                                    ▼ (optional, if notifications enabled)
+                                           ┌──────────────────┐
+                                           │   SMTP server      │  (backend/email_utils.py)
+                                           └──────────────────┘
+```
+
+The frontend never touches the ML artifacts directly — every prediction, metric, and
+chart is served through the Flask API, which loads the trained model once (`PredictionEngine`
+in `backend/ml_utils.py`) and reuses it across requests.
 
 ---
 
@@ -78,16 +111,26 @@ Student-Performance/
 │   ├── train_model.py          # trains + compares models, saves best via joblib
 │   ├── best_model.pkl / classifier.pkl / scaler.pkl / encoders.pkl
 │   ├── feature_columns.json
-│   └── metrics.json
+│   └── metrics.json            # regression + classification metrics, ROC curve, feature importance
 ├── backend/
 │   ├── app.py                  # Flask REST API
 │   ├── config.py
-│   ├── models.py                # SQLAlchemy models
-│   ├── ml_utils.py              # inference + suggestion engine
-│   └── requirements.txt
+│   ├── models.py                # SQLAlchemy models (Student, Admin, Prediction, EmailSettings)
+│   ├── ml_utils.py              # inference + AI suggestion engine
+│   ├── email_utils.py           # SMTP notification helper
+│   ├── requirements.txt
+│   └── .env.example
 ├── frontend/                    # React app (Vite)
-│   └── src/...
+│   ├── src/
+│   │   ├── pages/                # Landing, Dashboard, Prediction, StudentProgress,
+│   │   │                         # Analytics, ModelPerformance, EmailSettings, Reports, ...
+│   │   ├── components/           # Navbar, ProtectedRoute, Pagination, SkeletonRows
+│   │   ├── context/              # AuthContext, ThemeContext, ToastContext
+│   │   └── api/client.js
+│   ├── vercel.json
+│   └── .env.example
 ├── database.sql                 # MySQL schema (optional — SQLite is default)
+├── render.yaml                  # Render deployment config for the backend
 └── README.md
 ```
 
@@ -121,10 +164,11 @@ python train_model.py
 Trains Linear Regression, Decision Tree Regressor, and Random Forest Regressor
 (compared by R²) plus a Logistic Regression pass/fail classifier. Saves the best
 regressor, the classifier, the scaler, and the encoders as `.pkl` files, and
-writes `metrics.json` with evaluation metrics (R², MAE, RMSE, accuracy).
+writes `metrics.json` with evaluation metrics: R², MAE, RMSE, accuracy, precision,
+recall, F1, a confusion matrix, an ROC curve + AUC, and per-model feature importance.
 
-You can also retrain later from the Admin Dashboard's **"Train model"** button —
-it runs this same script via the API.
+You can also retrain later from the Admin **Dashboard** or **Model Performance** page's
+"Train model" / "Retrain models" button — it runs this same script via the API.
 
 ## 3. Run the backend
 
@@ -132,6 +176,7 @@ it runs this same script via the API.
 cd ../backend
 python -m venv venv && source venv/bin/activate   # optional but recommended
 pip install -r requirements.txt
+cp .env.example .env   # then edit JWT_SECRET_KEY etc. and load it into your shell/host
 python app.py
 ```
 
@@ -151,6 +196,10 @@ password: admin123
    export DATABASE_URL="mysql+pymysql://root:yourpassword@localhost:3306/student_performance"
    python app.py
    ```
+
+**To enable email notifications:** log in as admin, open **Email Settings**, fill in your
+SMTP host/port/username/password/sender address, send yourself a test email, then flip on
+"Enable automatic notifications". Nothing is sent until that toggle is on.
 
 ## 4. Run the frontend
 
@@ -180,14 +229,19 @@ npm run build
 | GET | `/api/me` | JWT | Current identity/role |
 | GET | `/api/students` | JWT | List/search students |
 | GET | `/api/students/<id>` | JWT | Get one student |
+| GET | `/api/students/<id>/progress` | JWT | Progress-dashboard data: profile, latest prediction, prediction history, progress % |
 | POST | `/api/students` | Admin | Add a student |
 | PUT | `/api/students/<id>` | Admin | Update a student |
 | DELETE | `/api/students/<id>` | Admin | Delete a student |
-| POST | `/api/upload-csv` | Admin | Bulk import students from CSV |
+| POST | `/api/upload-csv` | Admin | Bulk import with per-row validation, duplicate/invalid/missing breakdown, preview, and error report |
 | GET | `/api/export-csv` | JWT | Export all students to CSV |
 | POST | `/api/train-model` | Admin | Retrain and reload the ML pipeline |
-| POST | `/api/predict` | JWT | Predict marks / pass-fail / suggestions |
+| GET | `/api/model-metrics` | Admin | Accuracy/precision/recall/F1/MAE/RMSE/R², confusion matrix, ROC curve, feature importance, model comparison — without retraining |
+| POST | `/api/predict` | JWT | Predict marks / pass-fail / suggestions / confidence / estimated improvement |
 | GET | `/api/analytics` | JWT | Cohort-level stats for the Analytics page |
+| GET | `/api/email-settings` | Admin | Current SMTP settings (password masked) |
+| PUT | `/api/email-settings` | Admin | Update SMTP settings / notification toggle / attendance threshold |
+| POST | `/api/email-settings/test` | Admin | Send a test email to verify SMTP config |
 | GET | `/api/report/<id>` | JWT | Download a PDF report |
 | GET | `/api/health` | — | Health check |
 
@@ -207,7 +261,8 @@ curl -X POST http://127.0.0.1:5000/api/predict \
 ```
 
 Response includes `predicted_marks`, `pass_fail`, `grade`, `performance_percentage`,
-`weak_areas`, `strengths`, `suggestions`, `risk_level`, and `recommended_study_hours`.
+`confidence_percent`, `weak_areas`, `strengths`, `suggestions`, `risk_level`,
+`recommended_study_hours`, and `estimated_improvement`.
 
 ---
 
@@ -221,6 +276,59 @@ Response includes `predicted_marks`, `pass_fail`, `grade`, `performance_percenta
 - **Split:** 80/20 train/test split, `random_state=42` for reproducibility.
 - **Model selection:** the regressor with the highest R² on the held-out test
   set is automatically promoted as `best_model.pkl`.
+- **Evaluation metrics:** `model/metrics.json` also stores precision/recall/F1,
+  a confusion matrix, and a downsampled ROC curve + AUC for the pass/fail
+  classifier, plus per-model feature importance (`feature_importances_` for
+  the tree models, `abs(coef_)` for Linear Regression). The Admin-only
+  **Model Performance** page reads this via `GET /api/model-metrics` and lets
+  you retrain from the same screen.
+- **Estimated improvement:** at prediction time, `ml_utils.py` simulates a student
+  acting on the generated suggestions (attendance ≥85%, +1.5 study hrs/day, +10 on
+  quiz/assignment, +5 on internals) and re-runs the model to report a realistic
+  marks delta, rather than a made-up constant.
+
+---
+
+## Screenshots
+
+Not included in this repo — after running the app locally (`npm run dev` +
+`python app.py`), the key screens to capture for a portfolio/README are: Landing,
+Dashboard (roster), Prediction result, Student Progress, Model Performance, and
+Analytics. Drop PNGs into a `docs/screenshots/` folder and reference them here,
+e.g. `![Dashboard](docs/screenshots/dashboard.png)`.
+
+---
+
+## Deployment
+
+### Frontend → Vercel
+1. Push this repo to GitHub.
+2. In Vercel, "Import Project" → select the repo → set **Root Directory** to `frontend`.
+3. Vercel auto-detects `vercel.json` (build command `npm run build`, output `dist`).
+4. Add an environment variable `VITE_API_URL` pointing at your deployed backend,
+   e.g. `https://gradesight-api.onrender.com/api`.
+
+### Backend → Render
+1. In Render, "New" → "Blueprint" → point at this repo; it will read `render.yaml`.
+   (Or manually: New Web Service, root directory `backend`, build command
+   `pip install -r requirements.txt`, start command `gunicorn app:app --bind 0.0.0.0:$PORT`.)
+2. Set environment variables: `JWT_SECRET_KEY` (Render can auto-generate it),
+   `CORS_ORIGINS` = your Vercel URL (e.g. `https://gradesight.vercel.app`), and
+   optionally `DATABASE_URL` if using MySQL instead of the default SQLite file.
+3. SQLite on Render's free tier is **ephemeral** (resets on redeploy) — use MySQL
+   (e.g. PlanetScale, Railway, or Render's managed Postgres via a MySQL-compatible
+   driver swap) for anything you need to persist.
+4. After the first deploy, SSH/shell in (or hit any endpoint once) to confirm
+   `db.create_all()` seeded the default admin, then change that password immediately.
+
+### Environment variables summary
+
+| Var | Where | Purpose |
+|---|---|---|
+| `VITE_API_URL` | frontend | Base URL of the deployed API |
+| `JWT_SECRET_KEY` | backend | Signs JWTs — must be a real secret in production |
+| `DATABASE_URL` | backend | Optional MySQL connection string (else SQLite file) |
+| `CORS_ORIGINS` | backend | Comma-separated list of allowed frontend origins |
 
 ---
 
@@ -228,6 +336,23 @@ Response includes `predicted_marks`, `pass_fail`, `grade`, `performance_percenta
 
 This is a learning/demo-grade build. Before deploying publicly:
 - Replace `JWT_SECRET_KEY` and the default admin password.
-- Turn off Flask debug mode and run behind a production WSGI server (gunicorn/uwsgi).
+- Turn off Flask debug mode and run behind a production WSGI server — already
+  wired up via `gunicorn` in `render.yaml` / `requirements.txt`.
 - Add HTTPS, rate limiting, and input validation hardening.
-- Move secrets out of `config.py` into environment variables / a secrets manager.
+- Move secrets (including SMTP credentials) out of the database/`config.py` into
+  environment variables or a secrets manager for anything beyond a class project.
+- Restrict `CORS_ORIGINS` to your real frontend domain(s) only.
+
+---
+
+## Future scope
+
+- Teacher and parent dashboards with scoped visibility
+- In-app real-time notifications (websocket) alongside email
+- Excel (.xlsx) import/export in addition to CSV
+- Multi-semester history and true time-series attendance/marks trends
+  (current Progress trend charts predicted-marks history from stored predictions;
+  a dedicated per-term snapshot table would let attendance/marks themselves be
+  plotted over time too)
+- Role-based fine-grained permissions (e.g. teaching assistants)
+- Automated CI (lint + a smoke-test suite hitting the Flask test client)

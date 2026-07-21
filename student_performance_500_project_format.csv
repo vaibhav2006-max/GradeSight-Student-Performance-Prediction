@@ -1,0 +1,501 @@
+student_id,name,age,gender,attendance,internal_marks,assignment_marks,quiz_marks,study_hours_per_day,previous_semester_marks,participation,internet_access,parent_education,final_exam_marks
+S001,Nikhil Mishra,20,Male,60,44,17,15,4.4,79,No,No,Graduate,100
+S002,Ankit Mishra,20,Female,70,30,16,8,1.5,50,No,Yes,Intermediate,92
+S003,Ankit Verma,18,Male,65,43,20,12,5.1,54,Yes,Yes,Intermediate,100
+S004,Sneha Singh,22,Male,99,48,19,20,5.4,79,No,No,Post Graduate,100
+S005,Rahul Yadav,24,Female,83,27,19,11,6.8,55,No,No,Intermediate,100
+S006,Neha Sharma,22,Female,74,41,10,17,6.6,86,Yes,No,Post Graduate,100
+S007,Kavya Kumar,23,Female,99,26,13,19,6.6,82,No,No,Graduate,100
+S008,Aarav Yadav,20,Male,72,26,16,11,1.2,65,No,Yes,Intermediate,96
+S009,Pooja Mishra,19,Female,97,27,12,20,3.1,52,No,Yes,High School,100
+S010,Neha Sharma,21,Female,74,31,12,11,6.3,81,No,No,Post Graduate,100
+S011,Kavya Singh,20,Male,94,43,10,9,3.5,50,No,No,High School,100
+S012,Riya Mishra,22,Male,82,48,11,13,5.5,72,No,Yes,Post Graduate,100
+S013,Nikhil Sharma,19,Female,65,28,15,15,4.7,69,No,No,Post Graduate,100
+S014,Vivaan Sharma,18,Male,97,48,20,10,6.1,83,No,Yes,Intermediate,100
+S015,Aarav Kumar,23,Male,91,22,12,11,1.5,70,Yes,No,Post Graduate,92
+S016,Kavya Mishra,23,Female,62,28,19,9,4.9,55,No,No,Intermediate,100
+S017,Kavya Singh,20,Female,79,41,10,19,4.7,70,No,Yes,Graduate,100
+S018,Sneha Sharma,18,Male,78,40,11,20,2.3,85,No,Yes,Post Graduate,100
+S019,Aditya Yadav,22,Female,87,46,19,16,6.0,92,No,No,Post Graduate,100
+S020,Aarav Sharma,22,Female,76,36,13,19,5.4,79,Yes,Yes,Post Graduate,100
+S021,Rohan Kumar,18,Female,68,20,11,13,1.2,82,No,No,Post Graduate,90
+S022,Aryan Singh,21,Female,80,50,14,10,5.7,92,No,Yes,Intermediate,100
+S023,Aryan Yadav,19,Female,63,23,19,12,4.5,53,Yes,No,High School,100
+S024,Aryan Verma,21,Male,90,44,12,16,1.3,64,Yes,Yes,Graduate,100
+S025,Utkarsh Mishra,19,Male,65,30,20,11,1.8,73,No,Yes,Post Graduate,100
+S026,Nikhil Gupta,22,Female,98,45,10,11,5.5,64,Yes,No,Post Graduate,100
+S027,Vaibhav Verma,21,Male,85,34,19,9,3.0,75,No,Yes,Graduate,100
+S028,Aditya Yadav,22,Male,91,27,16,16,5.3,75,Yes,Yes,Post Graduate,100
+S029,Aryan Yadav,21,Female,95,37,16,8,5.4,57,Yes,Yes,Graduate,100
+S030,Priya Kumar,24,Male,63,34,13,20,1.8,61,No,No,High School,100
+S031,Kavya Sharma,19,Male,76,48,16,15,4.2,47,Yes,Yes,Intermediate,100
+S032,Aditya Sharma,22,Male,64,42,17,15,4.4,56,No,Yes,High School,100
+S033,Utkarsh Singh,22,Male,89,25,18,14,1.2,60,Yes,Yes,Intermediate,100
+S034,Neha Verma,23,Male,88,39,12,15,3.4,63,No,No,Intermediate,100
+S035,Riya Kumar,19,Female,85,44,14,11,1.1,50,Yes,Yes,Post Graduate,100
+S036,Ananya Yadav,21,Female,87,29,16,10,3.6,71,No,Yes,High School,100
+S037,Krishna Sharma,19,Female,81,25,17,9,6.3,58,No,Yes,Intermediate,100
+S038,Utkarsh Singh,24,Female,63,28,20,10,5.3,66,Yes,Yes,High School,100
+S039,Vivaan Kumar,18,Female,94,43,15,19,1.2,71,No,Yes,High School,100
+S040,Sakshi Kumar,21,Female,81,40,10,14,5.2,64,Yes,No,Graduate,100
+S041,Aditya Yadav,21,Male,68,37,11,20,8.0,87,Yes,Yes,Post Graduate,100
+S042,Nikhil Yadav,20,Male,98,49,15,8,4.0,65,Yes,No,Post Graduate,100
+S043,Rahul Mishra,21,Male,68,49,18,13,5.3,71,No,No,High School,100
+S044,Riya Yadav,19,Male,79,50,13,18,5.7,83,No,Yes,Post Graduate,100
+S045,Ankit Sharma,19,Female,85,36,18,17,4.7,56,No,No,High School,100
+S046,Nikhil Singh,23,Female,77,50,11,16,4.9,54,No,Yes,Graduate,100
+S047,Utkarsh Singh,21,Female,68,41,10,18,1.3,92,No,Yes,Graduate,100
+S048,Ankit Mishra,19,Male,90,28,11,12,2.6,82,Yes,No,High School,100
+S049,Sakshi Kumar,20,Female,94,36,18,12,5.6,49,No,No,Intermediate,100
+S050,Sneha Gupta,22,Female,92,38,18,13,2.9,50,No,Yes,Intermediate,100
+S051,Utkarsh Mishra,19,Male,69,35,19,10,4.5,92,Yes,Yes,High School,100
+S052,Sakshi Kumar,22,Male,76,42,14,11,4.5,64,Yes,No,Graduate,100
+S053,Vaibhav Verma,24,Female,69,26,15,17,6.5,53,Yes,No,High School,100
+S054,Aditya Mishra,22,Male,86,44,14,16,2.9,74,No,No,Post Graduate,100
+S055,Aditya Yadav,20,Male,87,28,13,20,4.8,89,Yes,No,Intermediate,100
+S056,Nikhil Yadav,21,Female,74,22,13,20,5.6,56,Yes,No,Post Graduate,100
+S057,Ananya Verma,22,Male,80,47,10,10,7.0,91,No,No,High School,100
+S058,Aarav Kumar,20,Female,75,41,20,13,5.3,58,No,No,High School,100
+S059,Vivaan Mishra,21,Female,75,42,11,16,1.1,78,Yes,No,High School,100
+S060,Aarav Mishra,21,Female,60,47,13,13,4.9,69,Yes,Yes,High School,100
+S061,Aditi Singh,18,Male,89,33,10,15,6.0,68,No,Yes,Graduate,100
+S062,Rohan Verma,20,Female,90,38,18,10,2.2,80,No,No,Intermediate,100
+S063,Ananya Yadav,19,Male,75,46,11,17,8.0,60,No,No,Post Graduate,100
+S064,Pooja Yadav,18,Female,100,39,12,15,2.4,93,Yes,Yes,Intermediate,100
+S065,Ananya Sharma,19,Male,74,38,12,17,5.4,45,No,No,High School,100
+S066,Sneha Verma,21,Female,72,47,15,9,5.6,93,Yes,Yes,Graduate,100
+S067,Aryan Singh,24,Female,77,21,11,14,1.6,73,No,No,Graduate,92
+S068,Aditi Mishra,20,Male,71,30,12,14,6.8,68,No,Yes,Graduate,100
+S069,Krishna Gupta,22,Male,75,37,10,19,7.9,81,Yes,Yes,Intermediate,100
+S070,Neha Kumar,24,Female,63,50,13,16,7.8,67,Yes,Yes,Intermediate,100
+S071,Ananya Kumar,23,Female,73,37,13,18,6.7,65,No,Yes,Intermediate,100
+S072,Nikhil Singh,24,Male,72,46,20,15,3.2,77,Yes,No,High School,100
+S073,Ankit Gupta,19,Female,64,32,16,19,2.9,58,Yes,No,Intermediate,100
+S074,Nikhil Yadav,23,Male,84,36,19,19,3.6,50,No,Yes,High School,100
+S075,Priya Singh,18,Female,79,37,11,10,6.1,60,Yes,No,High School,100
+S076,Aryan Sharma,22,Female,98,29,12,18,2.0,52,Yes,No,High School,100
+S077,Utkarsh Mishra,24,Male,65,31,15,8,1.9,85,No,No,Post Graduate,100
+S078,Aditya Gupta,24,Male,67,41,15,10,1.9,87,No,Yes,Intermediate,100
+S079,Kavya Yadav,20,Female,60,49,18,19,2.7,53,No,Yes,Post Graduate,100
+S080,Utkarsh Singh,22,Female,89,21,20,20,1.1,95,Yes,Yes,High School,100
+S081,Kavya Mishra,23,Female,73,50,12,20,2.1,75,Yes,Yes,Intermediate,100
+S082,Aditya Kumar,21,Male,76,41,13,13,3.5,75,No,No,Post Graduate,100
+S083,Priya Sharma,19,Male,93,29,10,15,5.4,78,Yes,No,Intermediate,100
+S084,Vivaan Yadav,18,Female,91,37,16,19,2.3,94,Yes,Yes,High School,100
+S085,Kavya Sharma,18,Female,83,22,20,13,1.8,46,Yes,Yes,Post Graduate,96
+S086,Vaibhav Sharma,22,Male,62,49,16,8,2.9,94,No,No,Graduate,100
+S087,Ankit Kumar,21,Female,98,22,15,15,6.9,54,No,Yes,High School,100
+S088,Priya Sharma,18,Female,68,34,11,20,6.6,75,Yes,Yes,Intermediate,100
+S089,Kavya Sharma,23,Female,75,24,18,15,2.4,90,Yes,No,Post Graduate,100
+S090,Krishna Mishra,20,Female,78,40,13,19,6.9,47,Yes,Yes,High School,100
+S091,Sneha Kumar,19,Male,98,39,13,17,7.1,90,Yes,Yes,High School,100
+S092,Ananya Singh,19,Male,91,34,20,14,4.2,75,No,No,Graduate,100
+S093,Ankit Mishra,19,Male,63,31,13,17,1.8,75,No,Yes,Post Graduate,100
+S094,Nikhil Sharma,24,Female,74,46,14,16,6.6,89,Yes,Yes,Post Graduate,100
+S095,Rahul Singh,23,Female,66,37,20,12,6.4,72,No,Yes,Post Graduate,100
+S096,Ankit Kumar,19,Female,60,29,20,11,6.8,72,Yes,Yes,Post Graduate,100
+S097,Riya Mishra,20,Male,67,33,10,19,2.7,85,No,Yes,Post Graduate,100
+S098,Sneha Kumar,19,Female,89,31,14,19,6.0,70,Yes,No,Graduate,100
+S099,Kavya Kumar,23,Female,92,38,14,14,6.3,50,Yes,No,Graduate,100
+S100,Ananya Kumar,21,Male,78,39,17,12,4.4,69,Yes,No,Post Graduate,100
+S101,Aditi Verma,23,Male,65,36,18,18,1.2,73,Yes,No,Graduate,100
+S102,Sneha Verma,21,Female,75,29,15,17,2.5,55,Yes,Yes,Intermediate,100
+S103,Pooja Verma,20,Male,91,40,19,16,2.0,88,Yes,No,Post Graduate,100
+S104,Rohan Kumar,24,Male,84,38,13,16,2.4,88,Yes,No,Graduate,100
+S105,Sneha Gupta,24,Female,72,31,15,16,2.9,49,Yes,Yes,High School,100
+S106,Pooja Verma,22,Female,100,30,14,20,7.5,50,Yes,Yes,High School,100
+S107,Neha Singh,24,Male,75,40,17,11,4.3,45,No,No,Graduate,100
+S108,Vaibhav Verma,19,Female,100,39,15,12,4.5,85,Yes,No,Graduate,100
+S109,Ankit Sharma,20,Female,75,22,13,20,2.9,69,Yes,Yes,High School,100
+S110,Priya Gupta,23,Female,83,35,15,11,6.4,94,No,No,Post Graduate,100
+S111,Neha Verma,19,Male,61,22,17,17,3.3,87,Yes,No,Graduate,100
+S112,Aryan Verma,19,Male,60,40,20,9,6.4,95,No,No,High School,100
+S113,Neha Singh,22,Female,64,42,16,8,4.4,61,Yes,Yes,Post Graduate,100
+S114,Rohan Singh,22,Female,64,28,11,18,7.1,95,Yes,Yes,Graduate,100
+S115,Ananya Singh,20,Male,74,27,11,8,4.9,57,Yes,No,Post Graduate,96
+S116,Rohan Singh,18,Male,68,34,16,11,7.4,75,No,No,Post Graduate,100
+S117,Riya Verma,23,Female,73,30,15,8,3.3,84,Yes,Yes,High School,100
+S118,Neha Sharma,18,Female,94,44,17,20,7.1,86,No,No,Graduate,100
+S119,Rohan Sharma,19,Female,95,25,13,17,3.3,46,Yes,No,Graduate,100
+S120,Sneha Gupta,20,Female,85,24,16,8,6.9,62,Yes,Yes,Graduate,100
+S121,Nikhil Singh,18,Male,95,40,11,11,4.2,70,Yes,No,Graduate,100
+S122,Aditya Gupta,23,Female,72,36,15,13,3.6,88,Yes,Yes,High School,100
+S123,Priya Yadav,18,Male,73,25,11,15,4.3,82,No,No,Intermediate,100
+S124,Utkarsh Verma,18,Male,93,27,17,15,2.4,76,Yes,Yes,Intermediate,100
+S125,Riya Yadav,20,Male,97,43,13,13,2.6,88,No,No,Post Graduate,100
+S126,Aryan Sharma,21,Male,69,37,10,8,7.4,90,No,No,Graduate,100
+S127,Kavya Verma,23,Female,79,22,14,15,1.6,76,No,No,Intermediate,99
+S128,Kavya Verma,24,Female,73,43,17,20,4.9,87,Yes,Yes,Graduate,100
+S129,Sneha Sharma,18,Male,70,36,19,11,7.7,54,Yes,No,Intermediate,100
+S130,Nikhil Mishra,18,Female,83,41,14,14,4.9,76,Yes,No,Post Graduate,100
+S131,Aryan Mishra,22,Female,60,43,19,17,5.6,72,No,No,High School,100
+S132,Kavya Verma,24,Female,61,33,19,15,6.7,65,No,No,Intermediate,100
+S133,Aarav Mishra,19,Female,73,34,12,16,2.5,49,Yes,Yes,Intermediate,100
+S134,Aditya Yadav,24,Male,73,23,10,11,1.2,80,Yes,No,Intermediate,90
+S135,Sakshi Singh,22,Male,90,33,16,13,7.6,78,No,No,Intermediate,100
+S136,Sneha Verma,18,Female,80,37,16,13,5.0,62,No,No,Graduate,100
+S137,Aditi Kumar,19,Female,81,48,11,12,4.9,93,No,Yes,High School,100
+S138,Ananya Mishra,22,Female,87,23,13,20,6.8,73,No,Yes,Intermediate,100
+S139,Krishna Yadav,21,Female,78,49,11,15,3.7,95,Yes,Yes,Intermediate,100
+S140,Nikhil Gupta,23,Female,70,32,16,19,1.6,92,Yes,No,High School,100
+S141,Vaibhav Verma,18,Male,77,45,17,18,2.1,75,Yes,No,Post Graduate,100
+S142,Aditya Yadav,24,Female,92,49,17,19,3.0,87,No,Yes,Graduate,100
+S143,Kavya Sharma,20,Female,98,29,11,8,4.6,81,Yes,Yes,Post Graduate,100
+S144,Krishna Singh,23,Male,86,25,16,13,2.7,73,No,No,Intermediate,100
+S145,Kavya Mishra,21,Male,93,37,14,12,6.4,47,No,No,High School,100
+S146,Sneha Kumar,19,Female,69,48,10,15,1.4,80,No,No,Intermediate,100
+S147,Pooja Gupta,20,Male,99,37,10,16,1.4,73,Yes,No,Post Graduate,100
+S148,Sakshi Gupta,24,Female,79,33,15,17,6.4,89,No,Yes,Graduate,100
+S149,Aditya Singh,21,Male,99,44,18,9,4.0,90,Yes,Yes,High School,100
+S150,Aditi Kumar,22,Male,72,44,12,11,5.5,57,Yes,Yes,Post Graduate,100
+S151,Nikhil Gupta,19,Male,75,40,19,8,2.0,82,No,Yes,Graduate,100
+S152,Aryan Verma,21,Female,92,35,19,20,5.2,89,No,No,High School,100
+S153,Ankit Gupta,22,Male,95,48,12,17,1.3,76,Yes,Yes,Graduate,100
+S154,Aditi Gupta,24,Male,60,22,20,16,2.3,73,No,Yes,High School,100
+S155,Vaibhav Singh,22,Female,80,26,12,10,2.7,70,No,Yes,Post Graduate,97
+S156,Sakshi Mishra,19,Female,100,39,17,16,7.2,91,No,Yes,High School,100
+S157,Neha Singh,18,Male,61,25,11,10,7.9,87,Yes,No,Intermediate,100
+S158,Vaibhav Kumar,20,Female,78,35,15,17,4.6,86,No,No,Graduate,100
+S159,Nikhil Sharma,24,Female,85,34,11,20,6.9,66,No,No,Intermediate,100
+S160,Aarav Yadav,19,Female,81,47,13,14,1.8,63,Yes,No,Graduate,100
+S161,Utkarsh Yadav,24,Male,79,43,16,9,5.9,52,Yes,No,Graduate,100
+S162,Aryan Verma,24,Male,81,30,12,19,2.1,93,Yes,No,High School,100
+S163,Ananya Gupta,24,Male,73,47,16,8,5.1,75,Yes,Yes,Graduate,100
+S164,Nikhil Kumar,22,Female,88,49,19,8,2.3,69,No,No,Intermediate,100
+S165,Utkarsh Singh,18,Female,95,37,18,12,6.5,78,Yes,Yes,High School,100
+S166,Aryan Singh,23,Female,63,21,11,19,4.5,79,Yes,No,Intermediate,100
+S167,Utkarsh Singh,19,Male,60,33,20,14,1.8,91,No,Yes,Post Graduate,100
+S168,Kavya Sharma,21,Female,93,39,14,19,6.6,72,Yes,Yes,High School,100
+S169,Ankit Kumar,23,Male,87,42,18,12,3.6,81,Yes,No,Post Graduate,100
+S170,Pooja Kumar,21,Female,80,48,19,15,7.9,94,Yes,No,Intermediate,100
+S171,Krishna Verma,24,Female,90,22,15,13,5.9,53,No,Yes,Graduate,100
+S172,Priya Verma,22,Female,100,23,11,16,4.7,76,Yes,Yes,Intermediate,100
+S173,Priya Gupta,21,Male,66,34,17,17,4.3,64,Yes,No,Post Graduate,100
+S174,Aditya Sharma,23,Male,85,31,11,20,5.9,75,No,No,Post Graduate,100
+S175,Ankit Yadav,19,Male,89,41,18,8,6.0,77,Yes,Yes,Intermediate,100
+S176,Aarav Yadav,19,Female,69,32,15,19,7.8,47,No,No,Intermediate,100
+S177,Aarav Yadav,18,Male,81,50,18,14,1.6,95,No,Yes,High School,100
+S178,Krishna Gupta,24,Female,97,36,10,20,2.5,45,No,Yes,Intermediate,100
+S179,Ananya Sharma,22,Male,84,37,20,20,6.2,88,Yes,Yes,Post Graduate,100
+S180,Rahul Gupta,20,Male,99,36,16,9,4.3,71,No,Yes,Post Graduate,100
+S181,Aditi Verma,20,Male,99,45,18,17,3.3,88,Yes,No,Intermediate,100
+S182,Rahul Singh,24,Male,96,48,18,10,2.9,54,No,Yes,Post Graduate,100
+S183,Vaibhav Gupta,18,Male,60,50,16,18,2.4,66,Yes,Yes,High School,100
+S184,Kavya Kumar,21,Female,74,36,19,20,4.9,86,No,No,Intermediate,100
+S185,Priya Verma,18,Female,95,32,10,8,7.7,53,No,Yes,Graduate,100
+S186,Sakshi Kumar,24,Male,68,33,13,8,1.0,77,No,Yes,Post Graduate,99
+S187,Vaibhav Mishra,24,Female,86,46,19,17,5.3,67,Yes,Yes,Post Graduate,100
+S188,Vivaan Kumar,18,Male,77,23,14,17,3.5,69,No,Yes,High School,100
+S189,Neha Mishra,22,Female,83,23,18,19,2.9,74,No,No,Post Graduate,100
+S190,Priya Verma,24,Female,90,23,10,12,3.5,62,No,Yes,Intermediate,94
+S191,Sakshi Kumar,20,Female,64,47,15,8,7.3,72,No,Yes,High School,100
+S192,Riya Sharma,21,Female,89,30,17,15,3.7,57,Yes,Yes,High School,100
+S193,Krishna Kumar,23,Male,99,26,17,18,4.4,76,Yes,No,Post Graduate,100
+S194,Aarav Yadav,19,Female,100,43,17,19,7.3,85,Yes,Yes,High School,100
+S195,Aarav Kumar,21,Male,60,23,11,8,2.3,79,No,Yes,Intermediate,89
+S196,Aryan Gupta,19,Male,60,38,12,12,7.1,70,Yes,No,Intermediate,100
+S197,Krishna Sharma,18,Female,79,26,20,12,3.0,48,Yes,Yes,High School,100
+S198,Sneha Verma,20,Female,92,44,18,15,1.9,79,No,Yes,Post Graduate,100
+S199,Ananya Yadav,18,Male,74,39,14,19,7.6,92,Yes,No,Post Graduate,100
+S200,Sakshi Verma,19,Male,85,43,19,10,1.2,46,Yes,No,Post Graduate,100
+S201,Sneha Gupta,24,Male,71,48,14,15,6.7,88,No,No,Post Graduate,100
+S202,Rohan Gupta,21,Male,91,22,10,12,5.6,63,No,Yes,High School,100
+S203,Aditi Gupta,19,Male,73,49,14,20,5.1,56,Yes,Yes,High School,100
+S204,Pooja Kumar,19,Male,82,29,16,17,3.7,92,No,Yes,Post Graduate,100
+S205,Pooja Kumar,21,Female,92,27,18,9,3.4,72,No,Yes,Graduate,100
+S206,Rohan Sharma,19,Female,72,31,12,10,3.5,93,Yes,Yes,Intermediate,100
+S207,Rahul Sharma,24,Male,70,34,12,8,6.3,79,No,Yes,Intermediate,100
+S208,Ananya Gupta,19,Male,94,27,10,15,7.6,82,No,No,Intermediate,100
+S209,Aditya Singh,20,Male,76,29,10,11,2.9,48,No,Yes,Post Graduate,90
+S210,Krishna Kumar,23,Female,100,43,13,13,2.5,90,Yes,Yes,Intermediate,100
+S211,Rohan Gupta,23,Female,92,43,18,12,6.5,92,Yes,Yes,Graduate,100
+S212,Rahul Kumar,18,Female,71,30,16,18,6.9,80,No,No,Intermediate,100
+S213,Pooja Singh,20,Male,73,34,18,8,1.0,69,No,No,Intermediate,100
+S214,Neha Mishra,19,Female,89,50,19,19,3.9,79,No,No,Post Graduate,100
+S215,Priya Kumar,24,Female,99,26,11,9,2.3,55,No,No,High School,91
+S216,Vaibhav Mishra,21,Male,64,35,12,19,3.0,80,No,Yes,High School,100
+S217,Nikhil Sharma,20,Female,66,45,10,10,5.9,84,Yes,No,Intermediate,100
+S218,Ananya Yadav,21,Female,81,45,16,16,7.2,95,No,No,Graduate,100
+S219,Pooja Mishra,22,Female,97,50,14,10,3.8,87,Yes,No,High School,100
+S220,Neha Verma,20,Female,88,41,15,15,6.2,59,No,Yes,Graduate,100
+S221,Rohan Kumar,21,Male,96,45,20,13,1.1,49,Yes,Yes,Graduate,100
+S222,Kavya Singh,23,Male,67,35,13,20,7.9,72,No,No,Post Graduate,100
+S223,Krishna Mishra,21,Male,67,43,17,11,4.0,65,No,Yes,Post Graduate,100
+S224,Vivaan Verma,19,Male,60,33,20,9,6.1,68,No,Yes,Post Graduate,100
+S225,Aarav Sharma,22,Female,74,33,12,15,6.2,61,No,No,Intermediate,100
+S226,Vivaan Yadav,20,Male,66,50,13,18,5.2,55,No,Yes,Intermediate,100
+S227,Priya Singh,18,Male,84,21,10,9,3.4,47,Yes,Yes,High School,83
+S228,Riya Yadav,19,Female,61,48,18,13,1.9,85,Yes,No,Post Graduate,100
+S229,Riya Mishra,20,Male,97,28,14,17,7.9,88,No,Yes,Post Graduate,100
+S230,Aarav Gupta,22,Female,66,20,20,17,2.8,58,No,Yes,Post Graduate,100
+S231,Sneha Yadav,23,Male,100,24,10,8,7.3,78,Yes,Yes,Graduate,100
+S232,Kavya Verma,18,Female,79,21,11,20,5.7,72,Yes,No,Post Graduate,100
+S233,Rohan Sharma,18,Female,87,31,10,16,4.0,45,No,No,Graduate,100
+S234,Riya Verma,19,Male,77,22,10,18,5.6,85,Yes,Yes,Graduate,100
+S235,Neha Yadav,24,Male,61,39,11,8,6.7,84,No,No,Graduate,100
+S236,Aditi Kumar,22,Male,95,22,12,12,6.3,55,No,Yes,High School,100
+S237,Sakshi Mishra,23,Male,76,47,11,17,6.1,73,Yes,Yes,High School,100
+S238,Riya Verma,24,Male,94,45,11,15,7.4,71,No,Yes,Graduate,100
+S239,Priya Yadav,21,Male,61,41,15,14,3.3,59,No,Yes,High School,100
+S240,Aditya Sharma,22,Male,67,28,18,13,6.0,72,No,Yes,Graduate,100
+S241,Aditya Gupta,23,Male,84,50,12,13,5.6,58,No,Yes,Intermediate,100
+S242,Krishna Gupta,23,Female,72,45,18,14,6.5,54,No,Yes,Post Graduate,100
+S243,Vaibhav Verma,21,Female,77,25,10,8,1.6,83,Yes,Yes,High School,92
+S244,Krishna Sharma,20,Male,86,28,18,11,1.1,93,No,Yes,Post Graduate,100
+S245,Krishna Mishra,20,Female,91,44,16,17,3.7,84,No,Yes,Intermediate,100
+S246,Utkarsh Gupta,23,Male,95,34,16,10,3.8,79,No,No,Graduate,100
+S247,Krishna Kumar,21,Female,95,43,13,10,1.1,76,Yes,Yes,Intermediate,100
+S248,Vaibhav Kumar,19,Male,63,39,15,19,4.9,74,No,Yes,Graduate,100
+S249,Krishna Yadav,23,Male,84,38,20,9,5.7,65,No,Yes,Intermediate,100
+S250,Vaibhav Yadav,21,Female,89,42,20,20,6.1,93,Yes,Yes,Graduate,100
+S251,Aarav Verma,24,Female,67,22,18,18,2.0,91,Yes,Yes,Intermediate,100
+S252,Sneha Sharma,23,Female,64,43,13,10,5.7,82,No,No,Intermediate,100
+S253,Krishna Mishra,22,Male,99,30,13,13,3.5,72,No,Yes,High School,100
+S254,Aditya Kumar,22,Female,82,24,13,16,2.9,46,No,No,Post Graduate,95
+S255,Ankit Sharma,24,Male,64,33,17,11,3.4,79,No,No,Graduate,100
+S256,Riya Gupta,20,Female,96,23,20,17,6.9,45,Yes,Yes,Intermediate,100
+S257,Vaibhav Singh,24,Male,62,49,18,15,3.6,82,Yes,Yes,High School,100
+S258,Nikhil Mishra,20,Female,66,23,15,11,5.2,69,Yes,No,Intermediate,100
+S259,Vivaan Yadav,19,Female,74,46,13,20,1.5,86,Yes,No,High School,100
+S260,Rohan Gupta,24,Female,78,43,20,15,3.1,80,Yes,No,High School,100
+S261,Riya Gupta,24,Male,98,39,13,18,7.2,73,Yes,Yes,Post Graduate,100
+S262,Krishna Singh,20,Female,86,23,12,17,1.1,62,Yes,No,Post Graduate,94
+S263,Priya Mishra,22,Male,75,28,13,17,2.0,61,No,No,High School,100
+S264,Utkarsh Mishra,23,Male,72,34,19,8,5.8,63,Yes,No,Graduate,100
+S265,Utkarsh Singh,18,Male,94,39,13,20,1.4,89,No,No,High School,100
+S266,Aryan Yadav,18,Female,73,31,13,9,5.2,51,Yes,Yes,Intermediate,100
+S267,Riya Sharma,20,Female,86,48,20,20,7.3,51,Yes,Yes,Intermediate,100
+S268,Aryan Mishra,24,Female,72,42,17,15,6.2,71,Yes,Yes,High School,100
+S269,Rohan Kumar,24,Male,77,29,20,18,2.3,54,Yes,No,High School,100
+S270,Sakshi Verma,18,Male,86,25,16,13,2.3,60,Yes,Yes,High School,100
+S271,Vaibhav Kumar,24,Female,78,45,10,14,1.2,62,No,Yes,High School,100
+S272,Priya Singh,18,Male,77,23,10,13,2.4,61,Yes,Yes,High School,90
+S273,Aarav Singh,18,Female,65,29,18,15,7.2,92,No,Yes,Intermediate,100
+S274,Vaibhav Sharma,21,Female,67,31,13,10,2.5,52,No,No,Intermediate,94
+S275,Vaibhav Gupta,21,Male,84,43,20,18,5.5,84,No,No,Graduate,100
+S276,Pooja Kumar,24,Female,95,46,16,9,2.1,45,Yes,No,High School,100
+S277,Aditi Sharma,19,Female,76,27,13,10,3.0,84,Yes,Yes,Post Graduate,100
+S278,Sneha Sharma,22,Female,67,28,14,17,2.0,47,Yes,No,High School,97
+S279,Utkarsh Singh,22,Female,74,28,18,17,4.3,47,Yes,Yes,Graduate,100
+S280,Rohan Kumar,18,Male,69,44,13,14,5.4,83,Yes,No,Intermediate,100
+S281,Sneha Kumar,23,Female,93,42,18,15,6.6,75,No,No,Graduate,100
+S282,Pooja Kumar,19,Male,97,48,12,15,3.8,66,No,Yes,Post Graduate,100
+S283,Neha Verma,20,Male,65,23,19,16,7.7,52,Yes,No,Intermediate,100
+S284,Pooja Yadav,20,Male,71,48,19,19,3.9,91,No,Yes,High School,100
+S285,Riya Kumar,22,Male,67,32,13,14,7.2,74,No,No,Graduate,100
+S286,Neha Mishra,19,Male,76,41,19,14,3.9,63,Yes,No,Post Graduate,100
+S287,Aditya Kumar,24,Female,81,50,18,14,1.8,92,Yes,Yes,Graduate,100
+S288,Nikhil Gupta,24,Male,63,48,19,15,5.6,71,No,Yes,Graduate,100
+S289,Vaibhav Gupta,23,Female,62,41,19,19,6.9,49,Yes,Yes,Post Graduate,100
+S290,Ananya Gupta,18,Female,93,49,20,18,4.6,49,No,Yes,High School,100
+S291,Krishna Singh,18,Female,63,23,14,8,7.8,75,No,Yes,High School,100
+S292,Ananya Gupta,21,Female,75,28,11,9,6.0,71,Yes,Yes,High School,100
+S293,Kavya Yadav,18,Female,100,20,13,16,1.2,69,No,No,Post Graduate,96
+S294,Aditi Verma,18,Male,76,35,18,9,5.7,72,Yes,Yes,Post Graduate,100
+S295,Riya Yadav,19,Female,76,34,10,8,6.1,67,Yes,No,High School,100
+S296,Vaibhav Mishra,21,Female,79,50,10,14,2.5,53,No,No,Graduate,100
+S297,Rahul Singh,19,Female,63,30,16,15,6.5,49,Yes,Yes,Graduate,100
+S298,Aryan Yadav,21,Female,79,36,18,20,2.2,89,Yes,No,Post Graduate,100
+S299,Ananya Sharma,20,Male,87,37,19,16,7.2,94,Yes,No,Graduate,100
+S300,Rahul Sharma,20,Male,85,27,18,17,3.7,62,No,No,Intermediate,100
+S301,Aditya Yadav,19,Female,87,28,10,13,1.1,91,Yes,Yes,Graduate,100
+S302,Aditya Verma,20,Male,84,32,12,19,4.7,84,No,No,Intermediate,100
+S303,Vivaan Kumar,23,Male,62,41,15,9,4.5,82,Yes,Yes,Graduate,100
+S304,Sakshi Verma,19,Female,74,42,20,20,1.7,65,Yes,Yes,Post Graduate,100
+S305,Aryan Verma,19,Female,89,43,14,20,6.8,74,No,Yes,Intermediate,100
+S306,Ananya Kumar,19,Male,100,26,20,12,4.3,55,No,No,Post Graduate,100
+S307,Aarav Kumar,22,Female,82,50,18,18,2.4,57,No,Yes,Intermediate,100
+S308,Rohan Yadav,18,Male,66,48,15,13,2.1,93,Yes,Yes,Intermediate,100
+S309,Aarav Yadav,22,Male,74,48,20,20,7.1,65,Yes,No,Post Graduate,100
+S310,Rohan Yadav,19,Female,61,48,15,10,4.1,79,No,No,Post Graduate,100
+S311,Ananya Sharma,20,Female,70,38,11,11,2.1,63,Yes,No,Intermediate,100
+S312,Vivaan Kumar,20,Male,89,44,14,11,6.5,68,No,No,Intermediate,100
+S313,Ankit Mishra,18,Female,98,48,19,17,5.7,58,No,No,Graduate,100
+S314,Aarav Singh,20,Male,60,35,13,16,2.1,95,Yes,Yes,Intermediate,100
+S315,Sneha Sharma,19,Female,94,43,17,11,4.2,60,Yes,No,High School,100
+S316,Sakshi Gupta,21,Female,62,23,18,10,3.2,68,No,Yes,High School,100
+S317,Rahul Verma,21,Male,75,37,17,17,6.9,90,Yes,No,Post Graduate,100
+S318,Rohan Verma,20,Female,67,22,15,16,5.4,82,No,No,Post Graduate,100
+S319,Krishna Singh,19,Male,60,44,14,20,6.4,82,Yes,Yes,High School,100
+S320,Aditya Yadav,23,Female,88,21,17,11,4.7,94,No,Yes,Post Graduate,100
+S321,Ananya Singh,18,Female,72,41,18,14,7.3,71,Yes,Yes,Graduate,100
+S322,Kavya Verma,24,Male,70,41,14,20,3.5,51,No,Yes,Intermediate,100
+S323,Sakshi Singh,22,Female,89,23,12,11,1.9,45,Yes,No,Graduate,85
+S324,Vaibhav Yadav,22,Male,65,31,16,10,5.4,59,Yes,No,Intermediate,100
+S325,Ankit Mishra,21,Male,87,30,16,14,2.2,91,Yes,No,Post Graduate,100
+S326,Riya Yadav,20,Male,76,24,19,17,6.3,88,No,No,Post Graduate,100
+S327,Neha Mishra,23,Male,71,31,11,16,3.0,73,Yes,Yes,Post Graduate,100
+S328,Aditya Yadav,19,Female,96,46,19,13,7.6,65,No,No,Post Graduate,100
+S329,Aditi Verma,21,Male,90,32,15,12,2.0,63,Yes,No,Graduate,100
+S330,Aryan Mishra,21,Female,95,29,19,20,5.0,75,Yes,No,Post Graduate,100
+S331,Vivaan Yadav,22,Male,90,45,16,9,3.2,52,No,Yes,Post Graduate,100
+S332,Rohan Kumar,23,Male,68,28,12,20,4.2,48,Yes,No,High School,100
+S333,Nikhil Singh,18,Female,87,50,17,15,2.7,77,No,Yes,Intermediate,100
+S334,Ankit Sharma,24,Female,88,27,17,8,7.9,52,Yes,No,Graduate,100
+S335,Neha Singh,24,Female,68,48,12,19,7.1,95,Yes,Yes,Graduate,100
+S336,Vaibhav Singh,18,Female,87,36,10,18,6.5,85,No,No,Intermediate,100
+S337,Aryan Mishra,19,Female,69,50,16,19,4.9,53,Yes,Yes,Intermediate,100
+S338,Aditya Mishra,19,Male,95,23,17,10,3.6,71,No,No,High School,100
+S339,Riya Gupta,18,Female,99,34,10,12,4.7,86,Yes,No,Post Graduate,100
+S340,Aarav Kumar,23,Female,76,40,15,13,7.0,51,Yes,No,Intermediate,100
+S341,Aryan Verma,23,Female,91,39,10,9,7.5,49,Yes,Yes,High School,100
+S342,Aditi Gupta,21,Male,91,50,14,15,5.2,57,No,Yes,Graduate,100
+S343,Krishna Verma,19,Male,95,50,16,14,7.8,75,Yes,Yes,Intermediate,100
+S344,Neha Yadav,18,Female,95,46,17,9,3.6,50,No,Yes,High School,100
+S345,Aarav Gupta,24,Male,80,44,12,16,3.8,55,No,No,Intermediate,100
+S346,Aditya Verma,19,Female,82,42,19,20,1.9,76,Yes,Yes,Graduate,100
+S347,Vivaan Sharma,21,Male,84,28,18,20,3.5,61,No,Yes,Graduate,100
+S348,Utkarsh Singh,24,Male,95,24,13,14,3.0,74,Yes,No,High School,100
+S349,Pooja Singh,22,Male,97,25,18,8,2.8,84,Yes,Yes,Intermediate,100
+S350,Aditi Mishra,21,Male,65,47,15,14,3.0,87,Yes,No,High School,100
+S351,Vaibhav Singh,20,Male,60,25,15,18,5.4,86,Yes,No,High School,100
+S352,Priya Sharma,24,Female,98,23,13,18,1.6,46,No,Yes,High School,94
+S353,Aryan Verma,20,Male,93,24,11,19,6.5,82,No,Yes,Graduate,100
+S354,Vivaan Gupta,19,Male,93,28,14,14,5.1,65,Yes,No,High School,100
+S355,Sneha Yadav,18,Female,99,28,17,8,7.9,57,Yes,No,Post Graduate,100
+S356,Rahul Verma,22,Female,68,44,20,10,2.4,92,No,No,Graduate,100
+S357,Rohan Yadav,20,Male,60,48,14,18,6.0,81,No,Yes,Graduate,100
+S358,Kavya Verma,23,Female,67,50,16,19,5.5,90,Yes,No,Graduate,100
+S359,Riya Yadav,22,Male,62,20,18,16,7.5,69,No,No,Intermediate,100
+S360,Rohan Mishra,21,Male,85,46,15,12,1.1,75,Yes,No,Intermediate,100
+S361,Rahul Gupta,22,Female,79,46,20,14,6.9,55,No,Yes,High School,100
+S362,Pooja Kumar,20,Female,94,30,18,9,6.5,85,No,Yes,Post Graduate,100
+S363,Ananya Verma,24,Female,99,27,10,8,1.7,51,Yes,Yes,Post Graduate,86
+S364,Priya Mishra,23,Female,94,45,16,15,5.6,85,Yes,No,Post Graduate,100
+S365,Rohan Sharma,20,Female,61,22,20,20,1.8,72,Yes,No,Intermediate,100
+S366,Ankit Sharma,21,Female,98,46,20,9,1.0,88,No,Yes,Post Graduate,100
+S367,Utkarsh Singh,19,Male,94,43,19,20,3.6,45,Yes,Yes,High School,100
+S368,Rohan Sharma,22,Female,91,44,17,11,2.9,92,Yes,Yes,Intermediate,100
+S369,Ankit Yadav,24,Female,86,41,14,17,5.2,65,Yes,No,High School,100
+S370,Sneha Gupta,18,Male,70,44,19,20,4.9,64,No,Yes,Graduate,100
+S371,Aryan Sharma,18,Female,81,47,16,18,6.7,90,Yes,No,Graduate,100
+S372,Ankit Verma,19,Male,87,33,12,12,1.7,90,No,No,High School,100
+S373,Aryan Verma,19,Male,98,36,11,10,3.4,95,Yes,No,Intermediate,100
+S374,Priya Singh,23,Male,83,32,18,14,7.9,66,Yes,Yes,Post Graduate,100
+S375,Utkarsh Yadav,23,Female,82,39,19,17,1.8,50,No,No,Graduate,100
+S376,Kavya Singh,20,Female,77,43,12,10,2.3,85,Yes,Yes,Post Graduate,100
+S377,Rahul Singh,20,Male,98,42,15,12,7.8,79,Yes,No,High School,100
+S378,Vivaan Yadav,18,Female,63,36,11,11,2.7,83,Yes,No,Intermediate,100
+S379,Pooja Mishra,23,Female,86,45,16,14,6.6,91,No,No,High School,100
+S380,Vaibhav Mishra,20,Male,86,28,20,11,2.1,51,No,No,Intermediate,100
+S381,Rahul Verma,21,Female,69,22,19,17,3.6,57,No,Yes,Graduate,100
+S382,Utkarsh Mishra,23,Female,60,32,19,15,4.6,46,Yes,No,Intermediate,100
+S383,Utkarsh Singh,21,Male,84,50,10,18,7.2,91,Yes,Yes,High School,100
+S384,Aditya Verma,22,Male,69,44,12,14,5.8,65,Yes,No,Post Graduate,100
+S385,Ankit Mishra,20,Female,81,42,17,9,4.9,48,Yes,Yes,High School,100
+S386,Aarav Gupta,19,Male,87,21,11,10,5.8,51,Yes,Yes,Graduate,94
+S387,Vaibhav Sharma,23,Male,74,33,14,17,7.2,62,No,No,Graduate,100
+S388,Aditya Gupta,18,Male,91,20,13,15,1.6,74,Yes,Yes,High School,97
+S389,Vivaan Verma,20,Male,66,45,20,10,4.3,77,No,No,High School,100
+S390,Priya Sharma,22,Female,89,49,15,16,1.9,92,Yes,No,Graduate,100
+S391,Utkarsh Mishra,20,Male,96,41,17,20,6.1,45,No,Yes,Post Graduate,100
+S392,Aditya Mishra,20,Male,85,46,13,19,4.2,46,Yes,Yes,Post Graduate,100
+S393,Aarav Mishra,21,Female,71,46,14,14,4.0,79,No,Yes,Intermediate,100
+S394,Sakshi Kumar,23,Male,60,46,10,12,5.3,77,Yes,No,Graduate,100
+S395,Riya Mishra,20,Female,84,36,17,9,1.6,61,No,Yes,Post Graduate,100
+S396,Ankit Sharma,24,Female,92,23,12,15,5.3,82,No,Yes,Post Graduate,100
+S397,Sakshi Verma,22,Male,84,23,17,16,3.9,70,Yes,No,Graduate,100
+S398,Priya Gupta,23,Female,91,21,16,11,1.1,62,No,Yes,High School,93
+S399,Ankit Singh,18,Female,82,37,14,10,1.4,92,No,No,High School,100
+S400,Priya Yadav,18,Male,75,47,20,11,2.3,76,No,Yes,Post Graduate,100
+S401,Vaibhav Singh,21,Female,100,20,10,9,7.2,65,No,Yes,Intermediate,100
+S402,Aditya Gupta,23,Female,69,28,15,17,2.5,85,Yes,No,Graduate,100
+S403,Neha Verma,24,Male,100,23,17,15,3.3,66,No,Yes,High School,100
+S404,Aditi Gupta,24,Male,77,29,13,8,4.5,71,No,Yes,Intermediate,100
+S405,Rohan Singh,21,Male,67,42,16,11,5.0,90,Yes,No,High School,100
+S406,Priya Singh,20,Female,83,30,11,8,1.7,58,No,Yes,Post Graduate,91
+S407,Krishna Gupta,21,Female,89,35,20,10,5.6,95,Yes,Yes,Post Graduate,100
+S408,Pooja Verma,23,Male,71,45,14,15,5.0,58,Yes,No,High School,100
+S409,Ananya Sharma,20,Female,60,28,12,19,1.9,45,Yes,Yes,Post Graduate,94
+S410,Sneha Mishra,18,Male,94,48,18,9,3.2,83,Yes,Yes,Post Graduate,100
+S411,Aryan Yadav,24,Female,83,28,12,8,1.2,73,No,No,Post Graduate,94
+S412,Utkarsh Gupta,20,Female,98,42,14,10,5.4,62,Yes,No,Post Graduate,100
+S413,Aarav Yadav,22,Female,80,31,10,9,4.9,49,No,No,High School,97
+S414,Sneha Kumar,18,Female,72,22,14,18,6.5,91,No,Yes,Post Graduate,100
+S415,Nikhil Gupta,22,Female,63,26,12,16,1.8,68,No,Yes,High School,97
+S416,Sakshi Gupta,22,Male,69,23,10,18,6.3,83,Yes,Yes,Graduate,100
+S417,Pooja Sharma,23,Male,98,34,20,8,3.4,76,Yes,No,Intermediate,100
+S418,Kavya Singh,24,Male,80,31,12,8,5.1,52,Yes,No,Post Graduate,100
+S419,Rahul Verma,22,Female,74,36,11,15,4.1,46,Yes,Yes,Intermediate,100
+S420,Pooja Sharma,24,Male,95,38,15,20,4.9,84,Yes,No,Graduate,100
+S421,Ankit Gupta,22,Female,74,36,10,16,7.8,83,No,No,High School,100
+S422,Ananya Sharma,21,Female,95,25,15,10,4.8,81,Yes,No,Post Graduate,100
+S423,Vivaan Mishra,20,Male,72,27,11,16,3.9,75,No,Yes,High School,100
+S424,Krishna Sharma,18,Male,86,48,14,8,6.4,57,Yes,Yes,Post Graduate,100
+S425,Kavya Sharma,20,Male,77,49,12,19,2.6,67,No,Yes,Graduate,100
+S426,Nikhil Yadav,24,Male,64,50,16,15,3.1,79,No,Yes,High School,100
+S427,Sakshi Mishra,19,Male,69,36,18,11,2.3,93,Yes,Yes,Post Graduate,100
+S428,Sneha Yadav,22,Male,61,50,14,13,6.9,51,No,Yes,Post Graduate,100
+S429,Ankit Singh,19,Female,86,30,13,10,2.3,55,Yes,No,High School,97
+S430,Kavya Kumar,21,Male,74,42,10,20,4.6,63,No,Yes,Post Graduate,100
+S431,Ankit Verma,23,Male,76,50,16,18,7.0,66,Yes,Yes,High School,100
+S432,Aditya Mishra,24,Female,63,50,10,10,4.1,48,Yes,Yes,Intermediate,100
+S433,Aditi Singh,23,Female,92,50,12,19,4.4,69,Yes,No,Graduate,100
+S434,Sakshi Sharma,23,Female,71,31,18,18,3.5,70,Yes,Yes,High School,100
+S435,Rahul Gupta,22,Male,99,46,15,9,7.5,79,Yes,Yes,Graduate,100
+S436,Krishna Yadav,22,Female,79,46,11,16,4.0,76,Yes,Yes,High School,100
+S437,Ankit Mishra,20,Male,85,48,15,8,7.1,83,No,No,Post Graduate,100
+S438,Utkarsh Verma,20,Male,77,34,12,14,5.8,89,Yes,Yes,Intermediate,100
+S439,Nikhil Yadav,18,Female,81,39,12,8,1.1,94,No,Yes,High School,100
+S440,Utkarsh Verma,20,Male,73,50,10,13,7.4,54,Yes,No,Intermediate,100
+S441,Aditya Kumar,24,Male,99,37,19,14,5.3,69,Yes,Yes,High School,100
+S442,Kavya Yadav,20,Female,100,47,14,19,3.2,70,Yes,Yes,High School,100
+S443,Ananya Verma,24,Female,75,22,20,20,3.9,62,No,No,Intermediate,100
+S444,Priya Verma,22,Male,68,24,13,8,4.3,90,No,No,Post Graduate,100
+S445,Aditya Singh,20,Male,99,49,10,17,3.6,82,Yes,No,High School,100
+S446,Rahul Kumar,18,Male,69,28,19,8,6.6,60,No,No,Intermediate,100
+S447,Aarav Sharma,22,Female,74,48,11,13,6.4,62,No,No,Intermediate,100
+S448,Ankit Yadav,22,Male,70,35,12,9,7.8,74,Yes,Yes,High School,100
+S449,Pooja Singh,24,Female,85,33,15,19,1.9,63,No,No,High School,100
+S450,Pooja Sharma,23,Male,73,49,10,19,7.8,87,Yes,Yes,High School,100
+S451,Utkarsh Yadav,24,Male,81,42,10,10,2.5,49,Yes,No,High School,100
+S452,Riya Yadav,19,Female,70,43,14,19,2.3,88,Yes,No,Intermediate,100
+S453,Nikhil Yadav,18,Male,78,50,13,15,7.4,84,Yes,Yes,Intermediate,100
+S454,Kavya Sharma,19,Male,62,34,18,19,6.9,67,No,Yes,Graduate,100
+S455,Rohan Verma,23,Male,97,47,16,17,4.5,76,Yes,No,High School,100
+S456,Kavya Singh,19,Female,81,31,20,13,7.3,86,No,Yes,Intermediate,100
+S457,Pooja Yadav,22,Male,90,48,14,15,4.7,65,No,Yes,Graduate,100
+S458,Aryan Mishra,22,Male,87,34,18,17,4.4,76,No,Yes,Post Graduate,100
+S459,Kavya Verma,21,Male,75,21,12,15,5.6,72,No,No,Post Graduate,100
+S460,Ankit Mishra,20,Female,76,21,16,9,3.7,70,Yes,Yes,Post Graduate,99
+S461,Utkarsh Mishra,22,Male,63,44,19,14,6.0,54,No,Yes,Post Graduate,100
+S462,Ankit Sharma,19,Male,73,23,10,10,2.6,64,No,Yes,Post Graduate,88
+S463,Sakshi Yadav,20,Male,97,30,18,16,2.2,74,No,No,High School,100
+S464,Utkarsh Kumar,20,Male,93,49,17,14,4.4,94,No,No,Intermediate,100
+S465,Aditya Sharma,23,Female,64,25,17,9,5.7,55,Yes,Yes,High School,100
+S466,Ananya Kumar,22,Male,64,25,10,14,2.2,56,No,Yes,Intermediate,88
+S467,Aarav Gupta,20,Male,98,47,18,11,4.9,78,No,Yes,High School,100
+S468,Sneha Kumar,23,Female,90,23,12,9,3.3,60,Yes,Yes,High School,93
+S469,Priya Verma,24,Female,78,22,16,16,2.4,77,No,Yes,Intermediate,100
+S470,Ananya Verma,22,Female,63,42,10,16,7.6,73,Yes,Yes,Intermediate,100
+S471,Neha Singh,23,Female,86,36,10,12,2.7,69,No,No,High School,100
+S472,Aryan Mishra,19,Male,69,25,19,9,2.8,90,No,No,High School,100
+S473,Sneha Sharma,18,Female,86,43,14,18,7.7,63,No,Yes,Intermediate,100
+S474,Krishna Kumar,18,Female,90,20,17,18,3.4,68,No,Yes,Post Graduate,100
+S475,Utkarsh Sharma,19,Female,86,41,14,14,3.3,50,Yes,No,Graduate,100
+S476,Vaibhav Yadav,23,Female,95,21,19,11,2.6,85,Yes,Yes,Graduate,100
+S477,Riya Verma,23,Female,92,35,15,12,4.6,69,No,Yes,Post Graduate,100
+S478,Vivaan Mishra,21,Male,90,34,19,20,6.1,62,Yes,Yes,High School,100
+S479,Priya Singh,22,Male,98,31,19,20,6.9,88,No,No,High School,100
+S480,Nikhil Sharma,18,Male,81,36,19,18,3.1,68,Yes,Yes,High School,100
+S481,Aarav Kumar,21,Female,86,32,16,19,3.1,54,Yes,Yes,High School,100
+S482,Krishna Verma,20,Male,81,20,15,18,7.4,62,No,Yes,Intermediate,100
+S483,Nikhil Sharma,21,Female,63,36,14,10,6.3,77,No,Yes,Intermediate,100
+S484,Kavya Gupta,19,Female,66,20,16,20,6.1,81,No,No,High School,100
+S485,Rohan Kumar,23,Male,66,47,19,17,1.9,93,Yes,Yes,High School,100
+S486,Sakshi Yadav,19,Male,98,36,15,20,7.7,60,No,Yes,High School,100
+S487,Aryan Verma,23,Male,85,21,11,15,2.5,88,No,Yes,Post Graduate,100
+S488,Utkarsh Kumar,18,Female,87,38,17,9,7.9,95,No,No,Graduate,100
+S489,Krishna Singh,24,Female,91,43,10,11,6.7,60,No,Yes,High School,100
+S490,Utkarsh Gupta,21,Male,65,39,18,20,6.5,87,No,Yes,Intermediate,100
+S491,Aditya Kumar,22,Male,77,38,12,16,2.7,83,No,No,Intermediate,100
+S492,Aryan Yadav,18,Male,68,50,14,10,6.3,59,No,Yes,Intermediate,100
+S493,Utkarsh Sharma,23,Female,75,50,17,13,1.1,90,No,Yes,Graduate,100
+S494,Ananya Singh,18,Male,73,24,18,17,7.1,68,Yes,No,High School,100
+S495,Aarav Yadav,24,Female,85,31,11,18,4.8,95,No,Yes,High School,100
+S496,Aarav Singh,20,Female,98,36,19,12,6.9,47,Yes,Yes,Graduate,100
+S497,Aditi Yadav,20,Female,95,36,18,19,6.9,79,Yes,No,Graduate,100
+S498,Rahul Verma,18,Female,81,24,20,13,1.5,84,Yes,No,Graduate,100
+S499,Rohan Singh,18,Female,85,48,11,16,3.1,80,Yes,No,Post Graduate,100
+S500,Ananya Verma,19,Male,83,38,13,16,7.3,93,Yes,Yes,Intermediate,100

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import client from "../api/client";
 import { useAuth } from "../context/AuthContext";
+import { useToast } from "../context/ToastContext";
 
 const initial = {
   student_id: "",
@@ -19,10 +20,12 @@ const initial = {
 
 export default function Prediction() {
   const { identity } = useAuth();
+  const toast = useToast();
   const [form, setForm] = useState({ ...initial, student_id: identity || "" });
   const [result, setResult] = useState(null);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  const [downloading, setDownloading] = useState(false);
 
   const set = (k) => (e) => {
     const val = e.target.type === "number" ? parseFloat(e.target.value) : e.target.value;
@@ -37,10 +40,33 @@ export default function Prediction() {
     try {
       const res = await client.post("/predict", form);
       setResult(res.data);
+      toast.success("Prediction generated.");
     } catch (err) {
-      setError(err.response?.data?.error || "Prediction failed");
+      const msg = err.response?.data?.error || "Prediction failed";
+      setError(msg);
+      toast.error(msg);
     } finally {
       setLoading(false);
+    }
+  };
+
+  const downloadPdf = async () => {
+    if (!form.student_id) {
+      toast.error("Enter a Student ID above to save & download a report.");
+      return;
+    }
+    setDownloading(true);
+    try {
+      const res = await client.get(`/report/${form.student_id}`, { responseType: "blob" });
+      const url = URL.createObjectURL(res.data);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${form.student_id}_report.pdf`;
+      a.click();
+    } catch {
+      toast.error("Could not generate the PDF report.");
+    } finally {
+      setDownloading(false);
     }
   };
 
@@ -140,6 +166,23 @@ export default function Prediction() {
                 </div>
               </div>
 
+              {(result.confidence_percent != null || result.estimated_improvement != null) && (
+                <div className="grid grid-2" style={{ marginBottom: 20 }}>
+                  {result.confidence_percent != null && (
+                    <div className="list-plain" style={{ background: "var(--paper)", padding: "10px 14px", borderRadius: 7, borderLeft: "3px solid var(--gold)" }}>
+                      <div className="stat-label">Model confidence</div>
+                      <div className="stat-value" style={{ fontSize: 20 }}>{result.confidence_percent}%</div>
+                    </div>
+                  )}
+                  {result.estimated_improvement != null && (
+                    <div className="list-plain" style={{ background: "var(--paper)", padding: "10px 14px", borderRadius: 7, borderLeft: "3px solid var(--gold)" }}>
+                      <div className="stat-label">Estimated improvement if suggestions followed</div>
+                      <div className="stat-value" style={{ fontSize: 20 }}>+{result.estimated_improvement} marks</div>
+                    </div>
+                  )}
+                </div>
+              )}
+
               <p className="eyebrow">Weak areas</p>
               <ul className="list-plain" style={{ marginBottom: 16 }}>
                 {result.weak_areas.map((w) => <li key={w}>{w}</li>)}
@@ -150,10 +193,14 @@ export default function Prediction() {
                 {result.strengths.map((w) => <li key={w}>{w}</li>)}
               </ul>
 
-              <p className="eyebrow">Suggestions</p>
-              <ul className="list-plain">
+              <p className="eyebrow">AI suggestions</p>
+              <ul className="list-plain" style={{ marginBottom: 20 }}>
                 {result.suggestions.map((s) => <li key={s}>{s}</li>)}
               </ul>
+
+              <button className="btn btn-outline btn-block" onClick={downloadPdf} disabled={downloading}>
+                {downloading ? "Preparing…" : "Download PDF report"}
+              </button>
             </div>
           )}
         </div>
