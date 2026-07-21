@@ -14,7 +14,7 @@ suggestions. Built with **React**, **Flask**, **Scikit-learn**, and **SQLite/MyS
 ![Dashboard](screenshot/dashboard.png.png)
 
 ### Progress
-![HomePage](screenshot/progress.png)
+![Progress](screenshot/progress.png)
 
 
 ### Analytics
@@ -27,10 +27,10 @@ suggestions. Built with **React**, **Flask**, **Scikit-learn**, and **SQLite/MyS
 ![Report](screenshot/report.png.png)
 
 ### ModelPerformance
-![HomePage](screenshot/model performance.png)
+![ModelPerformance](screenshot/model performance.png)
 
 ### EmailSetting
-![HomePage](screenshot/email setting.png)
+![EmailSetting](screenshot/email setting.png)
 
 ### GradeSight - Student Performance Prediction System
 
