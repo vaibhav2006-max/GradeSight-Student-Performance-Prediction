@@ -27,10 +27,10 @@ suggestions. Built with **React**, **Flask**, **Scikit-learn**, and **SQLite/MyS
 ![Report](screenshot/report.png.png)
 
 ### ModelPerformance
-![ModelPerformance](screenshot/model performance.png)
+![ModelPerformance](screenshot/modelperformance.png)
 
 ### EmailSetting
-![EmailSetting](screenshot/email setting.png)
+![EmailSetting](screenshot/emailsetting.png)
 
 ### GradeSight - Student Performance Prediction System
 
